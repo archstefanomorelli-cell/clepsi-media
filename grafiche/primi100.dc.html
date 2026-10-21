@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>I primi 100 studi</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=DM+Sans:opsz,wght@9..40,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 96px 88px 80px; background: #0B0B0D; color: #F6F5F1; font-family: 'DM Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<span lang="la" style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 64px; color: #D8D7DE">Collige et serva.</span>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 136px; line-height: 0.92; letter-spacing: -0.04em">I primi 100 studi</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 76px; line-height: 1; letter-spacing: -0.03em; color: #D4FF3A">a metà prezzo. Per sempre.</span>
+</div>
+<div style="display: flex; flex-direction: column; border-top: 2px solid #2E2E34">
+<sc-for list="{{fasce}}" as="f" hint-placeholder-count="3">
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding: 22px 0; border-bottom: 2px solid #2E2E34; font-size: 34px">
+<span style="color: #D8D7DE">{{f.chi}}</span>
+<span style="display: flex; align-items: baseline; gap: 18px"><span style="color: #8E8D96; text-decoration: line-through">{{f.pieno}}</span><span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 48px; color: #D4FF3A">{{f.meta}}</span></span>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; font-size: 28px; color: #A9A8B2">
+<span>Per studio, al mese, IVA esclusa. Lista d'attesa: link in bio.</span>
+<span style="display: flex; align-items: center; gap: 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; color: #F6F5F1"><svg width="40" height="40" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#D4FF3A" stroke-width="1.5"></circle><path d="M11 1.5 A9.5 9.5 0 0 0 11 20.5 Z" fill="#D4FF3A"></path></svg>Clepsi</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { fasce: [
+      { chi: 'Da 1 a 3 persone', pieno: '19 €', meta: '9,50 €' },
+      { chi: 'Da 4 a 10 persone', pieno: '29 €', meta: '14,50 €' },
+      { chi: 'Da 11 a 25 persone', pieno: '59 €', meta: '29,50 €' }
+    ] };
+  }
+}
+</script>
+</body>
+</html>
