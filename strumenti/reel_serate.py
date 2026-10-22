@@ -56,13 +56,13 @@ def tabella(giorno, ora, am, pm, st):
 GANCI = {'aperitivo': 'Sono le 19. | Sai dove sono finite | le giornate di oggi?',
          'tennis': 'Segnare le ore ti ruba tempo? | Qui bastano 10 secondi.',
          'cena': 'A cena. | E sa già quale | commessa guadagna.',
-         'divano': 'Niente timesheet. | Due tocchi dal divano.'}
+         'divano': 'Niente timesheet. | Due tap dal divano.'}
 def gancio(txt):
     righe = ''.join(f"<span class='b' style='display:inline-block;background:#D4FF3A;color:#0B0B0D;font-size:70px;line-height:1.08;letter-spacing:-.03em;padding:4px 22px 10px;border-radius:18px;margin:0 0 10px'>{r}</span><br>" for r in txt.split(' | '))
     return f"<div style='position:absolute;inset:0 0 auto 0;height:760px;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,0))'></div><div style='position:absolute;left:70px;top:220px;width:900px'>{righe}</div>"
 BRAND = (f"<div style='position:absolute;inset:0;background:#0B0B0D'></div>"
          f"<div style='position:absolute;left:0;right:0;top:560px;display:flex;flex-direction:column;align-items:center;gap:56px;text-align:center'>"
-         f"<span class='b' style='font-size:92px;line-height:1;letter-spacing:-.04em;width:860px'>Due tocchi a sera.</span>"
+         f"<span class='b' style='font-size:104px;line-height:.98;letter-spacing:-.04em;width:860px'>Ogni sera<br>due tap.</span>"
          f"<svg width='230' height='230' viewBox='0 0 22 22'><circle cx='11' cy='11' r='9.5' fill='none' stroke='#D4FF3A' stroke-width='1.2'></circle><path d='M11 1.5 A9.5 9.5 0 0 0 11 20.5 Z' fill='#D4FF3A'></path></svg>"
          f"<span class='b' style='font-size:130px;line-height:1;letter-spacing:-.04em;margin-top:-16px'>Clepsi</span>"
          f"<span style='font-size:40px;color:#A9A8B2'>clepsi.it</span></div>")

@@ -2,7 +2,7 @@
 
 Copia del documento di progetto `claude/instagram-primi-post.md` (progetto claude.ai "Clepsi"). Se le due versioni differiscono, vale la più recente: aggiornarle insieme.
 
-Account Instagram professionale @clepsi.official, collegato a Metricool (brand 7549918) e a Meta Business Suite (business_id 1475279821143198, asset_id 1444473242074912). Media pubblici in questo archivio. Sorgenti grafiche: `grafiche/` e canvas Design "Instagram Clepsi · primi post". Copie locali in Desktop\clepsi-instagram sul PC di Stefano. Nessun contenuto esce senza OK di Stefano (un OK per settimana per i post; un OK per pacchetto per risposte, follow e commenti). Il fondatore non compare mai: si scrive come "Clepsi", al plurale. Nessun volto riconoscibile.
+Account Instagram professionale @clepsi.official, collegato a Metricool (brand 7549918) e a Meta Business Suite (business_id 1475279821143198, asset_id 1444473242074912). Media pubblici in questo archivio. Sorgenti grafiche: `grafiche/` e canvas Design "Instagram Clepsi · primi post". Copie locali in Desktop\clepsi-instagram sul PC di Stefano. Nessun contenuto esce senza OK di Stefano (un OK per settimana per i post; un OK per pacchetto per risposte, follow e commenti). Claim: "Ogni sera / due tap." (a capo dopo "Ogni sera"); non usare più "due tocchi". Il fondatore non compare mai: si scrive come "Clepsi", al plurale. Nessun volto riconoscibile.
 
 ## Settimana 1 · Instagram, programmata su Metricool il 21/10/2026
 
@@ -26,12 +26,12 @@ Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi 
 
 | Quando | Post | File | Titolo documento |
 |---|---|---|---|
-| Lun 26/10, 9:00 | Cos'è Clepsi | linkedin/clepsi-cos-e.pdf | Due tocchi a sera |
+| Lun 26/10, 9:00 | Cos'è Clepsi | linkedin/clepsi-cos-e.pdf | Ogni sera due tap |
 | Gio 29/10, 9:00 | La parcella | linkedin/clepsi-parcella-dm-2016.pdf | Quanto vale la tua parcella |
 
 Testo lun 26/10:
 > Negli studi di architettura e ingegneria il tempo è l'unica cosa che si vende davvero. Eppure quasi nessuno sa quante giornate ha richiesto una commessa finché non è chiusa.
-> Per questo stiamo costruendo Clepsi. Ogni sera alle 19 ognuno nello studio risponde a una sola domanda: su quale commessa ha lavorato la mattina, e su quale il pomeriggio. Due tocchi, dieci secondi. Niente timer, niente timesheet.
+> Per questo stiamo costruendo Clepsi. Ogni sera alle 19 ognuno nello studio risponde a una sola domanda: su quale commessa ha lavorato la mattina, e su quale il pomeriggio. Due tap, dieci secondi. Niente timer, niente timesheet.
 > Il titolare vede ogni commessa con il suo stato: in attivo, margine stretto, in perdita, appena iniziata. E se ne accorge mentre c'è ancora tempo per rimediare.
 > Apriamo presto. I primi 100 studi in lista entrano a metà prezzo, per sempre: www.clepsi.it
 > #studiodiarchitettura #ingegneria #gestionestudio
@@ -43,7 +43,7 @@ Testo gio 29/10:
 > #parcella #architetti #ingegneri
 
 ## Reel disponibili (10, in `reel/`)
-- Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Due tocchi a sera." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
+- Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
 - Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), serata 2 (30/10). Da usare: serate 3–4, racconto 2–6.
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
