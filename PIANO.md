@@ -54,10 +54,22 @@ Testo gio 29/10:
 - Giovedì "Clepsi · piano social settimana successiva": propone il piano della settimana dopo (Instagram e LinkedIn), con i video da realizzare e i prompt Kling; dopo l'OK prepara, carica e programma.
 - Limiti follow: max 15/giorno fino al 9/11, poi max 25; max 10 commenti/giorno su altri profili; mai segui-e-togli.
 
+## Cosa dice il sito (aggiornato il 22/10 sera) · i contenuti devono restare allineati
+- Titolo: "Sai quanto ti rende ogni commessa. Mentre la fai." Claim social: "Ogni sera / due tap."
+- Promessa centrale: la previsione. Clepsi dice come chiuderà ogni commessa, quando c'è ancora tempo per rimediare (non un bilancio a cose fatte).
+- "Niente timer, niente timesheet, niente ore da segnare, niente fogli Excel, niente scuse."
+- Sei cose che fa (sezione "Cosa fa Clepsi"): previsione del margine · budget in giornate fase per fase · varianti da far pagare (riepilogo per il cliente) · settimana dello studio (chi ha lavorato su cosa, quale commessa mangia il tempo delle altre) · bilancio di ogni commessa (resa per giornata, confronto per tipo di incarico, "il prossimo preventivo lo fai sui numeri") · nessuna fatica per il team.
+- Come funziona in quattro passi: commesse con fasi, compensi e costo delle persone · la sera due tap · il venerdì le fasi · ogni mattina la previsione.
+- "Previsione ferma" se nessuno aggiorna le fasi entro il lunedì.
+- Ruoli: titolare vede tutto; capo commessa margine e giornate delle sue commesse, non i costi; collaboratori solo le proprie giornate, mai un importo.
+- Clepsi NON pianifica il lavoro del team (domanda frequente dedicata): mai promettere pianificazione risorse o carichi futuri.
+- Dati di esempio coerenti ovunque: Villa Rossi VRO, Scuola Brera SBR, Uffici Lambrate ULA (34 giornate su 27, resa 265 € contro 320 €, 6 giornate di varianti non fatturate, media ristrutturazioni 290 €), Loft Navigli LNA; settimana: ULA 14, SBR 11, VRO 9, LNA 6 mezze giornate.
+
 ## Linea editoriale
 1. Contenuti utili da salvare (parcella DM 2016 → calcolatore su clepsi.it).
 2. Contenuti "è proprio così" per chi lavora in studio (varianti, cose veloci, sopralluoghi, riunioni).
 3. Il prodotto mostrato in situazioni reali (serate) e la filosofia (Seneca).
+3b. Dal 22/10: una funzione del sito per settimana, a rotazione (previsione, budget in giornate, varianti, settimana dello studio, bilancio, previsione ferma, ruoli). Formato tipico: carosello "situazione di studio → cosa ti dice Clepsi", con le card dell'app e i dati di esempio del sito.
 4. Instagram: 6–8 contenuti a settimana, di cui 2 reel. LinkedIn: 2 post.
 5. Follow mirati e commenti sotto studi e professionisti (dal 27/10).
 Da decidere: collaborazioni con architetti 2–20k follower (autopsia gratuita in Collab), sponsorizzazione 5 €/giorno, fonte della musica (proposta Suno/Udio a pagamento).
