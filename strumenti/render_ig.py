@@ -22,7 +22,7 @@ def expand(html, scope):
     html = re.sub(r'<sc-if value="\{\{([^}]+)\}\}"[^>]*>(.*?)</sc-if>', rif, html, flags=re.S)
     html = re.sub(r'\{\{\s*([\w.]+)\s*\}\}', lambda m: str(get(m.group(1), scope)), html)
     return html
-names = ['Main','cosa-2','cosa-3','cosa-4','seneca','le19','primi100','varianti-1','varianti-2','autopsia-1','autopsia-2','autopsia-3','autopsia-4']
+names = sys.argv[3].split(',') if len(sys.argv) > 3 else ['Main','cosa-2','cosa-3','cosa-4','seneca','le19','primi100','varianti-1','varianti-2','autopsia-1','autopsia-2','autopsia-3','autopsia-4']
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={'width':1080,'height':1350}, device_scale_factor=1)
     for n in names:
