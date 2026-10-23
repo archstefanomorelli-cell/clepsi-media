@@ -21,8 +21,20 @@ Account Instagram professionale @clepsi.official, collegato a Metricool (brand 7
 
 Reel con etichetta "creato con IA". Fissare i post in alto va fatto a mano dall'app.
 
+## Settimana 26/10–1/11 · aggiunte programmate su Metricool il 23/10/2026
+Oltre ai post della settimana 1 che cadono in questi giorni (autopsia, racconto 1, primi 100, parcella, serata 2). File in `settimana-2/`, sorgenti in `grafiche/sopralluogo-*.dc.html` e `grafiche/domenica.dc.html` (render: `python3 strumenti/render_ig.py grafiche lavoro sopralluogo-1,sopralluogo-2,sopralluogo-3,domenica`). Media su Metricool dal commit 1a79698.
+
+| Quando | Post | Tipo |
+|---|---|---|
+| Sab 31, 11:00 | Il sopralluogo veloce ("Passo un attimo in cantiere", serie "Il tempo che non segna nessuno"; funzione del sito: budget in giornate e previsione) | carosello 3 |
+| Dom 1/11, 18:00 | La domanda della domenica (A/B/C, schema di "Le 19") | immagine |
+
+Controllo di coerenza fatto prima di crearli: claim "due tap" (non "tocchi"), 320 €/giornata come in Varianti e Parcella, commesse e colori di esempio del sito, i quattro passi del sito (la sera due tap, il venerdì le fasi, ogni mattina la previsione), esempi dichiarati, nessuna promessa di pianificazione né di date.
+
 ## LinkedIn · pagina aziendale Clepsi
 Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi un documento → icona dell'orologio accanto a Pubblica). Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
+
+Settimana 26/10–1/11 (testi e file invariati, confermati da Stefano il 23/10):
 
 | Quando | Post | File | Titolo documento |
 |---|---|---|---|
@@ -45,7 +57,7 @@ Testo gio 29/10:
 ## Reel disponibili (10, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
-- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), serata 2 (30/10). Da usare: serate 3–4, racconto 2–6.
+- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), serata 2 (30/10). Da usare: serate 3–4, racconto 2–6. Prossimi suggeriti per la settimana del 2/11: serata 3 (cena) e racconto 2 (strappo).
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
 
 ## Attività programmate
