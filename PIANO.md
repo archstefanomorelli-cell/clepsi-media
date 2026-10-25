@@ -78,7 +78,7 @@ Testo gio 29/10:
 - Dati di esempio coerenti ovunque: Villa Rossi VRO, Scuola Brera SBR, Uffici Lambrate ULA (34 giornate su 27, resa 265 € contro 320 €, 6 giornate di varianti non fatturate, media ristrutturazioni 290 €), Loft Navigli LNA; settimana: ULA 14, SBR 11, VRO 9, LNA 6 mezze giornate.
 
 ## Linea editoriale
-1. Contenuti utili da salvare (parcella DM 2016 → calcolatore su clepsi.it).
+1. Contenuti utili da salvare (parcella DM 2016 → calcolatore su clepsi.it). Il gancio funziona: al 25/10 il calcolatore ha già portato 3 iscrizioni alla lista d'attesa. Dare priorità ai contenuti sulla parcella che portano al calcolatore.
 2. Contenuti "è proprio così" per chi lavora in studio (varianti, cose veloci, sopralluoghi, riunioni).
 3. Il prodotto mostrato in situazioni reali (serate) e la filosofia (Seneca).
 3b. Dal 22/10: una funzione del sito per settimana, a rotazione (previsione, budget in giornate, varianti, settimana dello studio, bilancio, previsione ferma, ruoli). Formato tipico: carosello "situazione di studio → cosa ti dice Clepsi", con le card dell'app e i dati di esempio del sito.
