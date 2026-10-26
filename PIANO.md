@@ -13,7 +13,7 @@ Account Instagram professionale @clepsi.official, collegato a Metricool (brand 7
 | Gio 22, 19:00 | Le 19 | immagine |
 | Ven 23, 18:30 | Varianti | carosello 2 |
 | Sab 24, 11:00 | Reel serata 1, aperitivo | reel |
-| Lun 26, 18:30 | Autopsia (CTA: AUTOPSIA in DM) | carosello 4 · spostato dalle 8:30, errore di Instagram (Metricool id 406619645) |
+| Lun 26, 20:27 | Autopsia (CTA: AUTOPSIA in DM) | carosello 4 · pubblicato https://www.instagram.com/p/De-CJiqiL6r/ (in ritardo: Metricool si era scollegato da Instagram, ricollegato da Stefano dal computer) |
 | Mar 27, 19:00 | Reel racconto 1, meridiana | reel |
 | Mer 28, 13:00 | Primi 100 (da fissare in alto) | immagine |
 | Gio 29, 13:00 | Quanto vale la tua parcella | carosello 5 |
