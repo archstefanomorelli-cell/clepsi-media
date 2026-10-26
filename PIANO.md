@@ -82,9 +82,11 @@ Testo gio 29/10:
 2. Contenuti "è proprio così" per chi lavora in studio (varianti, cose veloci, sopralluoghi, riunioni).
 3. Il prodotto mostrato in situazioni reali (serate) e la filosofia (Seneca).
 3b. Dal 22/10: una funzione del sito per settimana, a rotazione (previsione, budget in giornate, varianti, settimana dello studio, bilancio, previsione ferma, ruoli). Formato tipico: carosello "situazione di studio → cosa ti dice Clepsi", con le card dell'app e i dati di esempio del sito.
-4. Instagram: 6–8 contenuti a settimana, di cui 2 reel. LinkedIn: 2 post.
+4. Instagram (dal 26/10, approvato da Stefano): finché il profilo ha pochi follower i caroselli non li vede quasi nessuno, i reel sì. Quindi 4–5 reel a settimana e 1–2 caroselli/post. Almeno 2 reel a settimana come "reel di prova" (Metricool instagramData.type TRIAL_REEL: mostrati solo a chi non ci segue). Parole chiave cercabili nella prima riga della didascalia (es. "calcolo parcella architetto", "gestione studio di architettura", "margine delle commesse"). LinkedIn: 2 post.
+4b. Collaborazioni (approvato il 26/10): proporre a architetti che parlano della professione (2–20k follower) l'autopsia gratuita di una loro commessa chiusa, da pubblicare come post Collab. Lista e messaggio in `collaborazioni.md`; i messaggi li manda solo Stefano o dopo il suo OK.
+4c. Sponsorizzata 5 €/giorno sul carosello parcella → calcolatore: in attesa, Stefano ha chiesto di aspettare.
 5. Follow mirati e commenti sotto studi e professionisti (dal 27/10).
-Da decidere: collaborazioni con architetti 2–20k follower (autopsia gratuita in Collab), sponsorizzazione 5 €/giorno, fonte della musica (proposta Suno/Udio a pagamento).
+Da decidere: sponsorizzazione 5 €/giorno (in attesa), fonte della musica (proposta Suno/Udio a pagamento).
 
 ## Prompt video (Kling)
 Un solo prompt testo→video per clip, 5 s, 1080p, 16:9 se serve anche al sito o 9:16 per i soli reel. Stile: luce calda, palette terrosa, ombre morbide, profondità di campo ridotta, look pellicola 35 mm, grana leggera; soggetto al centro; nessun volto, solo mani e avambracci; niente testo, numeri o loghi. Prompt negativo: text, letters, numbers, roman numerals, words, logos, watermark, distorted hands, extra fingers, deformed fingers, faces, people looking at camera, fast camera movement, zoom, flicker, oversaturated colors, cartoon, 3D render.
