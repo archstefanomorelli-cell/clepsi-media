@@ -35,6 +35,19 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 - @ingenio_web (Andrea Dari, portale INGENIO per ingegneri e architetti): possibile articolo o menzione del calcolatore della parcella.
 - @studio.galloro (servizi in outsourcing per studi tecnici) e @cantierihub (AI per l'edilizia): stesso pubblico, possibili scambi di contenuti.
 
+## Registro follow e commenti (da @clepsi.official, con OK di Stefano)
+
+| Data | Profilo | Azione |
+|---|---|---|
+| 27/10 | @idd.ingegneri_del_domani | seguito · commento sotto "La Riforma dell'Ingegneria 2026" |
+| 27/10 | @linda_russo_architetto | seguito · commento sotto il reel "Dietro ad ogni progetto concluso…" |
+| 27/10 | @robertaplumari_architetto | seguito · commento sotto "Ma chi me lo fa fare?" |
+| 27/10 | @ingenio_web | seguito |
+
+Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
+
+Primo giorno utile per il messaggio di collaborazione ai tre di fascia A: 30/10.
+
 ## Messaggio · fascia A
 
 Ciao [nome]! Siamo Clepsi: stiamo costruendo un'app per gli studi di architettura e ingegneria che dice come chiuderà ogni commessa, senza timesheet (ogni sera due tap, mattina e pomeriggio). Seguiamo i tuoi contenuti su [tema]: parli proprio delle cose che ci hanno fatto partire.
