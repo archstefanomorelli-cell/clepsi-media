@@ -43,10 +43,18 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 27/10 | @linda_russo_architetto | seguito · commento sotto il reel "Dietro ad ogni progetto concluso…" |
 | 27/10 | @robertaplumari_architetto | seguito · commento sotto "Ma chi me lo fa fare?" |
 | 27/10 | @ingenio_web | seguito |
+| 28/10 | @linda_russo_architetto | 2° commento, sotto il post sulla polizza sanitaria Inarcassa |
+| 28/10 | @_architrash_ | seguito |
+| 28/10 | @gici_arch | seguito · commento sotto "Lo fanno tutti" (il portico) |
+| 28/10 | @lucia_guarinoarchitetto | seguito |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
-Primo giorno utile per il messaggio di collaborazione ai tre di fascia A: 30/10.
+Altri profili seguiti il 28/10 (non Collab): @emmepi_studio_di_architettura_, @studiogianniarchitettura, @studio_di_ingegneria_ciolli, @gb_progetti, @ylenialeonardingegnere, @ravizzastrutture, @oami_foami, @professionearchitetto (commento sotto VG13 e lo stadio di Zagabria). Risposte ai thread con @arch.clarissastefano (post CILA) e @xzlabarchitettura (convegno Infoprogetto).
+
+Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
+
+Primo giorno utile per il messaggio di collaborazione ai tre di fascia A: 30/10. Primo giorno utile per @_architrash_, @gici_arch e @lucia_guarinoarchitetto: 31/10 (dopo almeno un commento; per architrash e lucia_guarino serve ancora un commento).
 
 ## Messaggio · fascia A
 
