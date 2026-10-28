@@ -25,7 +25,10 @@ PEZZI = {
     'domanda': [('A', 11.0, 13.8, 1), ('A', 14.6, 16.4, 1), ('A', 18.3, 20.8, 1), ('A', 22.4, 23.2, 1), ('A', 23.4, 26.4, 1)],
     'titolare': [('B', 0.0, 4.0, 1), ('B', 5.0, 12.0, 1)],
     'commessa': [('B', 24.3, 28.0, 1), ('B', 28.0, 33.0, 1)],
-    'settimana': [('A', 91.6, 96.0, 1)],
+    'settimana': [('A', 91.6, 97.0, 1)],
+    # versioni corte per i reel singoli
+    'titolare_c': [('B', 0.0, 3.5, 1), ('B', 5.0, 11.0, 1)],
+    'commessa_c': [('B', 24.3, 27.5, 1), ('B', 28.0, 31.5, 1)],
 }
 NOTIFICA, BRAND_D = 3.0, 3.5
 # tocchi nella domanda, in secondi dall'inizio dei pezzi della domanda
@@ -36,17 +39,29 @@ def taglia(src, a, b, vel, out):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(a), '-t', str(b - a), '-i', src, '-vf', vf, '-an',
                     '-c:v', 'libx264', '-crf', '17', '-preset', 'medium', str(out)], check=True)
 
+# I reel: sequenza di (pezzo, didascalia). 'notifica' è la schermata di blocco delle 19.
+REEL = {
+    'reel-app-come-funziona': [('notifica', 'd0'), ('domanda', 'd1'), ('titolare', 'd2'), ('commessa', 'd3'), ('settimana', 'd4')],
+    'reel-app-1-ore-19': [('notifica', 'd0'), ('domanda', 'd1')],
+    'reel-app-2-la-mattina-dopo': [('titolare_c', 'd2'), ('commessa_c', 'd3')],
+    'reel-app-3-la-settimana': [('settimana', 'd4')],
+}
+
 def main(argv):
     SRC.mkdir(parents=True, exist_ok=True)
     reg = {'A': argv[0], 'B': argv[1]} if len(argv) >= 2 else None
-    clips, durate = [], {}
+    clips, durate = {}, {'notifica': NOTIFICA}
     for nome, lista in PEZZI.items():
-        tot = 0
+        clips[nome], tot = [], 0
         for i, (k, a, b, v) in enumerate(lista):
             f = SRC / f'{nome}-{i}.mp4'
             if reg: taglia(reg[k], a, b, v, f)
-            clips.append(f); tot += (b - a) / v
+            clips[nome].append(f); tot += (b - a) / v
         durate[nome] = tot
+    nota = W / 'notifica.mp4'
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=0x0B0B0D:s={PW}x{PH}:r=30:d={NOTIFICA}',
+                    '-vf', 'format=yuv420p,setsar=1', '-c:v', 'libx264', '-crf', '17', str(nota)], check=True)
+    clips['notifica'] = [nota]
 
     # grafiche: notifica (dentro lo schermo), cornice, didascalie, chiusura
     LOGO = ("<svg width='{s}' height='{s}' viewBox='0 0 22 22'><circle cx='11' cy='11' r='9.5' fill='none' stroke='#D4FF3A' stroke-width='1.6'/>"
@@ -87,39 +102,49 @@ def main(argv):
              f"<span style='font-size:40px;color:#A9A8B2'>clepsi.it</span></div>")
     render_pngs({'sfondo': sfondo, 'notifica': notifica, 'cornice': cornice, 'brand': BRAND, **DID}, W)
     P = lambda n: str(W / f'{n}.png')
-
-    # traccia del telefono: notifica (immagine) + pezzi dell'app, uno dopo l'altro
-    lista = W / 'lista.txt'
-    nota = W / 'notifica.mp4'
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=0x0B0B0D:s={PW}x{PH}:r=30:d={NOTIFICA}',
-                    '-vf', 'format=yuv420p,setsar=1', '-c:v', 'libx264', '-crf', '17', str(nota)], check=True)
-    lista.write_text(''.join(f"file '{c}'\n" for c in [nota, *clips]))
-    tel = W / 'telefono.mp4'
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', str(lista), '-c', 'copy', str(tel)], check=True)
-
-    t1 = NOTIFICA; t2 = t1 + durate['domanda']; t3 = t2 + durate['titolare']; t4 = t3 + durate['commessa']; t5 = t4 + durate['settimana']
-    TOT = t5 + BRAND_D
-    base = W / 'base.mp4'
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=0x0B0B0D:s=1080x1920:r=30:d={TOT:.3f}', '-i', str(tel),
-                    '-filter_complex', f'[0:v][1:v]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1',
-                    '-c:v', 'libx264', '-crf', '16', str(base)], check=True)
-
-    # suoni dell'app nei momenti dei tocchi
-    suoni = [('clepsi_notifica', 0.75), ('clepsi_tocco_mattina', t1 + TOCCO_MATTINA), ('clepsi_tocco_pomeriggio', t1 + TOCCO_POMERIGGIO),
-             ('clepsi_giornata_registrata', t1 + TOCCO_FATTO)]
-    aud = W / 'audio.wav'
-    args = ['ffmpeg', '-v', 'error', '-y']
-    for s, _ in suoni: args += ['-i', str(AUD / f'{s}.wav')]
-    fc = ';'.join(f'[{i}:a]aformat=sample_rates=48000:channel_layouts=stereo,adelay={int(t * 1000)}|{int(t * 1000)}[s{i}]' for i, (_, t) in enumerate(suoni))
-    fc += ';' + ''.join(f'[s{i}]' for i in range(len(suoni))) + f'amix=inputs={len(suoni)}:normalize=0,apad,atrim=0:{TOT:.3f},loudnorm=I=-16:TP=-1.5[a]'
-    subprocess.run(args + ['-filter_complex', fc, '-map', '[a]', '-ar', '48000', str(aud)], check=True)
-
-    ovs = [(P('sfondo'), 0, t1, 0, 0.15), (P('notifica'), 0.6, t1, 0.4, 0.2), (P('cornice'), 0, t5, 0, 0),
-           (P('d0'), 0, t1, 0.5, 0.3), (P('d1'), t1, t2, 0.5, 0.3), (P('d2'), t2, t3, 0.5, 0.3),
-           (P('d3'), t3, t4, 0.5, 0.3), (P('d4'), t4, t5, 0.5, 0.3), (P('brand'), t5 - 0.5, TOT, 0.5, 0)]
-    out = ROOT / 'lavoro' / 'reel-app-come-funziona.mp4'
-    overlay(str(base), ovs, str(out), audio=str(aud))
-    print(out, round(TOT, 2), {k: round(v, 2) for k, v in durate.items()})
+    solo = [n for n in argv[2:]] or list(REEL)
+    for nome in solo:
+        sequenza = REEL[nome]
+        # traccia del telefono: i pezzi uno dopo l'altro
+        lista = W / f'{nome}.txt'
+        lista.write_text(''.join(f"file '{c}'\n" for pezzo, _ in sequenza for c in clips[pezzo]))
+        tel = W / f'{nome}-telefono.mp4'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', str(lista), '-c', 'copy', str(tel)], check=True)
+        inizi, t = {}, 0.0
+        for pezzo, _ in sequenza:
+            inizi[pezzo] = t; t += durate[pezzo]
+        fine = t; TOT = fine + BRAND_D
+        base = W / f'{nome}-base.mp4'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=0x0B0B0D:s=1080x1920:r=30:d={TOT:.3f}', '-i', str(tel),
+                        '-filter_complex', f'[0:v][1:v]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1',
+                        '-c:v', 'libx264', '-crf', '16', str(base)], check=True)
+        # suoni dell'app nei momenti dei tocchi (solo se ci sono notifica o domanda)
+        suoni = []
+        if 'notifica' in inizi: suoni.append(('clepsi_notifica', inizi['notifica'] + 0.75))
+        if 'domanda' in inizi:
+            d = inizi['domanda']
+            suoni += [('clepsi_tocco_mattina', d + TOCCO_MATTINA), ('clepsi_tocco_pomeriggio', d + TOCCO_POMERIGGIO),
+                      ('clepsi_giornata_registrata', d + TOCCO_FATTO)]
+        aud = W / f'{nome}-audio.wav'
+        if suoni:
+            args = ['ffmpeg', '-v', 'error', '-y']
+            for s, _ in suoni: args += ['-i', str(AUD / f'{s}.wav')]
+            fc = ';'.join(f'[{i}:a]aformat=sample_rates=48000:channel_layouts=stereo,adelay={int(t * 1000)}|{int(t * 1000)}[s{i}]' for i, (_, t) in enumerate(suoni))
+            fc += ';' + ''.join(f'[s{i}]' for i in range(len(suoni))) + f'amix=inputs={len(suoni)}:normalize=0,apad,atrim=0:{TOT:.3f},loudnorm=I=-16:TP=-1.5[a]'
+            subprocess.run(args + ['-filter_complex', fc, '-map', '[a]', '-ar', '48000', str(aud)], check=True)
+        else:
+            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo', '-t', f'{TOT:.3f}', str(aud)], check=True)
+        ovs = []
+        if 'notifica' in inizi:
+            n0 = inizi['notifica']
+            ovs += [(P('sfondo'), n0, n0 + NOTIFICA, 0, 0.15), (P('notifica'), n0 + 0.6, n0 + NOTIFICA, 0.4, 0.2)]
+        ovs.append((P('cornice'), 0, fine, 0, 0))
+        for pezzo, did in sequenza:
+            a = inizi[pezzo]; ovs.append((P(did), a, a + durate[pezzo], 0.5 if a > 0 else 0, 0.3))
+        ovs.append((P('brand'), fine - 0.5, TOT, 0.5, 0))
+        out = ROOT / 'lavoro' / f'{nome}.mp4'
+        overlay(str(base), ovs, str(out), audio=str(aud))
+        print(out, round(TOT, 2))
 
 if __name__ == '__main__':
     main(sys.argv[1:])
