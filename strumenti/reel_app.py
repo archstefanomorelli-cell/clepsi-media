@@ -22,12 +22,14 @@ CROP_TOP = 140                              # barra di stato dell'iPhone (ora, r
 
 # pezzi: (sorgente, inizio, fine, velocità)
 PEZZI = {
-    'domanda': [('A', 11.6, 13.6, 1), ('A', 14.7, 16.0, 1), ('A', 18.4, 20.2, 1), ('A', 22.5, 23.1, 1), ('A', 23.5, 25.3, 1)],
-    'titolare': [('B', 0.5, 3.0, 1), ('B', 5.0, 15.0, 2)],
-    'commessa': [('B', 24.3, 27.0, 1), ('B', 28.0, 33.0, 2)],
-    'settimana': [('A', 91.6, 94.6, 1)],
+    'domanda': [('A', 11.0, 13.8, 1), ('A', 14.6, 16.4, 1), ('A', 18.3, 20.8, 1), ('A', 22.4, 23.2, 1), ('A', 23.4, 26.4, 1)],
+    'titolare': [('B', 0.0, 4.0, 1), ('B', 5.0, 12.0, 1)],
+    'commessa': [('B', 24.3, 28.0, 1), ('B', 28.0, 33.0, 1)],
+    'settimana': [('A', 91.6, 96.0, 1)],
 }
-NOTIFICA, BRAND_D = 2.2, 3.0
+NOTIFICA, BRAND_D = 3.0, 3.5
+# tocchi nella domanda, in secondi dall'inizio dei pezzi della domanda
+TOCCO_MATTINA, TOCCO_POMERIGGIO, TOCCO_FATTO = 1.3, 2.8 + 1.8 + 0.7, 2.8 + 1.8 + 2.5 + 0.55
 
 def taglia(src, a, b, vel, out):
     vf = f"crop=1170:{2532 - CROP_TOP}:0:{CROP_TOP},scale={PW}:{PH},setpts=(PTS-STARTPTS)/{vel},fps=30,format=yuv420p,setsar=1"
@@ -103,8 +105,8 @@ def main(argv):
                     '-c:v', 'libx264', '-crf', '16', str(base)], check=True)
 
     # suoni dell'app nei momenti dei tocchi
-    suoni = [('clepsi_notifica', 0.55), ('clepsi_tocco_mattina', t1 + 0.7), ('clepsi_tocco_pomeriggio', t1 + 2 + 1.3 + 0.6),
-             ('clepsi_giornata_registrata', t1 + 2 + 1.3 + 1.8 + 0.45)]
+    suoni = [('clepsi_notifica', 0.75), ('clepsi_tocco_mattina', t1 + TOCCO_MATTINA), ('clepsi_tocco_pomeriggio', t1 + TOCCO_POMERIGGIO),
+             ('clepsi_giornata_registrata', t1 + TOCCO_FATTO)]
     aud = W / 'audio.wav'
     args = ['ffmpeg', '-v', 'error', '-y']
     for s, _ in suoni: args += ['-i', str(AUD / f'{s}.wav')]
@@ -112,9 +114,9 @@ def main(argv):
     fc += ';' + ''.join(f'[s{i}]' for i in range(len(suoni))) + f'amix=inputs={len(suoni)}:normalize=0,apad,atrim=0:{TOT:.3f},loudnorm=I=-16:TP=-1.5[a]'
     subprocess.run(args + ['-filter_complex', fc, '-map', '[a]', '-ar', '48000', str(aud)], check=True)
 
-    ovs = [(P('sfondo'), 0, t1, 0, 0.15), (P('notifica'), 0.45, t1, 0.35, 0.15), (P('cornice'), 0, t5, 0, 0),
-           (P('d0'), 0, t1, 0.3, 0.25), (P('d1'), t1, t2, 0.3, 0.25), (P('d2'), t2, t3, 0.3, 0.25),
-           (P('d3'), t3, t4, 0.3, 0.25), (P('d4'), t4, t5, 0.3, 0.25), (P('brand'), t5 - 0.4, TOT, 0.4, 0)]
+    ovs = [(P('sfondo'), 0, t1, 0, 0.15), (P('notifica'), 0.6, t1, 0.4, 0.2), (P('cornice'), 0, t5, 0, 0),
+           (P('d0'), 0, t1, 0.5, 0.3), (P('d1'), t1, t2, 0.5, 0.3), (P('d2'), t2, t3, 0.5, 0.3),
+           (P('d3'), t3, t4, 0.5, 0.3), (P('d4'), t4, t5, 0.5, 0.3), (P('brand'), t5 - 0.5, TOT, 0.5, 0)]
     out = ROOT / 'lavoro' / 'reel-app-come-funziona.mp4'
     overlay(str(base), ovs, str(out), audio=str(aud))
     print(out, round(TOT, 2), {k: round(v, 2) for k, v in durate.items()})
