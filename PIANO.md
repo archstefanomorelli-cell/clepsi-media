@@ -86,6 +86,19 @@ Testo gio 29/10:
 - I file dei reel restano senza musica (solo i suoni dell'app). Caroselli e post singoli restano automatici.
 - `strumenti/musica.py` (brano generato da noi) resta come riserva se un giorno si torna alla pubblicazione automatica.
 
+## Ritmo delle uscite (dal 2/11, deciso con Stefano il 28/10)
+| Giorno | Ora | Contenuto | Colore | Pubblicazione |
+|---|---|---|---|---|
+| Lunedì | 19:00 | Reel | nero | Stefano, con notifica Metricool |
+| Martedì | 13:00 | Carosello o caso | crema | automatica |
+| Mercoledì | 19:00 | Reel | nero | Stefano |
+| Giovedì | 13:00 | Domanda alla community | lime | automatica |
+| Venerdì | 19:00 | Reel | nero | Stefano |
+| Domenica | 11:00 | Reel | nero | Stefano |
+- I reel escono sempre alle 19 (l'ora della domanda di Clepsi), la domenica alle 11. LinkedIn lunedì e giovedì alle 9.
+- Se una settimana è troppo, si toglie per primo il reel della domenica. Costanza prima del volume.
+- Settimana del 2/11: lunedì il reel "Come funziona" (da fissare subito in alto), poi i tre reel corti dell'app.
+
 ## Griglia del profilo (28/10, deciso con Stefano)
 - Colori fissi per tipo di contenuto: **nero** = reel (app, serate, racconto); **crema** = caroselli e casi (Autopsia, Varianti, Parcella, Sopralluogo…); **lime** = domande alla community (Le 19, sondaggio della domenica, "quanto dura il tuo sopralluogo?"), 1–2 a settimana.
 - Ogni reel ha una copertina su fondo nero: sopra in lime, titolo grande con una parola in lime, sotto la schermata dell'app vera o la scena. Script `strumenti/copertine_reel.py` (aggiungere una voce in COPERTINE), file in `copertine/`. La griglia mostra il centro 1080x1440 della copertina: testi e immagine stanno lì. Stefano la sceglie come copertina quando pubblica (per i reel già usciti: Modifica → Modifica copertina).
