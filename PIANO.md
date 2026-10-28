@@ -86,6 +86,11 @@ Testo gio 29/10:
 - I file dei reel restano senza musica (solo i suoni dell'app). Caroselli e post singoli restano automatici.
 - `strumenti/musica.py` (brano generato da noi) resta come riserva se un giorno si torna alla pubblicazione automatica.
 
+## Griglia del profilo (28/10, deciso con Stefano)
+- Colori fissi per tipo di contenuto: **nero** = reel (app, serate, racconto); **crema** = caroselli e casi (Autopsia, Varianti, Parcella, Sopralluogo…); **lime** = domande alla community (Le 19, sondaggio della domenica, "quanto dura il tuo sopralluogo?"), 1–2 a settimana.
+- Ogni reel ha una copertina su fondo nero: sopra in lime, titolo grande con una parola in lime, sotto la schermata dell'app vera o la scena. Script `strumenti/copertine_reel.py` (aggiungere una voce in COPERTINE), file in `copertine/`. La griglia mostra il centro 1080x1440 della copertina: testi e immagine stanno lì. Stefano la sceglie come copertina quando pubblica (per i reel già usciti: Modifica → Modifica copertina).
+- Post fissati in alto, in quest'ordine: reel "Come funziona" (quando esce), carosello "Cos'è Clepsi", Autopsia.
+
 ## Linea editoriale
 - 28/10: Stefano ha tolto da Instagram il post "Primi 100" con i prezzi (non gli piaceva). Niente post dedicati ai prezzi; il "metà prezzo per sempre" può restare come riga in didascalia.
 - 28/10: Stefano osserva che dal profilo non si capisce bene come funziona l'app. Priorità: contenuti fissati in alto che mostrano l'app in uso.
