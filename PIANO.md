@@ -57,7 +57,8 @@ Testo gio 29/10:
 ## Reel disponibili (10, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
-- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), serata 2 (30/10). Da usare: serate 3–4, racconto 2–6. Prossimi suggeriti per la settimana del 2/11: serata 3 (cena) e racconto 2 (strappo).
+- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 19:00, reel di prova, Metricool id 408700969), serata 2 (30/10), serata 3 cena (1/11 11:00, reel di prova, id 408701053). Da usare: serata 4, racconto 3–6.
+- Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Prossimi suggeriti per la settimana del 2/11: serata 3 (cena) e racconto 2 (strappo).
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
 
 ## Attività programmate
