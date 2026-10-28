@@ -79,8 +79,10 @@ Testo gio 29/10:
 - Dati di esempio coerenti ovunque: Villa Rossi VRO, Scuola Brera SBR, Uffici Lambrate ULA (34 giornate su 27, resa 265 € contro 320 €, 6 giornate di varianti non fatturate, media ristrutturazioni 290 €), Loft Navigli LNA; settimana: ULA 14, SBR 11, VRO 9, LNA 6 mezze giornate.
 
 ## Musica dei reel
-- Scelta di Stefano (28/10): elettronica leggera. La libreria audio di Instagram non è disponibile tramite Metricool per questo account (errore 403), quindi il brano lo generiamo noi: `python3 strumenti/musica.py --mix reel/<file>.mp4 lavoro/<file>.mp4` (100 bpm, la minore, pad morbido, arpeggio con eco, cassa e charleston discreti; nessun diritto di terzi). Va sotto i suoni dell'app, volume musica 0.55, loudnorm a -14 LUFS.
-- Stato: prima prova inviata a Stefano il 28/10 (racconto 2 e serata 3), in attesa del suo parere prima di sostituire i reel programmati.
+- Decisione di Stefano (28/10): i reel usano un brano della libreria di Instagram, di elettronica leggera, che **aggiunge Stefano dall'app** al momento della pubblicazione (la libreria non è raggiungibile da Metricool per questo account: errore 403).
+- Quindi tutti i reel si programmano su Metricool con `autoPublish: false`: all'ora stabilita Metricool manda una notifica sull'app Metricool del telefono; Stefano apre il reel in Instagram, aggiunge il brano (volume basso, sotto i suoni dell'app) e pubblica. Per i reel di prova deve anche scegliere "Reel di prova" nella schermata di condivisione.
+- I file dei reel restano senza musica (solo i suoni dell'app). Caroselli e post singoli restano automatici.
+- `strumenti/musica.py` (brano generato da noi) resta come riserva se un giorno si torna alla pubblicazione automatica.
 
 ## Linea editoriale
 1. Contenuti utili da salvare (parcella DM 2016 → calcolatore su clepsi.it). Il gancio funziona: al 25/10 il calcolatore ha già portato 3 iscrizioni alla lista d'attesa. Dare priorità ai contenuti sulla parcella che portano al calcolatore.

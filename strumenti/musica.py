@@ -101,7 +101,7 @@ def scrivi(path, x):
 def durata(video):
     return float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', video]))
 
-def mix(video, out, vol_musica=0.55):
+def mix(video, out, vol_musica=0.3):
     d = durata(video)
     wav = pathlib.Path(out).with_suffix('.musica.wav')
     scrivi(str(wav), brano(d))
@@ -113,6 +113,6 @@ def mix(video, out, vol_musica=0.55):
 
 if __name__ == '__main__':
     if sys.argv[1] == '--mix':
-        mix(sys.argv[2], sys.argv[3], float(sys.argv[4]) if len(sys.argv) > 4 else 0.55)
+        mix(sys.argv[2], sys.argv[3], float(sys.argv[4]) if len(sys.argv) > 4 else 0.3)
     else:
         scrivi(sys.argv[1], brano(float(sys.argv[2])))
