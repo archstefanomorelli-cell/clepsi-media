@@ -85,6 +85,8 @@ Testo gio 29/10:
 - `strumenti/musica.py` (brano generato da noi) resta come riserva se un giorno si torna alla pubblicazione automatica.
 
 ## Linea editoriale
+- 28/10: Stefano ha tolto da Instagram il post "Primi 100" con i prezzi (non gli piaceva). Niente post dedicati ai prezzi; il "metà prezzo per sempre" può restare come riga in didascalia.
+- 28/10: Stefano osserva che dal profilo non si capisce bene come funziona l'app. Priorità: contenuti fissati in alto che mostrano l'app in uso.
 1. Contenuti utili da salvare (parcella DM 2016 → calcolatore su clepsi.it). Il gancio funziona: al 25/10 il calcolatore ha già portato 3 iscrizioni alla lista d'attesa. Dare priorità ai contenuti sulla parcella che portano al calcolatore.
 2. Contenuti "è proprio così" per chi lavora in studio (varianti, cose veloci, sopralluoghi, riunioni).
 3. Il prodotto mostrato in situazioni reali (serate) e la filosofia (Seneca).
