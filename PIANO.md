@@ -31,6 +31,21 @@ Oltre ai post della settimana 1 che cadono in questi giorni (autopsia, racconto 
 
 Controllo di coerenza fatto prima di crearli: claim "due tap" (non "tocchi"), 320 €/giornata come in Varianti e Parcella, commesse e colori di esempio del sito, i quattro passi del sito (la sera due tap, il venerdì le fasi, ogni mattina la previsione), esempi dichiarati, nessuna promessa di pianificazione né di date.
 
+## Settimana 2–8/11 · Instagram, programmata su Metricool il 29/10/2026 (OK di Stefano il 29/10)
+File in `settimana-3/`, sorgenti in `grafiche/chi-vede-1..4.dc.html` e `grafiche/preventivo.dc.html` (render: `python3 strumenti/render_ig.py grafiche lavoro chi-vede-1,chi-vede-2,chi-vede-3,chi-vede-4,preventivo`). Media su Metricool dal commit 76b8b31. Reel con copertina già impostata (da `copertine/`), senza etichetta IA (app vera), autoPublish false: Stefano aggiunge il brano e pubblica.
+
+| Quando | Post | Tipo | Metricool | Musica da cercare |
+|---|---|---|---|---|
+| Lun 2/11, 19:00 | Reel "Come funziona" (da fissare subito in alto) · funzioni: i 4 passi + calcolatore in didascalia | reel normale | 409920190 | chill electronic, minimal deep house, lo-fi house |
+| Mar 3/11, 13:00 | "Chi vede cosa" (funzione del sito: ruoli) | carosello 4, crema, automatico | 409920345 | — |
+| Mer 4/11, 19:00 | Reel "Ore 19" | reel normale | 409920443 | lo-fi house, soft electronic, chill beats |
+| Gio 5/11, 13:00 | Domanda "Il tuo ultimo preventivo, da dove è partito?" A/B/C (contenuto calcolatore della settimana) | immagine lime, automatica | 409920505 | — |
+| Ven 6/11, 19:00 | Reel "La mattina dopo" (previsione + varianti) | reel normale | 409920612 | deep house chill, ambient electronic |
+| Dom 8/11, 11:00 | Reel "La settimana" (primo da togliere se troppo) | reel normale | 409920680 | lo-fi house, sunday chill electronic |
+
+Nota: i numeri delle didascalie dei reel dell'app sono quelli visibili a schermo nello "Studio di esempio" (Uffici Lambrate −667 €, 5 giornate coperte su 8,5 necessarie, 2 giornate di varianti → −275 €), diversi dai dati di esempio del sito (34 giornate su 27, ecc.). Sempre dichiarati "studio e dati di esempio".
+Dati al 29/10: post fissi 7–12 visualizzazioni e 5 persone raggiunte, reel 12–15 visualizzazioni, ~3 follower. Iscrizioni 9 dal 22/10 (tutte da /calcola-parcella), parcelle salvate 10.
+
 ## LinkedIn · pagina aziendale Clepsi
 Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi un documento → icona dell'orologio accanto a Pubblica). Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
 
@@ -54,13 +69,34 @@ Testo gio 29/10:
 > Abbiamo messo online un calcolatore gratuito con tutte le voci del decreto divise nelle fasi dell'allegato I.13 del Codice dei contratti. Per ogni parcella dice anche quante giornate copre. Si scarica in PDF: www.clepsi.it
 > #parcella #architetti #ingegneri
 
-## Reel disponibili (10, in `reel/`)
+Settimana 2–8/11 (testi approvati da Stefano il 29/10):
+
+| Quando | Post | File | Titolo documento |
+|---|---|---|---|
+| Lun 2/11, 9:00 | Come funziona (video) | reel/reel-app-come-funziona.mp4 | — |
+| Gio 5/11, 9:00 | Chi vede cosa | linkedin/clepsi-chi-vede-cosa.pdf | Chi vede cosa in Clepsi |
+
+Testo lun 2/11:
+> Come funziona Clepsi, mostrato con l'app vera.
+> Alle 19 ognuno nello studio riceve una domanda sola: su quale commessa ha lavorato la mattina e su quale il pomeriggio. Due tap. Il venerdì chi segue una commessa aggiorna le fasi. La mattina dopo il titolare vede come chiuderà ogni commessa: in attivo, margine stretto, in perdita, appena iniziata.
+> Non è un bilancio a cose fatte, ma una previsione ricalcolata ogni sera, quando c'è ancora tempo per rimediare.
+> Nel video, studio e dati di esempio. Stiamo costruendo l'app e la proveremo prima con pochi studi: chi è in lista viene avvisato per primo. www.clepsi.it
+> #gestionestudio #architetti #ingegneri
+
+Testo gio 5/11:
+> "È un modo per controllare chi lavora?" È la domanda che gli studi ci fanno più spesso.
+> No. Clepsi non usa timer, non conta le ore e non registra la posizione. Ognuno indica solo su quale commessa ha lavorato la mattina e su quale il pomeriggio.
+> E ognuno vede solo quello che gli serve. I collaboratori vedono le proprie giornate, mai un importo. Il capo commessa vede margine e giornate delle sue commesse, non i costi delle persone. Il costo di ogni persona lo vede solo chi amministra lo studio. Chi sbaglia una risposta la corregge da solo, fino alla domenica.
+> www.clepsi.it
+> #studiodiarchitettura #ingegneria #gestionestudio
+
+## Reel disponibili (14, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
 - Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 (30/10), serata 3 cena (1/11 11:00, reel normale con notifica, id 409483547). Da usare: serata 4, racconto 3–6.
-- Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (17 s: notifica + due tap), `reel-app-2-la-mattina-dopo.mp4` (20 s: schermata del titolare + Uffici Lambrate in perdita), `reel-app-3-la-settimana.mp4` (9 s: settimana dello studio). Senza musica (la aggiunge Stefano). Tutti come reel normali. Non usati ancora.
+- Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (17 s: notifica + due tap), `reel-app-2-la-mattina-dopo.mp4` (20 s: schermata del titolare + Uffici Lambrate in perdita), `reel-app-3-la-settimana.mp4` (9 s: settimana dello studio). Senza musica (la aggiunge Stefano). Tutti come reel normali. Programmati tutti e quattro nella settimana 2–8/11 (vedi sopra). Dalla settimana del 9/11 servono reel nuovi (o serata 4 e racconto 3–6): proporre nuove riprese dall'app (es. venerdì le fasi, bilancio, varianti, previsione ferma) o montaggi dai pezzi in `sorgenti/app/`.
 - Lo "Studio di esempio" resta nel database dell'app per altre schermate (es. carosello "4 passi"); se l'app segna "Previsione ferma", manca la riga del venerdì in public.variants (anche con 0 mezze giornate) per la settimana scaduta.
-- Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Prossimi suggeriti per la settimana del 2/11: serata 3 (cena) e racconto 2 (strappo).
+- Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Nessun esperimento nella settimana del 2/11.
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
 
 ## Attività programmate
@@ -69,7 +105,10 @@ Testo gio 29/10:
 - Giovedì "Clepsi · piano social settimana successiva": propone il piano della settimana dopo (Instagram e LinkedIn), con i video da realizzare e i prompt Kling; dopo l'OK prepara, carica e programma.
 - Limiti follow: max 15/giorno fino al 9/11, poi max 25; max 10 commenti/giorno su altri profili; mai segui-e-togli.
 
-## Cosa dice il sito (aggiornato il 22/10 sera) · i contenuti devono restare allineati
+## Cosa dice il sito (controllato il 29/10: testo invariato dal 22/10) · i contenuti devono restare allineati
+- 27/10: nel piè di pagina icone Instagram (@clepsi.official, prima puntava a @clepsi) e LinkedIn (linkedin.com/company/clepsi-app).
+- Dettagli utili già sul sito: promemoria alle 21 per chi non risponde; si può rispondere anche nei due giorni dopo; ognuno corregge le proprie giornate fino alla domenica; il costo delle persone lo vede solo chi amministra lo studio; "Quando apre?": l'app si proverà prima con pochi studi, chi è in lista viene avvisato per primo e può candidarsi alla prova (nessuna data).
+- I dati dello "Studio di esempio" nell'app (reel) sono diversi dai dati di esempio del sito: nelle didascalie usare quelli visibili a schermo.
 - Titolo: "Sai quanto ti rende ogni commessa. Mentre la fai." Claim social: "Ogni sera / due tap."
 - Promessa centrale: la previsione. Clepsi dice come chiuderà ogni commessa, quando c'è ancora tempo per rimediare (non un bilancio a cose fatte).
 - "Niente timer, niente timesheet, niente ore da segnare, niente fogli Excel, niente scuse."
