@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Preventivo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=DM+Sans:opsz,wght@9..40,400..700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 96px 88px 80px; font-family: 'DM Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between; background: #D4FF3A; color: #0B0B0D">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 30px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase">Giovedì</span>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 240px; line-height: 0.85; letter-spacing: -0.05em">13:00</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 36px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 88px; line-height: 0.98; letter-spacing: -0.035em">Il tuo ultimo preventivo, da dove è partito?</span>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span style="display: flex; align-items: center; gap: 22px; min-height: 84px; padding: 0 30px; border-radius: 42px; background: #0B0B0D; color: #F6F5F1; font-size: 34px; font-weight: 600"><span style="color: #D4FF3A; font-weight: 800">A</span>Dal D.M. 17/06/2016</span>
+<span style="display: flex; align-items: center; gap: 22px; min-height: 84px; padding: 0 30px; border-radius: 42px; background: #0B0B0D; color: #F6F5F1; font-size: 34px; font-weight: 600"><span style="color: #D4FF3A; font-weight: 800">B</span>Dal preventivo della volta prima</span>
+<span style="display: flex; align-items: center; gap: 22px; min-height: 84px; padding: 0 30px; border-radius: 42px; background: #0B0B0D; color: #F6F5F1; font-size: 34px; font-weight: 600"><span style="color: #D4FF3A; font-weight: 800">C</span>Da quanto voleva spendere il cliente</span>
+</div>
+</div>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; font-size: 28px">
+<span>Rispondi nei commenti con A, B o C.</span>
+<span style="display: flex; align-items: center; gap: 12px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px"><svg width="40" height="40" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="9.5" fill="none" stroke="#0B0B0D" stroke-width="1.6"></circle><path d="M11 1.5 A9.5 9.5 0 0 0 11 20.5 Z" fill="#0B0B0D"></path></svg>Clepsi</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
