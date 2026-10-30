@@ -12,9 +12,9 @@ Approvato da Stefano il 26/10/2026. Lista compilata il 26/10 cercando su Instagr
 
 | Profilo | Follower | Di cosa parla | Contattato | Risposta |
 |---|---|---|---|---|
-| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | | |
-| @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | | |
-| @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | | |
+| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | |
+| @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | 30/10 (DM, tema: polizze e tutele) | |
+| @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | |
 | @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | | |
 
 ## Fascia B · architetti con studio che parlano ai clienti
@@ -55,6 +55,13 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 29/10 | @carolina_petrucci_architetto | seguito |
 | 29/10 | @studio.galloro | seguito |
 | 29/10 | @cantierihub | seguito |
+| 30/10 | @robertaplumari_architetto | risposta alla sua replica sotto "In cantiere la precisione non basta" · messaggio di collaborazione |
+| 30/10 | @linda_russo_architetto | messaggio di collaborazione |
+| 30/10 | @idd.ingegneri_del_domani | messaggio di collaborazione |
+| 30/10 | @federicafranchiarch | seguito |
+| 30/10 | @lorena.calo.architetto | commento sotto "Due abitazioni possono diventare una sola casa" |
+| 30/10 | @architetto_elisa_nicoletti | commento sotto "Casa A & G" (Jesi) |
+| 30/10 | @carolina_petrucci_architetto | commento sotto "Borgogna e azzurro" |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
@@ -62,9 +69,11 @@ Altri profili seguiti il 28/10 (non Collab): @emmepi_studio_di_architettura_, @s
 
 Altri profili seguiti il 29/10 (non Collab): @pilar.architetti, @dejanafiamma (commento sotto "Ci definiamo artigiani dell'architettura"), @a2studio_architetti_associati, @studiodiarchitettura.estro, @pria.studio, @archfrancescacutini, @gumi.studiomi.
 
+Altri profili seguiti il 30/10 (non Collab): @studio_architettura_vitelli, @studioarchitetturadecaro, @studio_napoli_ingegneria, @studio_ingegneria_favuzza, @dedalo_architetti_associati, @biroarchitetti, @2d_architettiassociati, @cordearchitetti, @studiocrp, @westwayarchitects. Da non seguire (scelta di Stefano): @weplangroup, @silviabrocchinistudio.
+
 Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
 
-Primo giorno utile per il messaggio di collaborazione ai tre di fascia A: 30/10. Primo giorno utile per @_architrash_, @gici_arch e @lucia_guarinoarchitetto: 31/10 (commenti fatti). Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch resta da seguire.
+Messaggio di collaborazione mandato ai tre di fascia A il 30/10: attendere risposta. Primo giorno utile per @_architrash_, @gici_arch e @lucia_guarinoarchitetto: 31/10 (commenti fatti). Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10: commentare nei prossimi giorni, messaggio dal 2/11.
 
 ## Messaggio · fascia A
 
