@@ -94,7 +94,7 @@ Testo gio 5/11:
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
 - Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 (30/10), serata 3 cena (1/11 11:00, reel normale con notifica, id 409483547). Da usare: serata 4, racconto 3–6.
-- Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (17 s: notifica + due tap), `reel-app-2-la-mattina-dopo.mp4` (20 s: schermata del titolare + Uffici Lambrate in perdita), `reel-app-3-la-settimana.mp4` (9 s: settimana dello studio). Senza musica (la aggiunge Stefano). Tutti come reel normali. Programmati tutti e quattro nella settimana 2–8/11 (vedi sopra). Dalla settimana del 9/11 servono reel nuovi (o serata 4 e racconto 3–6): proporre nuove riprese dall'app (es. venerdì le fasi, bilancio, varianti, previsione ferma) o montaggi dai pezzi in `sorgenti/app/`.
+- Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (13 s, gancio "10 secondi la sera. Niente timesheet."), `reel-app-2-la-mattina-dopo.mp4` (14 s, gancio "−667 €. Lo sai adesso, non a fine lavori."), `reel-app-3-la-settimana.mp4` (8 s, gancio "Chi ha lavorato su cosa? Senza chiederlo a nessuno."). Senza musica (la aggiunge Stefano). Tutti come reel normali. Programmati tutti e quattro nella settimana 2–8/11 (vedi sopra). Dalla settimana del 9/11 servono reel nuovi (o serata 4 e racconto 3–6): proporre nuove riprese dall'app (es. venerdì le fasi, bilancio, varianti, previsione ferma) o montaggi dai pezzi in `sorgenti/app/`.
 - Lo "Studio di esempio" resta nel database dell'app per altre schermate (es. carosello "4 passi"); se l'app segna "Previsione ferma", manca la riga del venerdì in public.variants (anche con 0 mezze giornate) per la settimana scaduta.
 - Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Nessun esperimento nella settimana del 2/11.
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
@@ -124,6 +124,13 @@ Testo gio 5/11:
 - Quindi tutti i reel si programmano su Metricool con `autoPublish: false`: all'ora stabilita Metricool manda una notifica sull'app Metricool del telefono; Stefano apre il reel in Instagram, aggiunge il brano (volume basso, sotto i suoni dell'app) e pubblica. Per i reel di prova deve anche scegliere "Reel di prova" nella schermata di condivisione.
 - I file dei reel restano senza musica (solo i suoni dell'app). Caroselli e post singoli restano automatici.
 - `strumenti/musica.py` (brano generato da noi) resta come riserva se un giorno si torna alla pubblicazione automatica.
+
+## Regole dei reel (30/10, dai dati della prima settimana)
+- I primi reel: 7–8 persone su 10 scorrono via prima dei 3 secondi; chi resta ne guarda circa metà. Il problema è il primo secondo.
+- Ogni reel apre con un **gancio**: frase grande (120 px, una parte in lime) su fondo scurito per 1,6 s, già al fotogramma zero, che tocca un problema concreto dell'architetto (soldi, varianti, timesheet, tempo). Niente aperture d'atmosfera.
+- Durata: reel corti 8–14 s (si riguardano in loop); solo il reel "Come funziona" più lungo.
+- Nella prima ora dall'uscita: rispondere ai commenti; all'inizio chiedere a colleghi e amici di guardarlo e commentare.
+- Follow: 5–10 al giorno, solo profili scelti; più commenti veri che follow (rapporto seguiti/follower da tenere sotto controllo).
 
 ## Ritmo delle uscite (dal 2/11, deciso con Stefano il 28/10)
 | Giorno | Ora | Contenuto | Colore | Pubblicazione |
