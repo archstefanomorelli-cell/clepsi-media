@@ -12,10 +12,10 @@ Approvato da Stefano il 26/10/2026. Lista compilata il 26/10 cercando su Instagr
 
 | Profilo | Follower | Di cosa parla | Contattato | Risposta |
 |---|---|---|---|---|
-| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | |
+| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: no, "non lavoriamo a commessa come uno studio standard" |
 | @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | 30/10 (DM, tema: polizze e tutele) | |
 | @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | |
-| @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | | |
+| @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | 31/10 (DM, formato ironico "autopsia in chiave architrash") | |
 
 ## Fascia B · architetti con studio che parlano ai clienti
 
@@ -23,8 +23,8 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 
 | Profilo | Follower | Di cosa parla | Contattato | Risposta |
 |---|---|---|---|---|
-| @gici_arch | 13K | Giorgia Congiu, architetta di interni, racconta il suo lavoro | | |
-| @lucia_guarinoarchitetto | 13K | Architetto e interior designer, rapporto con i clienti ("l'architetto tra i piedi") | | |
+| @gici_arch | 13K | Giorgia Congiu, architetta di interni, racconta il suo lavoro | 31/10 (DM fascia B, tema: errori di chi ristruttura, il portico "lo fanno tutti") | 31/10 risposta automatica ManyChat con la sua guida PDF; attendere risposta vera |
+| @lucia_guarinoarchitetto | 13K | Architetto e interior designer, rapporto con i clienti ("l'architetto tra i piedi") | 31/10 (DM fascia B, tema: cosa c'è dietro una planimetria) | |
 | @architetto_elisa_nicoletti | 9K | Ristrutturazioni chiavi in mano, racconta il mestiere e il cantiere | | |
 | @lorena.calo.architetto | 5K | Ristrutturazioni a Taranto, l'ordine delle decisioni di progetto | | |
 | @carolina_petrucci_architetto | 3,4K | Architetto e interior designer | | |
@@ -62,6 +62,11 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 30/10 | @lorena.calo.architetto | commento sotto "Due abitazioni possono diventare una sola casa" |
 | 30/10 | @architetto_elisa_nicoletti | commento sotto "Casa A & G" (Jesi) |
 | 30/10 | @carolina_petrucci_architetto | commento sotto "Borgogna e azzurro" |
+| 31/10 | @gici_arch | messaggio di collaborazione · commento sotto "Errore 4: il total white" |
+| 31/10 | @lucia_guarinoarchitetto | messaggio di collaborazione |
+| 31/10 | @_architrash_ | messaggio di collaborazione (formato ironico) |
+| 31/10 | @federicafranchiarch | commento sotto "Architettura & gatti" |
+| 31/10 | @idd.ingegneri_del_domani | ha risposto no al messaggio di collaborazione |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
@@ -71,9 +76,11 @@ Altri profili seguiti il 29/10 (non Collab): @pilar.architetti, @dejanafiamma (c
 
 Altri profili seguiti il 30/10 (non Collab): @studio_architettura_vitelli, @studioarchitetturadecaro, @studio_napoli_ingegneria, @studio_ingegneria_favuzza, @dedalo_architetti_associati, @biroarchitetti, @2d_architettiassociati, @cordearchitetti, @studiocrp, @westwayarchitects. Da non seguire (scelta di Stefano): @weplangroup, @silviabrocchinistudio.
 
+Altri profili seguiti il 31/10 (non Collab): @provenzano_architetti, @icona_architetti_associati, @matteo_pozza_architetto (commento sotto il reel "Tre showroom, tre cucine"), @officinaabitare (commento sotto il pastellone di calce a Le Fornaci), @spaziomel_associati, @studio_agile_associati, @studiotecnicorinaldi, @studio_tecnico_gda_ancona, @__studio_tecnico_dissociato__, @alessiapaulliarchitetto (possibile fascia B, 12K), @lc_studio21, @ordineingegneribo.
+
 Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
 
-Messaggio di collaborazione mandato ai tre di fascia A il 30/10: attendere risposta. Primo giorno utile per @_architrash_, @gici_arch e @lucia_guarinoarchitetto: 31/10 (commenti fatti). Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10: commentare nei prossimi giorni, messaggio dal 2/11.
+Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani ha detto no il 31/10; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 2/11.
 
 ## Messaggio · fascia A
 
