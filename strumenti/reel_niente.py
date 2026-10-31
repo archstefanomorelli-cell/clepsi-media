@@ -150,15 +150,17 @@ def parte_chiusura():
                     '-vf', 'format=yuv420p,setsar=1', '-c:v', 'libx264', '-crf', '16', str(out)], check=True)
     return out, CHIUSURA
 
-def copertina(nome, parola):
-    html = (f"<div style='position:absolute;inset:0;background:{NERO}'></div>"
-            "<div style='position:absolute;left:0;right:0;top:300px;display:flex;justify-content:center;align-items:center;gap:16px'>"
-            f"{LOGO.format(s=46, c=LIME, w=1.6)}<span style='font-size:32px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:{LIME}'>La serie Niente</span></div>"
-            "<div class='b' style='position:absolute;left:0;right:0;top:760px;text-align:center;font-size:150px;letter-spacing:.04em;text-transform:uppercase;line-height:1'>Niente</div>"
-            "<div style='position:absolute;left:0;right:0;top:960px;text-align:center'>"
-            f"<span class='b' style='color:{LIME};font-size:150px;letter-spacing:.04em;text-transform:uppercase;line-height:1'>{parola}.</span></div>")
-    render_pngs({f'cop-{nome}': html}, W)
-    (ROOT / 'copertine').mkdir(exist_ok=True)
+def copertina(nome, parole, parola):
+    """uguale al reel: NIENTE bianco, la parola finale lime, logo sotto (stessa dimensione dei caratteri del reel)"""
+    with sync_playwright() as p:
+        b = p.chromium.launch(); pg = b.new_page(viewport={'width': 1080, 'height': 1920})
+        fs = misura_font(pg, parole)
+        html = PAGINA % dict(nero=NERO, bianco=BIANCO, lime=LIME, fs=fs, top2=700 + int(fs * 1.12), fs2h=int(fs * 1.3),
+                             logo=LOGO.format(s=56, c=LIME, w=1.6), parole=f"<span class='parola'><span>{parola}<i></i></span></span>")
+        pg.set_content(html); pg.evaluate('document.fonts.ready')
+        (ROOT / 'copertine').mkdir(exist_ok=True)
+        pg.screenshot(path=str(W / f'cop-{nome}.png'))
+        b.close()
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(W / f'cop-{nome}.png'), '-q:v', '2', str(ROOT / 'copertine' / f'{nome}.jpg')], check=True)
 
 def audio(nome, parole, inizio_app, totale):
@@ -189,7 +191,7 @@ def monta(nome):
                     f'[ab][c]xfade=transition=fade:duration={DISSOLVENZA}:offset={x2:.3f},format=yuv420p[v]',
                     '-map', '[v]', '-map', '3:a', '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-r', str(FPS),
                     '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', '-shortest', str(out)], check=True)
-    copertina(nome, ep['copertina'])
+    copertina(nome, ep['parole'], ep['copertina'])
     print(out, round(totale, 2))
 
 if __name__ == '__main__':
