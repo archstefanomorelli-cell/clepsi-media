@@ -100,10 +100,10 @@ Testo gio 5/11:
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
 
 ## Attività programmate
-- 9:27 ogni giorno "Clepsi Instagram · controllo casella": DM e commenti da Business Suite, promemoria LinkedIn, dal 27/10 anche 10–15 profili da seguire e 3–5 commenti proposti. Richiede il PC di Stefano acceso con l'app Claude.
+- 9:27 ogni giorno "Clepsi Instagram · controllo casella": DM e commenti da Business Suite, promemoria LinkedIn, dal 27/10 anche profili da seguire (dal 1/11 al massimo 8) e 3–5 commenti proposti. Richiede il PC di Stefano acceso con l'app Claude.
 - 19:57 ogni giorno "Clepsi Instagram · controllo serale": solo DM e commenti.
 - Giovedì "Clepsi · piano social settimana successiva": propone il piano della settimana dopo (Instagram e LinkedIn), con i video da realizzare e i prompt Kling; dopo l'OK prepara, carica e programma.
-- Limiti follow: max 15/giorno fino al 9/11, poi max 25; max 10 commenti/giorno su altri profili; mai segui-e-togli.
+- Limiti follow (aggiornati il 31/10 con Stefano): max 8 follow al giorno, solo profili scelti, finché il profilo non supera 100 follower; obiettivo restare sotto 150–200 seguiti fino ad allora. Max 10 commenti/giorno su altri profili; più commenti veri che follow. Mai segui-e-togli.
 
 ## Cosa dice il sito (controllato il 29/10: testo invariato dal 22/10) · i contenuti devono restare allineati
 - 27/10: nel piè di pagina icone Instagram (@clepsi.official, prima puntava a @clepsi) e LinkedIn (linkedin.com/company/clepsi-app).
@@ -130,7 +130,7 @@ Testo gio 5/11:
 - Ogni reel apre con un **gancio**: frase grande (120 px, una parte in lime) su fondo scurito per 1,6 s, già al fotogramma zero, che tocca un problema concreto dell'architetto (soldi, varianti, timesheet, tempo). Niente aperture d'atmosfera.
 - Durata: reel corti 8–14 s (si riguardano in loop); solo il reel "Come funziona" più lungo.
 - Nella prima ora dall'uscita: rispondere ai commenti; all'inizio chiedere a colleghi e amici di guardarlo e commentare.
-- Follow: 5–10 al giorno, solo profili scelti; più commenti veri che follow (rapporto seguiti/follower da tenere sotto controllo).
+- Follow: 5–8 al giorno, solo profili scelti; più commenti veri che follow (rapporto seguiti/follower da tenere sotto controllo). Al 31/10: 11 post, 9 follower, 58 seguiti (dopo i 12 follow del giorno).
 
 ## Ritmo delle uscite (dal 2/11, deciso con Stefano il 28/10)
 | Giorno | Ora | Contenuto | Colore | Pubblicazione |
