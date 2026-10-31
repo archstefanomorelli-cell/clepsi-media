@@ -60,7 +60,7 @@ Testo lun 26/10:
 > Negli studi di architettura e ingegneria il tempo è l'unica cosa che si vende davvero. Eppure quasi nessuno sa quante giornate ha richiesto una commessa finché non è chiusa.
 > Per questo stiamo costruendo Clepsi. Ogni sera alle 19 ognuno nello studio risponde a una sola domanda: su quale commessa ha lavorato la mattina, e su quale il pomeriggio. Due tap, dieci secondi. Niente timer, niente timesheet.
 > Il titolare vede ogni commessa con il suo stato: in attivo, margine stretto, in perdita, appena iniziata. E se ne accorge mentre c'è ancora tempo per rimediare.
-> Apriamo presto. I primi 100 studi in lista entrano a metà prezzo, per sempre: www.clepsi.it
+> Apriamo presto. I primi 100 studi in lista pagano la metà il primo anno: www.clepsi.it
 > #studiodiarchitettura #ingegneria #gestionestudio
 
 Testo gio 29/10:
@@ -106,6 +106,7 @@ Testo gio 5/11:
 - Follow e interazioni (decisi il 31/10 con Stefano): 3–5 follow al giorno, solo profili scelti bene, finché il profilo non supera 100 follower; obiettivo restare sotto 150–200 seguiti fino ad allora. Più interazioni: 6–8 commenti al giorno (max 10) sotto i post di profili già seguiti, soprattutto quelli di collaborazioni.md e chi ci ha seguito o ha interagito; like ai post commentati e ad altri 5–10 post recenti dei profili seguiti; risposte a ogni commento ricevuto (sotto i nostri post o in risposta ai nostri commenti). Tutto con OK di Stefano. Mai segui-e-togli.
 
 ## Cosa dice il sito (controllato il 29/10: testo invariato dal 22/10) · i contenuti devono restare allineati
+- **Offerta di lancio (dal 31/10, cambiata da Stefano sul sito):** "I primi 100 studi in lista pagano la metà **il primo anno**". Non scrivere mai più "per sempre". Già pubblicati con "per sempre": didascalia e slide 4 del carosello "Cos'è Clepsi" (fissato) e le email agli iscritti del 26/10; il post "Primi 100" è stato tolto. Didascalie programmate corrette il 31/10.
 - 27/10: nel piè di pagina icone Instagram (@clepsi.official, prima puntava a @clepsi) e LinkedIn (linkedin.com/company/clepsi-app).
 - Dettagli utili già sul sito: promemoria alle 21 per chi non risponde; si può rispondere anche nei due giorni dopo; ognuno corregge le proprie giornate fino alla domenica; il costo delle persone lo vede solo chi amministra lo studio; "Quando apre?": l'app si proverà prima con pochi studi, chi è in lista viene avvisato per primo e può candidarsi alla prova (nessuna data).
 - I dati dello "Studio di esempio" nell'app (reel) sono diversi dai dati di esempio del sito: nelle didascalie usare quelli visibili a schermo.
@@ -151,7 +152,7 @@ Testo gio 5/11:
 - Post fissati in alto, in quest'ordine: reel "Come funziona" (quando esce), carosello "Cos'è Clepsi", Autopsia.
 
 ## Linea editoriale
-- 28/10: Stefano ha tolto da Instagram il post "Primi 100" con i prezzi (non gli piaceva). Niente post dedicati ai prezzi; il "metà prezzo per sempre" può restare come riga in didascalia.
+- 28/10: Stefano ha tolto da Instagram il post "Primi 100" con i prezzi (non gli piaceva). Niente post dedicati ai prezzi; la riga sull'offerta in didascalia può restare ("I primi 100 studi in lista pagano la metà il primo anno").
 - 28/10: Stefano osserva che dal profilo non si capisce bene come funziona l'app. Priorità: contenuti fissati in alto che mostrano l'app in uso.
 1. Contenuti utili da salvare (parcella DM 2016 → calcolatore su clepsi.it). Il gancio funziona: al 25/10 il calcolatore ha già portato 3 iscrizioni alla lista d'attesa. Dare priorità ai contenuti sulla parcella che portano al calcolatore.
 2. Contenuti "è proprio così" per chi lavora in studio (varianti, cose veloci, sopralluoghi, riunioni).
