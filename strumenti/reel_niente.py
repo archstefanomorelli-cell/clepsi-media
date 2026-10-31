@@ -1,4 +1,4 @@
-"""Serie "Niente": reel tipografici come l'intestazione della home di clepsi.it.
+"""Serie "Niente": reel tipografici come l'intestazione della home di clepsi.it (fondo nero, NIENTE bianco, parole lime).
 
 "NIENTE" fermo al centro, sotto le parole che salgono e cambiano con la fascia lime (stessa animazione del sito),
 poi due tap nell'app vera e la chiusura con il titolo del sito.
@@ -17,7 +17,7 @@ APP = ROOT / 'sorgenti' / 'app'
 AUD = ROOT / 'sorgenti' / 'audio'
 W = ROOT / 'lavoro' / 'niente'; W.mkdir(parents=True, exist_ok=True)
 FPS = 30
-CREMA, INCH, LIME, NERO = '#F6F5F1', '#121214', '#D4FF3A', '#0B0B0D'
+CREMA, INCH, LIME, NERO, BIANCO = '#F6F5F1', '#121214', '#D4FF3A', '#0B0B0D', '#F6F5F1'
 PX, PY, PW, PH = 190, 398, 700, 1432
 
 # episodi della serie: parole in ordine, l'ultima è la battuta e resta più a lungo
@@ -41,12 +41,12 @@ LOGO = ("<svg width='{s}' height='{s}' viewBox='0 0 22 22'><circle cx='11' cy='1
 
 PAGINA = """<!doctype html><html lang='it'><head><meta charset='utf-8'><style>
 html,body{margin:0}*{box-sizing:border-box}
-body{width:1080px;height:1920px;position:relative;overflow:hidden;background:%(crema)s;color:%(inch)s;font-family:'Bricolage Grotesque',sans-serif}
+body{width:1080px;height:1920px;position:relative;overflow:hidden;background:%(nero)s;color:%(bianco)s;font-family:'Bricolage Grotesque',sans-serif}
 .niente{position:absolute;left:0;right:0;top:700px;text-align:center;font-weight:800;font-size:%(fs)spx;letter-spacing:.04em;text-transform:uppercase;line-height:1}
 .giro{position:absolute;left:0;right:0;top:%(top2)spx;height:%(fs2h)spx;display:grid;place-items:center;overflow:hidden}
-.parola{grid-area:1/1;white-space:nowrap;font-weight:800;font-size:%(fs)spx;letter-spacing:.04em;text-transform:uppercase;line-height:1;will-change:transform,opacity}
+.parola{grid-area:1/1;white-space:nowrap;color:%(lime)s;font-weight:800;font-size:%(fs)spx;letter-spacing:.04em;text-transform:uppercase;line-height:1;will-change:transform,opacity}
 .parola>span{position:relative;padding:0 8px;display:inline-block}
-.parola>span>i{position:absolute;left:0;right:0;top:58%%;height:34%%;background:%(lime)s;transform-origin:left center;z-index:-1}
+.parola>span>i{display:none;position:absolute;left:0;right:0;top:58%%;height:34%%;background:%(lime)s;transform-origin:left center;z-index:-1}
 .parola>span{z-index:0;isolation:isolate}
 .marchio{position:absolute;left:0;right:0;top:1400px;display:flex;justify-content:center;align-items:center;gap:18px;font-weight:800;font-size:52px;letter-spacing:-.03em}
 </style></head><body>
@@ -80,7 +80,7 @@ def stati(parole, t):
 
 def misura_font(pg, parole):
     """dimensione del carattere tale che la parola più lunga stia in 940 px"""
-    html = PAGINA % dict(crema=CREMA, inch=INCH, lime=LIME, fs=150, top2=860, fs2h=170, logo='', parole=''.join(
+    html = PAGINA % dict(nero=NERO, bianco=BIANCO, lime=LIME, fs=150, top2=860, fs2h=170, logo='', parole=''.join(
         f"<span class='parola'><span>{p}<i></i></span></span>" for p in parole))
     pg.set_content(html); pg.evaluate('document.fonts.ready')
     larg = max(pg.evaluate("[...document.querySelectorAll('.parola>span')].map(e=>e.getBoundingClientRect().width)"))
@@ -94,8 +94,8 @@ def parte_parole(nome, parole):
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': 1080, 'height': 1920})
         fs = misura_font(pg, parole)
         top2 = 700 + int(fs * 1.12)
-        html = PAGINA % dict(crema=CREMA, inch=INCH, lime=LIME, fs=fs, top2=top2, fs2h=int(fs * 1.3),
-                             logo=LOGO.format(s=56, c=INCH, w=1.6),
+        html = PAGINA % dict(nero=NERO, bianco=BIANCO, lime=LIME, fs=fs, top2=top2, fs2h=int(fs * 1.3),
+                             logo=LOGO.format(s=56, c=LIME, w=1.6),
                              parole=''.join(f"<span class='parola'><span>{w}<i></i></span></span>" for w in parole))
         pg.set_content(html); pg.evaluate('document.fonts.ready')
         n = round(durata * FPS)
@@ -156,7 +156,7 @@ def copertina(nome, parola):
             f"{LOGO.format(s=46, c=LIME, w=1.6)}<span style='font-size:32px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:{LIME}'>La serie Niente</span></div>"
             "<div class='b' style='position:absolute;left:0;right:0;top:760px;text-align:center;font-size:150px;letter-spacing:.04em;text-transform:uppercase;line-height:1'>Niente</div>"
             "<div style='position:absolute;left:0;right:0;top:960px;text-align:center'>"
-            f"<span class='b' style='display:inline-block;background:{LIME};color:{INCH};font-size:150px;letter-spacing:.04em;text-transform:uppercase;line-height:1;padding:18px 34px 26px;border-radius:24px'>{parola}.</span></div>")
+            f"<span class='b' style='color:{LIME};font-size:150px;letter-spacing:.04em;text-transform:uppercase;line-height:1'>{parola}.</span></div>")
     render_pngs({f'cop-{nome}': html}, W)
     (ROOT / 'copertine').mkdir(exist_ok=True)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(W / f'cop-{nome}.png'), '-q:v', '2', str(ROOT / 'copertine' / f'{nome}.jpg')], check=True)
