@@ -27,7 +27,8 @@ Oltre ai post della settimana 1 che cadono in questi giorni (autopsia, racconto 
 | Quando | Post | Tipo |
 |---|---|---|
 | Sab 31, 11:00 | Il sopralluogo veloce ("Passo un attimo in cantiere", serie "Il tempo che non segna nessuno"; funzione del sito: budget in giornate e previsione) | carosello 3 |
-| Dom 1/11, 18:00 | La domanda della domenica (A/B/C, schema di "Le 19") | immagine |
+| Dom 1/11, 11:00 | Reel "Niente" episodio 1 (serie Niente, vedi sotto) · Metricool 412214873, con notifica; il reel della cena è spostato a sab 7/11 alle 11 (412214972) | reel normale |
+| Dom 1/11, 18:00 | La domanda della domenica (A/B/C, schema di "Le 19") · Metricool 412163239 | immagine |
 
 Controllo di coerenza fatto prima di crearli: claim "due tap" (non "tocchi"), 320 €/giornata come in Varianti e Parcella, commesse e colori di esempio del sito, i quattro passi del sito (la sera due tap, il venerdì le fasi, ogni mattina la previsione), esempi dichiarati, nessuna promessa di pianificazione né di date.
 
@@ -36,12 +37,13 @@ File in `settimana-3/`, sorgenti in `grafiche/chi-vede-1..4.dc.html` e `grafiche
 
 | Quando | Post | Tipo | Metricool | Musica da cercare |
 |---|---|---|---|---|
-| Lun 2/11, 19:00 | Reel "Come funziona" (da fissare subito in alto) · funzioni: i 4 passi + calcolatore in didascalia | reel normale | 409920190 | chill electronic, minimal deep house, lo-fi house |
+| Lun 2/11, 19:00 | Reel "Come funziona" (da fissare subito in alto) · funzioni: i 4 passi + calcolatore in didascalia | reel normale | 412163328 | chill electronic, minimal deep house, lo-fi house |
 | Mar 3/11, 13:00 | "Chi vede cosa" (funzione del sito: ruoli) | carosello 4, crema, automatico | 409920345 | — |
-| Mer 4/11, 19:00 | Reel "Ore 19" | reel normale | 409920443 | lo-fi house, soft electronic, chill beats |
+| Mer 4/11, 19:00 | Reel "Ore 19" | reel normale | 412163391 | lo-fi house, soft electronic, chill beats |
 | Gio 5/11, 13:00 | Domanda "Il tuo ultimo preventivo, da dove è partito?" A/B/C (contenuto calcolatore della settimana) | immagine lime, automatica | 409920505 | — |
-| Ven 6/11, 19:00 | Reel "La mattina dopo" (previsione + varianti) | reel normale | 409920612 | deep house chill, ambient electronic |
-| Dom 8/11, 11:00 | Reel "La settimana" (primo da togliere se troppo) | reel normale | 409920680 | lo-fi house, sunday chill electronic |
+| Sab 7/11, 11:00 | Reel serata 3 "cena" (spostato dal 1/11; clip IA) | reel normale | 412214972 | chill electronic |
+| Ven 6/11, 19:00 | Reel "La mattina dopo" (previsione + varianti) | reel normale | 412163450 | deep house chill, ambient electronic |
+| Dom 8/11, 11:00 | Reel "La settimana" (primo da togliere se troppo) | reel normale | 412163486 | lo-fi house, sunday chill electronic |
 
 Nota: i numeri delle didascalie dei reel dell'app sono quelli visibili a schermo nello "Studio di esempio" (Uffici Lambrate −667 €, 5 giornate coperte su 8,5 necessarie, 2 giornate di varianti → −275 €), diversi dai dati di esempio del sito (34 giornate su 27, ecc.). Sempre dichiarati "studio e dati di esempio".
 Dati al 29/10: post fissi 7–12 visualizzazioni e 5 persone raggiunte, reel 12–15 visualizzazioni, ~3 follower. Iscrizioni 9 dal 22/10 (tutte da /calcola-parcella), parcelle salvate 10.
@@ -93,13 +95,21 @@ Testo gio 5/11:
 ## Reel disponibili (14, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
-- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 tennis (30/10 sera, pubblicato da Stefano come reel normale con copertina), serata 3 cena (1/11 11:00, reel normale con notifica, id 409483547). Da usare: serata 4, racconto 3–6.
+- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 tennis (30/10 sera, pubblicato da Stefano come reel normale con copertina), serata 3 cena (spostata a sab 7/11 11:00, reel normale con notifica, id 412214972). Da usare: serata 4, racconto 3–6.
 - Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (13 s, gancio "10 secondi la sera. Niente timesheet."), `reel-app-2-la-mattina-dopo.mp4` (14 s, gancio "−667 €. Lo sai adesso, non a fine lavori."), `reel-app-3-la-settimana.mp4` (8 s, gancio "Chi ha lavorato su cosa? Senza chiederlo a nessuno."). Senza musica (la aggiunge Stefano). Tutti come reel normali. Programmati tutti e quattro nella settimana 2–8/11 (vedi sopra). Dalla settimana del 9/11 servono reel nuovi (o serata 4 e racconto 3–6): proporre nuove riprese dall'app (es. venerdì le fasi, bilancio, varianti, previsione ferma) o montaggi dai pezzi in `sorgenti/app/`.
 - Lo "Studio di esempio" resta nel database dell'app per altre schermate (es. carosello "4 passi"); se l'app segna "Previsione ferma", manca la riga del venerdì in public.variants (anche con 0 mezze giornate) per la settimana scaduta.
 - Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Nessun esperimento nella settimana del 2/11.
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
 
+## Serie Niente (dal 1/11, idea di Stefano)
+Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fermo al centro, sotto, centrate, cinque parole lime che salgono e cambiano ogni 1,2 s (l'ultima è la battuta e resta 1,8 s). Poi dissolvenza su "Ogni sera alle 19 · Solo due tap." con i due tap veri nell'app (pezzi `domanda_c` in `sorgenti/app/`) e chiusura "Sai quanto ti rende ogni commessa. Mentre la fai." + logo + clepsi.it. Circa 14 s, tic leggero a ogni cambio di parola, la musica la aggiunge Stefano (battito ogni 1,2 s se possibile).
+- Script `strumenti/reel_niente.py`: per un episodio nuovo si aggiunge una voce in `EPISODI` (parole in ordine e parola della copertina) e si lancia `python3 strumenti/reel_niente.py <nome>`. Esce in `lavoro/niente/`, copertina in `copertine/<nome>.jpg`: è il fotogramma del reel con l'ultima parola e il logo sotto (deciso con Stefano: niente scritta "serie").
+- Uscita: un episodio a settimana, la domenica alle 11.
+- Episodio 1 (1/11): timer · timesheet · ore da segnare · fogli Excel · scuse (le parole del sito).
+- Idee per i prossimi, da approvare: per il titolare "sorprese a fine commessa · conti a fine anno · «pensavo ci guadagnassimo»"; per i collaboratori "cronometro · ore da giustificare · riunioni del lunedì"; per il capo commessa "«tu su cosa sei?» · varianti regalate · previsioni a occhio". Parole brevi: la più lunga fissa la dimensione dei caratteri.
+
 ## Attività programmate
+- Promemoria con file e didascalia 5 minuti prima dei reel da pubblicare a mano: dom 1/11 10:55 (Niente 1), sab 7/11 10:55 (serata 3 cena).
 - 9:27 ogni giorno "Clepsi Instagram · controllo casella": DM e commenti da Business Suite, promemoria LinkedIn, dal 27/10 anche profili da seguire (dal 1/11 3–5 al giorno) e 6–8 commenti proposti, più like mirati. Richiede il PC di Stefano acceso con l'app Claude.
 - 19:57 ogni giorno "Clepsi Instagram · controllo serale": solo DM e commenti.
 - Giovedì "Clepsi · piano social settimana successiva": propone il piano della settimana dopo (Instagram e LinkedIn), con i video da realizzare e i prompt Kling; dopo l'OK prepara, carica e programma.
@@ -141,7 +151,7 @@ Testo gio 5/11:
 | Mercoledì | 19:00 | Reel | nero | Stefano |
 | Giovedì | 13:00 | Domanda alla community | lime | automatica |
 | Venerdì | 19:00 | Reel | nero | Stefano |
-| Domenica | 11:00 | Reel | nero | Stefano |
+| Domenica | 11:00 | Reel della serie Niente | nero | Stefano |
 - I reel escono sempre alle 19 (l'ora della domanda di Clepsi), la domenica alle 11. LinkedIn lunedì e giovedì alle 9.
 - Se una settimana è troppo, si toglie per primo il reel della domenica. Costanza prima del volume.
 - Settimana del 2/11: lunedì il reel "Come funziona" (da fissare subito in alto), poi i tre reel corti dell'app.
