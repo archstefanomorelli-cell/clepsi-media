@@ -9,7 +9,7 @@ Account Instagram professionale @clepsi.official, collegato a Metricool (brand 7
 | Quando | Post | Tipo |
 |---|---|---|
 | Gio 22, 8:30 | Seneca | immagine |
-| Gio 22, 13:00 | Cos'è Clepsi (da fissare in alto) | carosello 4 |
+| Gio 22, 13:00 | Cos'è Clepsi (da fissare in alto) | carosello 4 · ripubblicato il 31/10 alle 15:25 con l'offerta del primo anno e didascalia nuova: https://www.instagram.com/p/DfKXja8iHf0/ (file in settimana-2/cos-e-ripubblicato/); il vecchio è stato cancellato |
 | Gio 22, 19:00 | Le 19 | immagine |
 | Ven 23, 18:30 | Varianti | carosello 2 |
 | Sab 24, 11:00 | Reel serata 1, aperitivo | reel |
