@@ -27,8 +27,8 @@ Oltre ai post della settimana 1 che cadono in questi giorni (autopsia, racconto 
 | Quando | Post | Tipo |
 |---|---|---|
 | Sab 31, 11:00 | Il sopralluogo veloce ("Passo un attimo in cantiere", serie "Il tempo che non segna nessuno"; funzione del sito: budget in giornate e previsione) | carosello 3 |
-| Dom 1/11, 11:00 | Reel "Niente" episodio 1 (serie Niente, vedi sotto) · Metricool 412214873, con notifica; il reel della cena è spostato a sab 7/11 alle 11 (412214972) | reel normale |
-| Dom 1/11, 18:00 | La domanda della domenica (A/B/C, schema di "Le 19") · Metricool 412163239 | immagine |
+| Dom 1/11, 11:00 | Reel "Niente" episodio 1 (serie Niente, vedi sotto) · Metricool 412416764, con notifica; il reel della cena è spostato a sab 7/11 alle 11 (412416803) | reel normale |
+| Dom 1/11, 18:00 | La domanda della domenica (A/B/C, schema di "Le 19") · Metricool 412416521 | immagine |
 
 Controllo di coerenza fatto prima di crearli: claim "due tap" (non "tocchi"), 320 €/giornata come in Varianti e Parcella, commesse e colori di esempio del sito, i quattro passi del sito (la sera due tap, il venerdì le fasi, ogni mattina la previsione), esempi dichiarati, nessuna promessa di pianificazione né di date.
 
@@ -37,13 +37,13 @@ File in `settimana-3/`, sorgenti in `grafiche/chi-vede-1..4.dc.html` e `grafiche
 
 | Quando | Post | Tipo | Metricool | Musica da cercare |
 |---|---|---|---|---|
-| Lun 2/11, 19:00 | Reel "Come funziona" (da fissare subito in alto) · funzioni: i 4 passi + calcolatore in didascalia | reel normale | 412163328 | chill electronic, minimal deep house, lo-fi house |
-| Mar 3/11, 13:00 | "Chi vede cosa" (funzione del sito: ruoli) | carosello 4, crema, automatico | 409920345 | — |
-| Mer 4/11, 19:00 | Reel "Ore 19" | reel normale | 412163391 | lo-fi house, soft electronic, chill beats |
+| Lun 2/11, 19:00 | Reel "Come funziona" (da fissare subito in alto) · funzioni: i 4 passi + calcolatore in didascalia | reel normale | 412416578 | chill electronic, minimal deep house, lo-fi house |
+| Mar 3/11, 13:00 | "Chi vede cosa" (funzione del sito: ruoli) | carosello 4, crema, automatico | 412416479 | — |
+| Mer 4/11, 19:00 | Reel "Ore 19" | reel normale | 412416635 | lo-fi house, soft electronic, chill beats |
 | Gio 5/11, 13:00 | Domanda "Il tuo ultimo preventivo, da dove è partito?" A/B/C (contenuto calcolatore della settimana) | immagine lime, automatica | 409920505 | — |
-| Sab 7/11, 11:00 | Reel serata 3 "cena" (spostato dal 1/11; clip IA) | reel normale | 412214972 | chill electronic |
-| Ven 6/11, 19:00 | Reel "La mattina dopo" (previsione + varianti) | reel normale | 412163450 | deep house chill, ambient electronic |
-| Dom 8/11, 11:00 | Reel "La settimana" (primo da togliere se troppo) | reel normale | 412163486 | lo-fi house, sunday chill electronic |
+| Sab 7/11, 11:00 | Reel serata 3 "cena" (spostato dal 1/11; clip IA) | reel normale | 412416803 | chill electronic |
+| Ven 6/11, 19:00 | Reel "La mattina dopo" (previsione + varianti) | reel normale | 412416687 | deep house chill, ambient electronic |
+| Dom 8/11, 11:00 | Reel "La settimana" (primo da togliere se troppo) | reel normale | 412416722 | lo-fi house, sunday chill electronic |
 
 Nota: i numeri delle didascalie dei reel dell'app sono quelli visibili a schermo nello "Studio di esempio" (Uffici Lambrate −667 €, 5 giornate coperte su 8,5 necessarie, 2 giornate di varianti → −275 €), diversi dai dati di esempio del sito (34 giornate su 27, ecc.). Sempre dichiarati "studio e dati di esempio".
 Dati al 29/10: post fissi 7–12 visualizzazioni e 5 persone raggiunte, reel 12–15 visualizzazioni, ~3 follower. Iscrizioni 9 dal 22/10 (tutte da /calcola-parcella), parcelle salvate 10.
@@ -95,7 +95,7 @@ Testo gio 5/11:
 ## Reel disponibili (14, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
-- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 tennis (30/10 sera, pubblicato da Stefano come reel normale con copertina), serata 3 cena (spostata a sab 7/11 11:00, reel normale con notifica, id 412214972). Da usare: serata 4, racconto 3–6.
+- Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 tennis (30/10 sera, pubblicato da Stefano come reel normale con copertina), serata 3 cena (spostata a sab 7/11 11:00, reel normale con notifica, id 412416803). Da usare: serata 4, racconto 3–6.
 - Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (13 s, gancio "10 secondi la sera. Niente timesheet."), `reel-app-2-la-mattina-dopo.mp4` (14 s, gancio "−667 €. Lo sai adesso, non a fine lavori."), `reel-app-3-la-settimana.mp4` (8 s, gancio "Chi ha lavorato su cosa? Senza chiederlo a nessuno."). Senza musica (la aggiunge Stefano). Tutti come reel normali. Programmati tutti e quattro nella settimana 2–8/11 (vedi sopra). Dalla settimana del 9/11 servono reel nuovi (o serata 4 e racconto 3–6): proporre nuove riprese dall'app (es. venerdì le fasi, bilancio, varianti, previsione ferma) o montaggi dai pezzi in `sorgenti/app/`.
 - Lo "Studio di esempio" resta nel database dell'app per altre schermate (es. carosello "4 passi"); se l'app segna "Previsione ferma", manca la riga del venerdì in public.variants (anche con 0 mezze giornate) per la settimana scaduta.
 - Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Nessun esperimento nella settimana del 2/11.
@@ -116,7 +116,7 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Follow e interazioni (decisi il 31/10 con Stefano): 3–5 follow al giorno, solo profili scelti bene, finché il profilo non supera 100 follower; obiettivo restare sotto 150–200 seguiti fino ad allora. Più interazioni: 6–8 commenti al giorno (max 10) sotto i post di profili già seguiti, soprattutto quelli di collaborazioni.md e chi ci ha seguito o ha interagito; like ai post commentati e ad altri 5–10 post recenti dei profili seguiti; risposte a ogni commento ricevuto (sotto i nostri post o in risposta ai nostri commenti). Tutto con OK di Stefano. Mai segui-e-togli.
 
 ## Cosa dice il sito (controllato il 29/10: testo invariato dal 22/10) · i contenuti devono restare allineati
-- **Offerta di lancio (dal 31/10, cambiata da Stefano sul sito):** "I primi 100 studi in lista pagano la metà **il primo anno**". Non scrivere mai più "per sempre". Già pubblicati con "per sempre": didascalia e slide 4 del carosello "Cos'è Clepsi" (fissato) e le email agli iscritti del 26/10; il post "Primi 100" è stato tolto. Didascalie programmate corrette il 31/10.
+- **Dal 31/10 sera niente lista d'attesa:** l'app si prova subito, gratis e senza carta, da www.clepsi.it/installa (pulsante "Prova l'app" in tutte le pagine; si installa dal browser, non è sugli store). Chiusura di didascalie e contenuti: "Prova l'app: link in bio. I primi 100 studi pagano la metà il primo anno." Mai "lista d'attesa", mai "per sempre"; "beta" solo per spiegare perché non è sugli store (titolo di /installa: "Entra nella community di Clepsi."). Didascalie programmate aggiornate il 31/10 sera; slide 4 di "Cos'è Clepsi" rifatta ("Provala adesso.", file in settimana-2/cos-e-prova-app/).
 - 27/10: nel piè di pagina icone Instagram (@clepsi.official, prima puntava a @clepsi) e LinkedIn (linkedin.com/company/clepsi-app).
 - Dettagli utili già sul sito: promemoria alle 21 per chi non risponde; si può rispondere anche nei due giorni dopo; ognuno corregge le proprie giornate fino alla domenica; il costo delle persone lo vede solo chi amministra lo studio; "Quando apre?": l'app si proverà prima con pochi studi, chi è in lista viene avvisato per primo e può candidarsi alla prova (nessuna data).
 - I dati dello "Studio di esempio" nell'app (reel) sono diversi dai dati di esempio del sito: nelle didascalie usare quelli visibili a schermo.
