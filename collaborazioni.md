@@ -12,7 +12,7 @@ Approvato da Stefano il 26/10/2026. Lista compilata il 26/10 cercando su Instagr
 
 | Profilo | Follower | Di cosa parla | Contattato | Risposta |
 |---|---|---|---|---|
-| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: no, "non lavoriamo a commessa come uno studio standard" |
+| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: prima no ("non lavoriamo a commessa"), poi aperti solo a pagamento o con una proposta strutturata. Chiesti media kit, numeri medi e tariffe (31/10): in attesa, decide Stefano |
 | @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | 30/10 (DM, tema: polizze e tutele) | |
 | @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | |
 | @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | 31/10 (DM, formato ironico "autopsia in chiave architrash") | |
@@ -66,7 +66,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 31/10 | @lucia_guarinoarchitetto | messaggio di collaborazione |
 | 31/10 | @_architrash_ | messaggio di collaborazione (formato ironico) |
 | 31/10 | @federicafranchiarch | commento sotto "Architettura & gatti" |
-| 31/10 | @idd.ingegneri_del_domani | ha risposto no al messaggio di collaborazione |
+| 31/10 | @idd.ingegneri_del_domani | prima no, poi proposta a pagamento · chiesti media kit e tariffe (OK di Stefano) |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
@@ -80,7 +80,7 @@ Altri profili seguiti il 31/10 (non Collab): @provenzano_architetti, @icona_arch
 
 Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
 
-Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani ha detto no il 31/10; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 2/11.
+Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso: chiesti media kit e tariffe, attendere; attendere anche gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 2/11.
 
 ## Messaggio · fascia A
 
