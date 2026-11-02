@@ -75,6 +75,8 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 2/11 | @lorena.calo.architetto | risposta alla sua replica sotto "Due abitazioni possono diventare una sola casa" · like all'episodio 17 · messaggio di collaborazione (fascia B, tema: ristrutturazioni raccontate episodio per episodio) · risposta subito, probabilmente automatica: "Ti va di raccontarmi qualcosa di più del tuo progetto?" |
 | 2/11 | @lorena.calo.architetto | chiede più informazioni · risposto con cos'è Clepsi, cosa serve (parcella, persone, durata, giornate per fase) e il link a /installa (OK di Stefano; in due messaggi per il limite di 1000 caratteri dei DM) |
 | 2/11 | @robertaplumari_architetto | accetta la collaborazione ("Parliamone!") · inviati i dettagli dell'autopsia (OK di Stefano) |
+| 2/11 | @robertaplumari_architetto | "Domani ti mando tutto" · risposto "anche numeri approssimativi, a domani" (OK di Stefano); attesi i dati il 3/11 |
+| 2/11 | @lorena.calo.architetto | declina per mancanza di dati e tempo · ultimo tentativo (OK di Stefano): bozza nostra ispirata al progetto di Taranto (due case diventate una) con numeri d'esempio dichiarati, a lei solo un parere anche con un vocale. Se dice di nuovo no, chiudere cordiali senza insistere. Se accetta, preparare la bozza subito |
 | 2/11 | @architetto_elisa_nicoletti | messaggio di collaborazione (fascia B, tema: cantiere accanto ai render, ristrutturazioni chiavi in mano) |
 | 2/11 | @gici_arch, @lucia_guarinoarchitetto | like agli ultimi post |
 
