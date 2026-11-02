@@ -12,7 +12,7 @@ Approvato da Stefano il 26/10/2026. Lista compilata il 26/10 cercando su Instagr
 
 | Profilo | Follower | Di cosa parla | Contattato | Risposta |
 |---|---|---|---|---|
-| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: prima no ("non lavoriamo a commessa"), poi aperti solo a pagamento o con una proposta strutturata. 31/10 sera: dati del mese (340.000 visualizzazioni, 6.500 interazioni, 21.000 visualizzazioni storie; post da 20.000 a 85.000 visualizzazioni) e tariffe 180 € un post, 300 € due, 350 € tre. Rimandato da Stefano (l'app non porta ancora ricavi): risposto che li ricontattiamo; da riprendere con gli abbonamenti attivi |
+| @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: prima no ("non lavoriamo a commessa"), poi aperti solo a pagamento o con una proposta strutturata. 31/10 sera: dati del mese (340.000 visualizzazioni, 6.500 interazioni, 21.000 visualizzazioni storie; post da 20.000 a 85.000 visualizzazioni) e tariffe 180 € un post, 300 € due, 350 € tre. Rimandato da Stefano (l'app non porta ancora ricavi): risposto che li ricontattiamo; da riprendere con gli abbonamenti attivi. 1/11: chiudono cordiali ("quando volete siamo qua"); 2/11 ringraziato (OK di Stefano) |
 | @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | 30/10 (DM, tema: polizze e tutele) | |
 | @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | |
 | @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | 31/10 (DM, formato ironico "autopsia in chiave architrash") | |
@@ -68,6 +68,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 31/10 | @federicafranchiarch | commento sotto "Architettura & gatti" |
 | 31/10 | @idd.ingegneri_del_domani | prima no, poi proposta a pagamento · chiesti media kit e tariffe (OK di Stefano) |
 | 31/10 | @idd.ingegneri_del_domani | ricevute tariffe (180/300/350 €) · risposto che per ora aspettiamo (OK di Stefano) |
+| 2/11 | @idd.ingegneri_del_domani | ringraziato per la chiusura cordiale (OK di Stefano) |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
