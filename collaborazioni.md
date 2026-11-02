@@ -73,6 +73,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 2/11 | @linda_russo_architetto | 3° commento, sotto "Scelte dei materiali, arredi…" (render con @mansi.home) |
 | 2/11 | @carolina_petrucci_architetto | 2° commento, sotto la citazione di Le Corbusier · messaggio di collaborazione (fascia B, tema: progetti d'interni raccontati con luce e materiali) |
 | 2/11 | @lorena.calo.architetto | risposta alla sua replica sotto "Due abitazioni possono diventare una sola casa" · like all'episodio 17 · messaggio di collaborazione (fascia B, tema: ristrutturazioni raccontate episodio per episodio) · risposta subito, probabilmente automatica: "Ti va di raccontarmi qualcosa di più del tuo progetto?" |
+| 2/11 | @lorena.calo.architetto | chiede più informazioni · risposto con cos'è Clepsi, cosa serve (parcella, persone, durata, giornate per fase) e il link a /installa (OK di Stefano; in due messaggi per il limite di 1000 caratteri dei DM) |
 | 2/11 | @architetto_elisa_nicoletti | messaggio di collaborazione (fascia B, tema: cantiere accanto ai render, ristrutturazioni chiavi in mano) |
 | 2/11 | @gici_arch, @lucia_guarinoarchitetto | like agli ultimi post |
 
@@ -90,7 +91,7 @@ Altri profili seguiti il 2/11 (non Collab): @ventuno.architettura, @michela.ekst
 
 Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
 
-Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 3/11. Il 2/11 messaggio a @lorena.calo.architetto, @architetto_elisa_nicoletti e @carolina_petrucci_architetto: attendere risposta.
+Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 3/11. Il 2/11 messaggio a @lorena.calo.architetto (ha chiesto dettagli, risposto: attendere), @architetto_elisa_nicoletti e @carolina_petrucci_architetto: attendere risposta.
 
 ## Messaggio · fascia A
 
