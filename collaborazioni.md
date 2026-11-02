@@ -14,7 +14,7 @@ Approvato da Stefano il 26/10/2026. Lista compilata il 26/10 cercando su Instagr
 |---|---|---|---|---|
 | @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: prima no ("non lavoriamo a commessa"), poi aperti solo a pagamento o con una proposta strutturata. 31/10 sera: dati del mese (340.000 visualizzazioni, 6.500 interazioni, 21.000 visualizzazioni storie; post da 20.000 a 85.000 visualizzazioni) e tariffe 180 € un post, 300 € due, 350 € tre. Rimandato da Stefano (l'app non porta ancora ricavi): risposto che li ricontattiamo; da riprendere con gli abbonamenti attivi. 1/11: chiudono cordiali ("quando volete siamo qua"); 2/11 ringraziato (OK di Stefano) |
 | @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | 30/10 (DM, tema: polizze e tutele) | |
-| @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | |
+| @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | 2/11 sera: "Parliamone!" · risposto con i dati da mandarci e l'offerta di una bozza con dati di esempio (tema Inarcassa e incassi in ritardo), OK di Stefano; attendere la commessa scelta |
 | @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | 31/10 (DM, formato ironico "autopsia in chiave architrash") | |
 
 ## Fascia B · architetti con studio che parlano ai clienti
@@ -74,6 +74,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 2/11 | @carolina_petrucci_architetto | 2° commento, sotto la citazione di Le Corbusier · messaggio di collaborazione (fascia B, tema: progetti d'interni raccontati con luce e materiali) |
 | 2/11 | @lorena.calo.architetto | risposta alla sua replica sotto "Due abitazioni possono diventare una sola casa" · like all'episodio 17 · messaggio di collaborazione (fascia B, tema: ristrutturazioni raccontate episodio per episodio) · risposta subito, probabilmente automatica: "Ti va di raccontarmi qualcosa di più del tuo progetto?" |
 | 2/11 | @lorena.calo.architetto | chiede più informazioni · risposto con cos'è Clepsi, cosa serve (parcella, persone, durata, giornate per fase) e il link a /installa (OK di Stefano; in due messaggi per il limite di 1000 caratteri dei DM) |
+| 2/11 | @robertaplumari_architetto | accetta la collaborazione ("Parliamone!") · inviati i dettagli dell'autopsia (OK di Stefano) |
 | 2/11 | @architetto_elisa_nicoletti | messaggio di collaborazione (fascia B, tema: cantiere accanto ai render, ristrutturazioni chiavi in mano) |
 | 2/11 | @gici_arch, @lucia_guarinoarchitetto | like agli ultimi post |
 
