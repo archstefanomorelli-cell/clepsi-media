@@ -69,6 +69,12 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 31/10 | @idd.ingegneri_del_domani | prima no, poi proposta a pagamento · chiesti media kit e tariffe (OK di Stefano) |
 | 31/10 | @idd.ingegneri_del_domani | ricevute tariffe (180/300/350 €) · risposto che per ora aspettiamo (OK di Stefano) |
 | 2/11 | @idd.ingegneri_del_domani | ringraziato per la chiusura cordiale (OK di Stefano) |
+| 2/11 | @robertaplumari_architetto | 3° commento, sotto "Eh, ma basta pagare INARCASSA" · like anche al reel sui colleghi e Instagram |
+| 2/11 | @linda_russo_architetto | 3° commento, sotto "Scelte dei materiali, arredi…" (render con @mansi.home) |
+| 2/11 | @carolina_petrucci_architetto | 2° commento, sotto la citazione di Le Corbusier · messaggio di collaborazione (fascia B, tema: progetti d'interni raccontati con luce e materiali) |
+| 2/11 | @lorena.calo.architetto | risposta alla sua replica sotto "Due abitazioni possono diventare una sola casa" · like all'episodio 17 · messaggio di collaborazione (fascia B, tema: ristrutturazioni raccontate episodio per episodio) · risposta subito, probabilmente automatica: "Ti va di raccontarmi qualcosa di più del tuo progetto?" |
+| 2/11 | @architetto_elisa_nicoletti | messaggio di collaborazione (fascia B, tema: cantiere accanto ai render, ristrutturazioni chiavi in mano) |
+| 2/11 | @gici_arch, @lucia_guarinoarchitetto | like agli ultimi post |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
@@ -80,9 +86,11 @@ Altri profili seguiti il 30/10 (non Collab): @studio_architettura_vitelli, @stud
 
 Altri profili seguiti il 31/10 (non Collab): @provenzano_architetti, @icona_architetti_associati, @matteo_pozza_architetto (commento sotto il reel "Tre showroom, tre cucine"), @officinaabitare (commento sotto il pastellone di calce a Le Fornaci), @spaziomel_associati, @studio_agile_associati, @studiotecnicorinaldi, @studio_tecnico_gda_ancona, @__studio_tecnico_dissociato__, @alessiapaulliarchitetto (possibile fascia B, 12K), @lc_studio21, @ordineingegneribo.
 
+Altri profili seguiti il 2/11 (non Collab): @ventuno.architettura, @michela.ekstrom.architettura, @_spaziare_. Commenti del 2/11 (non Collab): @arch.clarissastefano (casetta in paese ereditata), @dejanafiamma (Casa Diagonale, giardino oltre la vetrata), @idd.ingegneri_del_domani (Federica e l'esame di Stato), @professionearchitetto (Alberto Ponis a Costa Paradiso). Risposte del 2/11 alle repliche di @officinaabitare (pastellone di calce) e @matteo_pozza_architetto (tre showroom, tre cucine), con like ai post e all'ultimo post di Matteo. Contatori al 2/11 mattina: 13 post, 9 follower, 58 seguiti (61 dopo i follow).
+
 Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
 
-Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 2/11.
+Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 3/11. Il 2/11 messaggio a @lorena.calo.architetto, @architetto_elisa_nicoletti e @carolina_petrucci_architetto: attendere risposta.
 
 ## Messaggio · fascia A
 
