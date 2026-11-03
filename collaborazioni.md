@@ -26,7 +26,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | @gici_arch | 13K | Giorgia Congiu, architetta di interni, racconta il suo lavoro | 31/10 (DM fascia B, tema: errori di chi ristruttura, il portico "lo fanno tutti") | 31/10 risposta automatica ManyChat con la sua guida PDF; attendere risposta vera |
 | @lucia_guarinoarchitetto | 13K | Architetto e interior designer, rapporto con i clienti ("l'architetto tra i piedi") | 31/10 (DM fascia B, tema: cosa c'è dietro una planimetria) | |
 | @architetto_elisa_nicoletti | 9K | Ristrutturazioni chiavi in mano, racconta il mestiere e il cantiere | | |
-| @lorena.calo.architetto | 5K | Ristrutturazioni a Taranto, l'ordine delle decisioni di progetto | | |
+| @lorena.calo.architetto | 5K | Ristrutturazioni a Taranto, l'ordine delle decisioni di progetto | 2/11 (DM fascia B) | 2/11 e 3/11: declina due volte (mancano dati e tempo; progetti in corso). Chiuso cordiali il 3/11, non insistere |
 | @carolina_petrucci_architetto | 3,4K | Architetto e interior designer | | |
 | @federicafranchiarch | 3K | Architetto e interior designer a Bologna | | |
 
@@ -83,6 +83,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 3/11 | @gici_arch | 2° commento, sotto "Il cortile come una stanza in più" · like anche a "Un unico spazio, tre funzioni" |
 | 3/11 | @lucia_guarinoarchitetto | 2° commento, sotto "La ristrutturazione ben riuscita non comincia in cantiere" · like anche a "Una casa bella non è di conseguenza ben progettata" |
 | 3/11 | @federicafranchiarch | messaggio di collaborazione (fascia B, tema: case su misura per chi le abita, mai tutte uguali) |
+| 3/11 | @lorena.calo.architetto | declina di nuovo (progetti in corso, troppe variabili) · chiuso cordiali senza insistere (OK di Stefano). Contatto chiuso |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
