@@ -144,6 +144,37 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Nella prima ora dall'uscita: rispondere ai commenti; all'inizio chiedere a colleghi e amici di guardarlo e commentare.
 - Follow: 3–5 al giorno, solo profili scelti; più commenti veri che follow (rapporto seguiti/follower da tenere sotto controllo). Al 31/10: 11 post, 9 follower, 58 seguiti (dopo i 12 follow del giorno).
 
+## Strategia: far emergere il bisogno (dal 9/11, decisa con Stefano il 4/11)
+Documento completo: "Strategia Instagram Clepsi: far emergere il bisogno" (doc negli artefatti di Stefano). Gli studi hanno il problema ma non lo sentono finché non lo vedono in un numero loro: ogni contenuto porta lo studio alla fase successiva, e a una sola.
+
+| Fase | Cosa pensa lo studio | Pilastro | Formato | Clepsi si nomina? | Invito |
+|---|---|---|---|---|---|
+| 1. Non vede il problema | "Le commesse vanno" | **È proprio così** | reel 10-14 s, frase fissa in prima persona ("Io che…", "Quando…") + scena o tavola che risponde; serie Niente | no | commenta, mandalo a un collega |
+| 2. Lo sente, non lo misura | "Ci perdo, ma non so quanto" | **Il conto** | carosello crema impaginato come documento tecnico (oggetto, committente, data) + tabella da tenere | solo firma | salva il post |
+| 3. Lo misura sul suo studio | "Vediamo la mia ultima commessa" | **Il tuo numero** | domanda lime A/B/C; autopsia gratuita | sì, come chi offre il conto | scrivi AUTOPSIA in DM, rispondi A/B/C (il calcolatore citato nel testo, non come invito) |
+| 4. Cerca come rimediare | "Come senza timesheet?" | **Due tap** | reel con l'app vera, scelta tra senza strumento (A) e con Clepsi (B) | sì | Prova l'app |
+
+**Chiusure delle didascalie:** fasi 1 e 2 finiscono con la richiesta del post (commenta / salva / mandalo a un collega) e poi la riga breve "Clepsi · link in bio". Fasi 3 e 4 con la chiusura completa: "Prova l'app: link in bio. I primi 100 studi pagano la metà il primo anno."
+**Voce:** niente voci fuori campo, solo sottotitoli grandi (deciso il 4/11).
+**Notizie** (es. soglia del forfettario, questionari del MEF): entrano nel pilastro "Il conto" tradotte in giornate, ma vanno verificate il giorno in cui si usano; mai presentare come approvato ciò che non lo è.
+**Storia delle 19 con una domanda ogni sera:** dal secondo periodo, programmata su Metricool.
+
+Settimana tipo (stesso ritmo e stessi colori di sempre):
+
+| Giorno | Ora | Periodo 1 (9/11–6/12) Farsi riconoscere | Periodo 2 (7/12–3/1) Far fare il conto | Periodo 3 (4/1–31/1) Mostrare il rimedio |
+|---|---|---|---|---|
+| Lunedì | 19:00 | È proprio così (reel) | È proprio così | È proprio così |
+| Martedì | 13:00 | Il conto (carosello crema) | Il conto | Il conto |
+| Mercoledì | 19:00 | È proprio così (reel) | Il tuo numero (reel con domanda) | Due tap (reel) |
+| Giovedì | 13:00 | Il tuo numero (domanda lime) | Il tuo numero | Il tuo numero |
+| Venerdì | 19:00 | Due tap (reel app) | Due tap | Due tap |
+| Domenica | 11:00 | Serie Niente (È proprio così) | Serie Niente | Serie Niente |
+
+Momenti da sfruttare: periodo 1 la soglia del forfettario (da verificare); periodo 2 fine anno ("quante giornate ti è costato il 2026?"); periodo 3 preventivi nuovi ("il prossimo preventivo fallo sui numeri").
+
+Un numero per fase, riportato ogni giovedì: (1) condivisioni e commenti per reel; (2) salvataggi per carosello; (3) parcelle salvate dal calcolatore, DM con AUTOPSIA, risposte alla domanda del giovedì; (4) studi creati da /installa che rispondono alle 19 per almeno una settimana (database dell'app, solo conteggi).
+Verifiche: **6 dicembre** (se non superata: due settimane in più sulle fasi 1 e 2) e **3 gennaio** (se non superata: stop ai contenuti nuovi e si parla con cinque studi della loro ultima commessa chiusa). Un pilastro senza salvataggi né condivisioni per tre settimane: si cambia il formato, non il tema (reel di prova per confrontare due ganci).
+
 ## Ritmo delle uscite (dal 2/11, deciso con Stefano il 28/10)
 | Giorno | Ora | Contenuto | Colore | Pubblicazione |
 |---|---|---|---|---|
