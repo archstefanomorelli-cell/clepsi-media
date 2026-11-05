@@ -140,7 +140,8 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 ## Regole dei reel (30/10, dai dati della prima settimana)
 - I primi reel: 7–8 persone su 10 scorrono via prima dei 3 secondi; chi resta ne guarda circa metà. Il problema è il primo secondo.
 - Ogni reel apre con un **gancio**: frase grande (120 px, una parte in lime) su fondo scurito per 1,6 s, già al fotogramma zero, che tocca un problema concreto dell'architetto (soldi, varianti, timesheet, tempo). Niente aperture d'atmosfera.
-- Durata: reel corti 8–14 s (si riguardano in loop); solo il reel "Come funziona" più lungo.
+- Durata: reel corti 8–14 s (si riguardano in loop), fino a 15–18 s per i reel in sospeso; solo il reel "Come funziona" più lungo.
+- **Reel in sospeso (deciso con Stefano il 5/11, dalle prossime settimane, per tutti i pilastri):** la prima parte apre una domanda e ne rimanda la risposta alla fine, così si guarda fino in fondo. Struttura: (1) 0–1,5 s gancio con la domanda o un numero nascosto ("Una di queste tre commesse è in perdita. Quale?", "Passo un attimo in cantiere."); (2) parte centrale che fa salire la tensione: un contatore di giornate che sale, tre carte da scoprire una alla volta, indizi; (3) negli ultimi 2–3 s la rivelazione (il numero, la commessa giusta, la giornata non segnata), poi la chiusura. L'ultimo fotogramma si ricollega al primo, così il reel riparte in loop. Mai annunciare "guarda fino alla fine": la sospensione la crea la domanda. Durata fino a 15–18 s quando la rivelazione la giustifica. Il numero da guardare è il tempo medio di visione (IGRE24) rispetto alla durata: obiettivo oltre il 70%.
 - Nella prima ora dall'uscita: rispondere ai commenti; all'inizio chiedere a colleghi e amici di guardarlo e commentare.
 - Follow: 3–5 al giorno, solo profili scelti; più commenti veri che follow (rapporto seguiti/follower da tenere sotto controllo). Al 31/10: 11 post, 9 follower, 58 seguiti (dopo i 12 follow del giorno).
 
