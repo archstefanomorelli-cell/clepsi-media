@@ -29,6 +29,9 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | @lorena.calo.architetto | 5K | Ristrutturazioni a Taranto, l'ordine delle decisioni di progetto | 2/11 (DM fascia B) | 2/11 e 3/11: declina due volte (mancano dati e tempo; progetti in corso). Chiuso cordiali il 3/11, non insistere |
 | @carolina_petrucci_architetto | 3,4K | Architetto e interior designer | | |
 | @federicafranchiarch | 3K | Architetto e interior designer a Bologna | | |
+| @arch_danilo_carella | — | Architetto: progetta, coordina e realizza; distribuzione degli spazi prima di materiali e render. Ci segue dal 4/11 | 5/11 (DM fascia B, tema: la distribuzione degli spazi prima di materiali e render) | |
+| @alessiapaulliarchitetto | 12K | Ristrutturazioni a Milano, scelte "da 10" che in cantiere diventano problemi, esecutivi dell'impianto elettrico | 5/11 (DM fascia B, tema: scelte "da 10" ed esecutivi) | 5/11 solo messaggio automatico di benvenuto; attendere risposta vera |
+| @matteo_pozza_architetto | — | Architetto d'interni, ristrutturazioni; progetto prima dei preventivi delle imprese | 5/11 (DM fascia B, tema: il progetto prima dei preventivi delle imprese) | |
 
 ## Altri contatti utili (non Collab)
 
@@ -88,6 +91,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 4/11 | @lorena.calo.architetto | (dopo la chiusura cordiale: "Grazie, certo, buon lavoro a voi!") commento sotto l'episodio 16 (villetta frazionata in due case) · like al post |
 | 5/11 | @robertaplumari_architetto | commento sotto il reel "CHE FASTIDIO" (il cliente che chiede tre volte lo stesso parere) · like anche a "Gli appartamenti di Vigna Stelluti" · DM di promemoria gentile per i dati dell'autopsia (OK di Stefano) |
 | 5/11 | @carolina_petrucci_architetto | 3° commento, sotto il reel "Bonus Casa 2026" (preventivo da rifare dopo le detrazioni) · like al post |
+| 5/11 sera | @arch_danilo_carella, @alessiapaulliarchitetto, @matteo_pozza_architetto | messaggio di collaborazione fascia B (OK di Stefano); nuovi profili aggiunti alla fascia B |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
@@ -109,7 +113,7 @@ Altri profili seguiti il 5/11 (non Collab): @lucianoalfano_architetto (architett
 
 Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nostro commento; @robertaplumari_architetto ha messo mi piace al nostro commento; @arch.clarissastefano ci segue.
 
-Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 3/11. Il 2/11 messaggio a @lorena.calo.architetto (ha chiesto dettagli, risposto: attendere), @architetto_elisa_nicoletti e @carolina_petrucci_architetto: attendere risposta. Il 3/11 messaggio a @federicafranchiarch: attendere risposta. Tutti i profili di collaborazioni ora hanno ricevuto il messaggio.
+Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 3/11. Il 2/11 messaggio a @lorena.calo.architetto (ha chiesto dettagli, risposto: attendere), @architetto_elisa_nicoletti e @carolina_petrucci_architetto: attendere risposta. Il 3/11 messaggio a @federicafranchiarch: attendere risposta. Tutti i profili di collaborazioni ora hanno ricevuto il messaggio. Il 5/11 sera aggiunti alla fascia B e contattati @arch_danilo_carella, @alessiapaulliarchitetto e @matteo_pozza_architetto: attendere risposta.
 
 ## Messaggio · fascia A
 
