@@ -128,8 +128,8 @@ Proporre di provare l'app solo a chi ha già un rapporto con noi (ci segue, ci h
 
 Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 > Ciao [nome]! Siamo Clepsi, ci siamo scritti sotto [post o tema].
-> Clepsi è un'app che aiuta gli studi a seguire l'andamento delle proprie commesse senza timesheet né timer, e senza dover imparare un software di gestione complicato: ogni sera ognuno segna con due tap su quale commessa ha lavorato, e il titolare vede come sta andando ogni commessa.
-> Ci farebbe super piacere avere il giudizio di uno studio come il vostro, e qualche suggerimento per migliorarla. Si prova gratis e senza carta, dal browser: www.clepsi.it/installa (da Instagram aprilo in Safari o Chrome). Se vi va, vi aiutiamo noi a inserire le prime commesse.
+> Clepsi è un'app che aiuta gli studi a seguire l'andamento delle proprie commesse senza timesheet né timer, e senza dover imparare un software di gestione complicato. L'idea è molto semplice: ogni sera una notifica chiede a ogni membro del team su quale commessa ha lavorato la mattina e il pomeriggio, si risponde con due tap, e il titolare vede come sta andando ogni commessa.
+> Ci farebbe davvero piacere avere il giudizio di uno studio come il vostro, e qualche suggerimento per migliorarla. Si prova gratis e senza carta, dal browser: www.clepsi.it/installa (da Instagram aprilo in Safari o Chrome). Se vi va, vi aiutiamo noi a inserire le prime commesse.
 > E come grazie: i primi 100 studi pagano la metà il primo anno.
 
 | Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
