@@ -124,13 +124,13 @@ Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_
 
 ## Prova dell'app · studi "caldi" (deciso con Stefano il 6/11)
 
-Proporre di provare l'app solo a chi ha già un rapporto con noi (ci segue, ci ha risposto, ha scambiato commenti). Mai a freddo. Un messaggio scritto per quello studio, al massimo 2-3 al giorno, sempre con OK di Stefano. Tono: chiediamo un parere, non vendiamo; l'offerta dei primi 100 è un grazie. Non mescolare con l'autopsia: a chi la sta facendo (Danilo, Roberta) si propone l'app dopo la consegna dell'autopsia. Il controllo del mattino propone da qui i messaggi del giorno e segna sotto data e risposta.
+Proporre di provare l'app solo a chi ha già un rapporto con noi (ci segue, ci ha risposto, ha scambiato commenti). Mai a freddo. Un messaggio scritto per quello studio, al massimo 2-3 al giorno, sempre con OK di Stefano. Tono: chiediamo un parere, non vendiamo. Per l'offerta usare "Per ora è gratis; quando partiranno gli abbonamenti, i primi 100 studi pagheranno la metà il primo anno." (niente date né prezzi). Non mescolare con l'autopsia: a chi la sta facendo (Danilo, Roberta) si propone l'app dopo la consegna dell'autopsia. Il controllo del mattino propone da qui i messaggi del giorno e segna sotto data e risposta.
 
 Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 > Ciao [nome]! Siamo Clepsi, ci siamo scritti sotto [post o tema].
 > Clepsi è un'app che aiuta gli studi a seguire l'andamento delle proprie commesse senza timesheet né timer, e senza dover imparare un software di gestione complicato. L'idea è molto semplice: ogni sera una notifica chiede a ogni membro del team su quale commessa ha lavorato la mattina e il pomeriggio, si risponde con due tap, e il titolare vede come sta andando ogni commessa.
 > Ci farebbe davvero piacere avere il giudizio di uno studio come il vostro, e qualche suggerimento per migliorarla. Si prova gratis e senza carta, dal browser: www.clepsi.it/installa (da Instagram aprilo in Safari o Chrome). Se vi va, vi aiutiamo noi a inserire le prime commesse.
-> E come grazie: i primi 100 studi pagano la metà il primo anno.
+> Per ora è gratis; quando partiranno gli abbonamenti, i primi 100 studi pagheranno la metà il primo anno.
 
 | Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
 |---|---|---|---|---|
