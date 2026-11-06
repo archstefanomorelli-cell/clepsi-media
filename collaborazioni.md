@@ -134,8 +134,8 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 
 | Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
 |---|---|---|---|---|
-| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | | |
-| @pria.studio | Ha risposto (2700K sui comodini), like ai commenti | la luce in camera e i 2700K | | |
+| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | 6/11 sera (OK di Stefano) | |
+| @pria.studio | Ha risposto (2700K sui comodini), like ai commenti | la luce in camera e i 2700K | 6/11 sera (OK di Stefano) | |
 | @ihstudioit | Ha risposto il 6/11 (privacy e strada), like al commento | la Villa Minimal a Desenzano | | |
 | @arch.clarissastefano | Ci segue dal 28/10, like ai commenti | la casetta ereditata a Vasto | | |
 | @ylenialeonardingegnere | Ha risposto 2 volte (cerchiatura), like ai commenti | la parete portante e l'open space | | |
