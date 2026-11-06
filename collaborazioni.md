@@ -126,8 +126,11 @@ Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_
 
 Proporre di provare l'app solo a chi ha già un rapporto con noi (ci segue, ci ha risposto, ha scambiato commenti). Mai a freddo. Un messaggio scritto per quello studio, al massimo 2-3 al giorno, sempre con OK di Stefano. Tono: chiediamo un parere, non vendiamo; l'offerta dei primi 100 è un grazie. Non mescolare con l'autopsia: a chi la sta facendo (Danilo, Roberta) si propone l'app dopo la consegna dell'autopsia. Il controllo del mattino propone da qui i messaggi del giorno e segna sotto data e risposta.
 
-Messaggio tipo (personalizzare la prima riga):
-> Ciao [nome]! Siamo Clepsi, ci siamo scritti sotto [post o tema]. Stiamo cercando pochi studi che provino la nostra app per un paio di settimane e ci dicano cosa non va. Clepsi dice come chiuderà ogni commessa senza timesheet: ogni sera alle 19 ognuno segna su quale commessa ha lavorato la mattina e il pomeriggio, due tap, e il titolare vede quali commesse sono in attivo, col margine stretto o in perdita. È gratis e senza carta, si installa dal browser: www.clepsi.it/installa (da Instagram aprilo in Safari o Chrome). Se ti va, ti aiutiamo noi a inserire le prime commesse. E come grazie: i primi 100 studi pagano la metà il primo anno. Ti andrebbe di provarla?
+Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
+> Ciao [nome]! Siamo Clepsi, ci siamo scritti sotto [post o tema].
+> Clepsi è un'app che aiuta gli studi a seguire l'andamento delle proprie commesse senza timesheet né timer, e senza dover imparare un software di gestione complicato: ogni sera ognuno segna con due tap su quale commessa ha lavorato, e il titolare vede come sta andando ogni commessa.
+> Ci farebbe super piacere avere il giudizio di uno studio come il vostro, e qualche suggerimento per migliorarla. Si prova gratis e senza carta, dal browser: www.clepsi.it/installa (da Instagram aprilo in Safari o Chrome). Se vi va, vi aiutiamo noi a inserire le prime commesse.
+> E come grazie: i primi 100 studi pagano la metà il primo anno.
 
 | Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
 |---|---|---|---|---|
