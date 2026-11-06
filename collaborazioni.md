@@ -122,6 +122,22 @@ Segnali al 28/10: @idd.ingegneri_del_domani ci segue e ha messo mi piace al nost
 
 Messaggio di collaborazione mandato ai tre di fascia A il 30/10: @idd.ingegneri_del_domani il 31/10 chiede un compenso (180 € a post): rimandato, da riprendere quando ci sono gli abbonamenti; attendere gli altri due. Il 31/10 messaggio anche a @_architrash_, @gici_arch e @lucia_guarinoarchitetto: attendere risposta. Per @architetto_elisa_nicoletti, @lorena.calo.architetto e @carolina_petrucci_architetto: dal 1/11, dopo almeno un commento. @federicafranchiarch seguita il 30/10, commentata il 31/10: messaggio dal 3/11. Il 2/11 messaggio a @lorena.calo.architetto (ha chiesto dettagli, risposto: attendere), @architetto_elisa_nicoletti e @carolina_petrucci_architetto: attendere risposta. Il 3/11 messaggio a @federicafranchiarch: attendere risposta. Tutti i profili di collaborazioni ora hanno ricevuto il messaggio. Il 5/11 sera aggiunti alla fascia B e contattati @arch_danilo_carella, @alessiapaulliarchitetto e @matteo_pozza_architetto: attendere risposta.
 
+## Prova dell'app · studi "caldi" (deciso con Stefano il 6/11)
+
+Proporre di provare l'app solo a chi ha già un rapporto con noi (ci segue, ci ha risposto, ha scambiato commenti). Mai a freddo. Un messaggio scritto per quello studio, al massimo 2-3 al giorno, sempre con OK di Stefano. Tono: chiediamo un parere, non vendiamo; l'offerta dei primi 100 è un grazie. Non mescolare con l'autopsia: a chi la sta facendo (Danilo, Roberta) si propone l'app dopo la consegna dell'autopsia. Il controllo del mattino propone da qui i messaggi del giorno e segna sotto data e risposta.
+
+Messaggio tipo (personalizzare la prima riga):
+> Ciao [nome]! Siamo Clepsi, ci siamo scritti sotto [post o tema]. Stiamo cercando pochi studi che provino la nostra app per un paio di settimane e ci dicano cosa non va. Clepsi dice come chiuderà ogni commessa senza timesheet: ogni sera alle 19 ognuno segna su quale commessa ha lavorato la mattina e il pomeriggio, due tap, e il titolare vede quali commesse sono in attivo, col margine stretto o in perdita. È gratis e senza carta, si installa dal browser: www.clepsi.it/installa (da Instagram aprilo in Safari o Chrome). Se ti va, ti aiutiamo noi a inserire le prime commesse. E come grazie: i primi 100 studi pagano la metà il primo anno. Ti andrebbe di provarla?
+
+| Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
+|---|---|---|---|---|
+| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | | |
+| @pria.studio | Ha risposto (2700K sui comodini), like ai commenti | la luce in camera e i 2700K | | |
+| @ihstudioit | Ha risposto il 6/11 (privacy e strada), like al commento | la Villa Minimal a Desenzano | | |
+| @arch.clarissastefano | Ci segue dal 28/10, like ai commenti | la casetta ereditata a Vasto | | |
+| @ylenialeonardingegnere | Ha risposto 2 volte (cerchiatura), like ai commenti | la parete portante e l'open space | | |
+| Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
+
 ## Messaggio · fascia A
 
 Ciao [nome]! Siamo Clepsi: stiamo costruendo un'app per gli studi di architettura e ingegneria che dice come chiuderà ogni commessa, senza timesheet (ogni sera due tap, mattina e pomeriggio). Seguiamo i tuoi contenuti su [tema]: parli proprio delle cose che ci hanno fatto partire.
