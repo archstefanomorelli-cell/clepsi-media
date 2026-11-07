@@ -11,7 +11,7 @@ from reel_lib import render_pngs
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'copertine'; OUT.mkdir(exist_ok=True)
 W = ROOT / 'lavoro' / 'copertine'; W.mkdir(parents=True, exist_ok=True)
-PX, PY, PW, PH = 190, 398, 700, 1432   # schermo del telefono nei reel dell'app
+PX, PY, PW, PH = 280, 340, 520, 1064   # schermo del telefono nei reel dell'app (dal 7/11)
 
 # reel: (sopra, titolo con *parola in lime*, tipo immagine, sorgente, secondo)
 COPERTINE = {

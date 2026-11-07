@@ -17,7 +17,8 @@ SRC = ROOT / 'sorgenti' / 'app'
 AUD = ROOT / 'sorgenti' / 'audio'
 W = ROOT / 'lavoro' / 'reel_app'
 W.mkdir(parents=True, exist_ok=True)
-PW, PH, PX, PY = 700, 1432, 190, 398       # schermo del telefono nel reel
+PW, PH, PX, PY = 520, 1064, 280, 340       # schermo del telefono nel reel, dentro la zona sicura di Instagram (7/11)
+CLIP_W, CLIP_H = 700, 1432                  # misura dei pezzi tagliati in sorgenti/app/
 CROP_TOP = 140                              # barra di stato dell'iPhone (ora, registrazione)
 
 # pezzi: (sorgente, inizio, fine, velocità)
@@ -45,7 +46,7 @@ NOTIFICA, BRAND_D = 3.0, 3.5
 TOCCO_MATTINA, TOCCO_POMERIGGIO, TOCCO_FATTO = 1.3, 2.8 + 1.8 + 0.7, 2.8 + 1.8 + 2.5 + 0.55
 
 def taglia(src, a, b, vel, out):
-    vf = f"crop=1170:{2532 - CROP_TOP}:0:{CROP_TOP},scale={PW}:{PH},setpts=(PTS-STARTPTS)/{vel},fps=30,format=yuv420p,setsar=1"
+    vf = f"crop=1170:{2532 - CROP_TOP}:0:{CROP_TOP},scale={CLIP_W}:{CLIP_H},setpts=(PTS-STARTPTS)/{vel},fps=30,format=yuv420p,setsar=1"
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(a), '-t', str(b - a), '-i', src, '-vf', vf, '-an',
                     '-c:v', 'libx264', '-crf', '17', '-preset', 'medium', str(out)], check=True)
 
@@ -96,9 +97,9 @@ def main(argv):
                f"<rect x='{PX}' y='{PY}' width='{PW}' height='{PH}' rx='54' fill='black'/></mask></defs>"
                "<rect width='1080' height='1920' fill='#0B0B0D' mask='url(#m)'/>"
                f"<rect x='{PX - 3}' y='{PY - 3}' width='{PW + 6}' height='{PH + 6}' rx='57' fill='none' stroke='#2E2E34' stroke-width='3'/></svg>"
-               f"<div style='position:absolute;left:0;right:0;top:{PY + PH + 26}px;text-align:center;font-size:24px;color:#8E8D96'>Studio e dati di esempio</div>")
+               f"<div style='position:absolute;left:0;right:0;top:{PY + PH + 22}px;text-align:center;font-size:24px;color:#8E8D96'>Studio e dati di esempio</div>")
     def didascalia(sopra, titolo):
-        return (f"<div style='position:absolute;left:80px;top:118px;width:920px'>"
+        return (f"<div style='position:absolute;left:80px;top:170px;width:920px'>"
                 f"<div style='font-size:30px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#D4FF3A'>{sopra}</div>"
                 f"<div class='b' style='font-size:66px;line-height:1.02;letter-spacing:-.035em;margin-top:14px'>{titolo}</div></div>")
     DID = {
@@ -136,7 +137,7 @@ def main(argv):
         fine = t; TOT = fine + BRAND_D
         base = W / f'{nome}-base.mp4'
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=0x0B0B0D:s=1080x1920:r=30:d={TOT:.3f}', '-i', str(tel),
-                        '-filter_complex', f'[0:v][1:v]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1',
+                        '-filter_complex', f'[1:v]scale={PW}:{PH}[t];[0:v][t]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1',
                         '-c:v', 'libx264', '-crf', '16', str(base)], check=True)
         # suoni dell'app nei momenti dei tocchi
         suoni = [(s, inizi[p] + o) for p in inizi for s, o in TOCCHI.get(p, [])]

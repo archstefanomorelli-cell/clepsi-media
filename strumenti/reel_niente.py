@@ -18,7 +18,7 @@ AUD = ROOT / 'sorgenti' / 'audio'
 W = ROOT / 'lavoro' / 'niente'; W.mkdir(parents=True, exist_ok=True)
 FPS = 30
 CREMA, INCH, LIME, NERO, BIANCO = '#F6F5F1', '#121214', '#D4FF3A', '#0B0B0D', '#F6F5F1'
-PX, PY, PW, PH = 190, 398, 700, 1432
+PX, PY, PW, PH = 280, 340, 520, 1064   # telefono dentro la zona sicura di Instagram (7/11)
 
 # episodi della serie: parole in ordine, l'ultima è la battuta e resta più a lungo
 EPISODI = {
@@ -128,15 +128,15 @@ def parte_app(nome):
                f"<rect x='{PX}' y='{PY}' width='{PW}' height='{PH}' rx='54' fill='black'/></mask></defs>"
                f"<rect width='1080' height='1920' fill='{NERO}' mask='url(#m)'/>"
                f"<rect x='{PX - 3}' y='{PY - 3}' width='{PW + 6}' height='{PH + 6}' rx='57' fill='none' stroke='#2E2E34' stroke-width='3'/></svg>"
-               f"<div style='position:absolute;left:0;right:0;top:{PY + PH + 26}px;text-align:center;font-size:24px;color:#8E8D96'>Studio e dati di esempio</div>"
-               "<div style='position:absolute;left:0;right:0;top:118px;text-align:center'>"
+               f"<div style='position:absolute;left:0;right:0;top:{PY + PH + 22}px;text-align:center;font-size:24px;color:#8E8D96'>Studio e dati di esempio</div>"
+               "<div style='position:absolute;left:0;right:0;top:170px;text-align:center'>"
                f"<div style='font-size:30px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:{LIME}'>Ogni sera alle 19</div>"
                "<div class='b' style='font-size:84px;line-height:1.02;letter-spacing:-.035em;margin-top:14px'>Solo due tap.</div></div>")
     render_pngs({'app-cornice': cornice}, W)
     out = W / 'app.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c={NERO[1:]}:s=1080x1920:r={FPS}:d={durata:.3f}', '-i', str(tel),
                     '-i', str(W / 'app-cornice.png'), '-filter_complex',
-                    f'[0:v][1:v]overlay={PX}:{PY}:eof_action=pass[a];[a][2:v]overlay=0:0,format=yuv420p,setsar=1',
+                    f'[1:v]scale={PW}:{PH}[t];[0:v][t]overlay={PX}:{PY}:eof_action=pass[a];[a][2:v]overlay=0:0,format=yuv420p,setsar=1',
                     '-t', f'{durata:.3f}', '-c:v', 'libx264', '-crf', '16', str(out)], check=True)
     return out, durata
 

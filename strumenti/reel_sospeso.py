@@ -19,7 +19,7 @@ R, APP, AUD = ROOT / 'sorgenti' / 'racconto', ROOT / 'sorgenti' / 'app', ROOT / 
 W = ROOT / 'lavoro' / 'sospeso'; W.mkdir(parents=True, exist_ok=True)
 FPS, GANCIO, LOOP = 30, 1.6, 0.4
 LIME, NERO, ROSSO = '#D4FF3A', '#0B0B0D', '#FF8A7A'
-PX, PY, PW, PH = 190, 398, 700, 1432
+PX, PY, PW, PH = 280, 340, 520, 1064   # telefono dentro la zona sicura di Instagram (7/11)
 
 REEL = {
     # lunedì 9/11 · È proprio così
@@ -134,15 +134,15 @@ def app(nome, r):
     t_tit = t_tel + durate['d']; t_fine = t_tit + durate['t']; tot = t_fine + FINE
     base = W / f'{nome}-base.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c=0x0B0B0D:s=1080x1920:r={FPS}:d={tot:.3f}', '-itsoffset', f'{t_tel}', '-i', str(tel),
-                    '-filter_complex', f'[0:v][1:v]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1', '-t', f'{tot:.3f}',
+                    '-filter_complex', f'[1:v]scale={PW}:{PH}[t];[0:v][t]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1', '-t', f'{tot:.3f}',
                     '-c:v', 'libx264', '-crf', '16', str(base)], check=True)
     cornice = ("<svg width='1080' height='1920' style='position:absolute;inset:0'><defs><mask id='m'><rect width='1080' height='1920' fill='white'/>"
                f"<rect x='{PX}' y='{PY}' width='{PW}' height='{PH}' rx='54' fill='black'/></mask></defs>"
                "<rect width='1080' height='1920' fill='#0B0B0D' mask='url(#m)'/>"
                f"<rect x='{PX - 3}' y='{PY - 3}' width='{PW + 6}' height='{PH + 6}' rx='57' fill='none' stroke='#2E2E34' stroke-width='3'/></svg>"
-               f"<div style='position:absolute;left:0;right:0;top:{PY + PH + 26}px;text-align:center;font-size:24px;color:#8E8D96'>Studio e dati di esempio</div>")
+               f"<div style='position:absolute;left:0;right:0;top:{PY + PH + 22}px;text-align:center;font-size:24px;color:#8E8D96'>Studio e dati di esempio</div>")
     def did(sopra, titolo):
-        return (f"<div style='position:absolute;left:80px;top:118px;width:920px'>"
+        return (f"<div style='position:absolute;left:80px;top:170px;width:920px'>"
                 f"<div style='font-size:30px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:{LIME}'>{sopra}</div>"
                 f"<div class='b' style='font-size:66px;line-height:1.02;letter-spacing:-.035em;margin-top:14px'>{tit(titolo)}</div></div>")
     LOGO = (f"<svg width='72' height='72' viewBox='0 0 22 22'><circle cx='11' cy='11' r='9.5' fill='none' stroke='{LIME}' stroke-width='1.5'/>"
