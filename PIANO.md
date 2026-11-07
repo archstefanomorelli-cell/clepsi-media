@@ -48,6 +48,21 @@ File in `settimana-3/`, sorgenti in `grafiche/chi-vede-1..4.dc.html` e `grafiche
 Nota: i numeri delle didascalie dei reel dell'app sono quelli visibili a schermo nello "Studio di esempio" (Uffici Lambrate −667 €, 5 giornate coperte su 8,5 necessarie, 2 giornate di varianti → −275 €), diversi dai dati di esempio del sito (34 giornate su 27, ecc.). Sempre dichiarati "studio e dati di esempio".
 Dati al 29/10: post fissi 7–12 visualizzazioni e 5 persone raggiunte, reel 12–15 visualizzazioni, ~3 follower. Iscrizioni 9 dal 22/10 (tutte da /calcola-parcella), parcelle salvate 10.
 
+## Settimana 9–15/11 · Instagram, programmata su Metricool il 7/11/2026 (OK di Stefano il 7/11) · periodo 1, prima settimana della strategia in quattro fasi
+File in `settimana-4/` (tavole), `reel/`, `copertine/`; sorgenti `grafiche/forfettario-1..5.dc.html` e `grafiche/giornata.dc.html` (render: `python3 strumenti/render_ig.py grafiche lavoro forfettario-1,forfettario-2,forfettario-3,forfettario-4,forfettario-5,giornata`). Reel in sospeso con `strumenti/reel_sospeso.py` (nuovo), Niente 2 con `strumenti/reel_niente.py reel-niente-2-chi`, copertine con `strumenti/copertine_reel.py <nomi>` (ora accetta i nomi da rifare). Media su Metricool dal commit 54f778d. Reel con autoPublish false (Stefano aggiunge il brano e pubblica).
+
+| Quando | Pilastro · fase | Contenuto | Tipo | Metricool | IA | Musica da cercare |
+|---|---|---|---|---|---|---|
+| Lun 9/11, 19:00 | È proprio così · 1 | Reel in sospeso "«Passo un attimo» in cantiere" (orologio 14:00→18:30, rivelazione "Mezza giornata. Su nessuna commessa."), clip racconto "porta" | reel normale, 14,8 s | 419790569 | sì | deep house chill, driving electronic, soft techno |
+| Mar 10/11, 13:00 | Il conto · 2 | Carosello crema "La soglia del forfettario, in giornate" (documento n. 1, tabella 65/85/100 mila con 210 e 180 giornate). Notizia da ricontrollare la mattina: ddl di Bilancio, proposta, non legge | carosello 5, automatico | 419790581 | no | — |
+| Mer 11/11, 19:00 | È proprio così · 1 | Reel in sospeso "«è solo una piccola modifica»" (contatore 1→3 mezze giornate, rivelazione "480 € di lavoro. Fatturati: 0 €."), clip racconto "tavole" | reel normale, 13,2 s | 419790595 | sì | late night lo-fi, chill electronic, ambient minimal |
+| Gio 12/11, 13:00 | Il tuo numero · 3 | Domanda lime "La tua ultima commessa chiusa, quanto ti ha pagato a giornata?" A/B/C + AUTOPSIA in DM | immagine, automatica | 419790606 | no | — |
+| Ven 13/11, 19:00 | Due tap · 4 | Reel in sospeso "Una di queste quattro commesse è in perdita. Quale?" (carte coperte, due tap, schermata del titolare, carte scoperte), app vera | reel normale, 13,4 s | 419790619 | no | chill electronic, lo-fi house, minimal house |
+| Dom 15/11, 11:00 | Niente · 1 | Niente episodio 2: cronometro · ore da giustificare · varianti regalate · previsioni a occhio · «chi ci ha lavorato?» | reel normale, 14,2 s | 419790628 | no | minimal house, glitch electronic, clicky beats |
+
+Dati al 7/11 (prima settimana): reel senza condivisioni né commenti; "Ore 19" visione media 2,8 s su 13, 18% oltre i 3 s; "Come funziona" 15 s su 42, 20%. Caroselli e domande senza salvataggi. 20 parcelle dal calcolatore dal 2 al 6/11. 2 studi da /installa (4/11), nessuno risponde alle 19. 12 follower, 72 seguiti.
+Prossima ripresa da chiedere: "venerdì, le fasi" dallo Studio di esempio, entro il 17/11 per il reel Due tap del 20/11 (promemoria a Stefano il 14/11 alle 10:30).
+
 ## LinkedIn · pagina aziendale Clepsi
 Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi un documento → icona dell'orologio accanto a Pubblica). Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
 
@@ -92,11 +107,34 @@ Testo gio 5/11:
 > www.clepsi.it
 > #studiodiarchitettura #ingegneria #gestionestudio
 
-## Reel disponibili (14, in `reel/`)
+Settimana 9–15/11 (testi approvati da Stefano il 7/11):
+
+| Quando | Post | File | Titolo documento |
+|---|---|---|---|
+| Lun 9/11, 9:00 | La soglia del forfettario, in giornate (PDF) | linkedin/clepsi-forfettario-in-giornate.pdf | La soglia del forfettario, in giornate |
+| Gio 12/11, 9:00 | Sondaggio nativo (durata 1 settimana): "L'ultima commessa chiusa, quanto ti ha pagato a giornata?" · opzioni "Più di quanto mi costa" / "Meno di quanto mi costa" / "Non l'ho mai calcolato" | — | — |
+
+Testo lun 9/11 (ricontrollare la mattina che la soglia sia ancora solo una proposta):
+> La soglia del regime forfettario potrebbe salire da 85.000 a 100.000 € dal 2027. Lo propone il disegno di legge di Bilancio approvato dal Consiglio dei Ministri il 28 ottobre; ora è in Parlamento, e per l'IVA la soglia resterebbe a 85.000 €. Fino al 18 novembre il MEF raccoglie anche le opinioni dei professionisti sulla soglia attuale, con un questionario online.
+> Per uno studio però la domanda utile è un'altra: quanto deve rendere ogni giornata di lavoro? Con 210 giornate l'anno, 85.000 € sono 405 € a giornata, 100.000 € sono 476 €. Una commessa da 9.000 € che richiede 34 giornate ne paga 265 (esempio).
+> Nel documento c'è la tabella completa, da tenere accanto al prossimo preventivo.
+> Clepsi conta le giornate di ogni commessa con due tap la sera, senza timesheet, e dice come chiuderà mentre è ancora aperta.
+> Prova l'app gratis: www.clepsi.it/installa
+> #regimeforfettario #architetti #ingegneri
+
+Testo gio 12/11 (con il sondaggio):
+> Una domanda per chi ha uno studio di architettura o di ingegneria.
+> Il compenso di una commessa, diviso per le giornate che ha davvero richiesto, dà un numero solo: quanto ti ha pagato ogni giornata. Confrontato con quanto ti costa una giornata dello studio, dice se quella commessa ti ha fatto guadagnare.
+> Per il costo della giornata abbiamo messo online uno strumento gratuito su www.clepsi.it. Per le giornate c'è Clepsi: ogni sera il team indica con due tap su quale commessa ha lavorato, e il titolare vede come chiuderà ogni commessa mentre è ancora aperta.
+> Prova l'app gratis: www.clepsi.it/installa
+> #gestionestudio #architetti #ingegneri
+
+## Reel disponibili (18, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
 - Già usati o programmati: serata 1 (24/10), racconto 1 (27/10), racconto 2 strappo (28/10 sera, pubblicato a mano da Stefano come reel normale), serata 2 tennis (30/10 sera, pubblicato da Stefano come reel normale con copertina), serata 3 cena (spostata a sab 7/11 11:00, reel normale con notifica, id 412416803). Da usare: serata 4, racconto 3–6.
 - Reel dell'app vera (28/10, "Studio di esempio" nell'account info@clepsi.it, script `strumenti/reel_app.py`, pezzi tagliati in `sorgenti/app/`): `reel-app-come-funziona.mp4` (42 s, da fissare in alto sul profilo, reel normale), `reel-app-1-ore-19.mp4` (13 s, gancio "10 secondi la sera. Niente timesheet."), `reel-app-2-la-mattina-dopo.mp4` (14 s, gancio "−667 €. Lo sai adesso, non a fine lavori."), `reel-app-3-la-settimana.mp4` (8 s, gancio "Chi ha lavorato su cosa? Senza chiederlo a nessuno."). Senza musica (la aggiunge Stefano). Tutti come reel normali. Programmati tutti e quattro nella settimana 2–8/11 (vedi sopra). Dalla settimana del 9/11 servono reel nuovi (o serata 4 e racconto 3–6): proporre nuove riprese dall'app (es. venerdì le fasi, bilancio, varianti, previsione ferma) o montaggi dai pezzi in `sorgenti/app/`.
+- Reel in sospeso (7/11, `strumenti/reel_sospeso.py`, voci in `REEL`): `reel-sospeso-1-cantiere.mp4` (clip racconto porta), `reel-sospeso-2-modifica.mp4` (clip racconto tavole), `reel-sospeso-3-quale.mp4` (app vera: domanda_c + titolare_g). Tutti programmati nella settimana 9–15/11. Clip del racconto ancora libere: sabbia, orologio (serata 4 divano e racconto 3–6 come reel interi restano non usati, ma i reel interi non seguono più la regola del gancio e del sospeso). Pezzi dell'app quasi esauriti: servono riprese nuove (prima: venerdì, le fasi).
 - Lo "Studio di esempio" resta nel database dell'app per altre schermate (es. carosello "4 passi"); se l'app segna "Previsione ferma", manca la riga del venerdì in public.variants (anche con 0 mezze giornate) per la settimana scaduta.
 - Reel di prova: Metricool li crea con shareTrialAutomatically false, quindi restano visibili solo a chi non ci segue. Se vanno bene, si possono condividere sul profilo dall'app di Instagram. Nessun esperimento nella settimana del 2/11.
 - Per aggiornare un reel già programmato su Metricool usare l'URL con l'impronta del commit, non `main`.
@@ -106,10 +144,12 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Script `strumenti/reel_niente.py`: per un episodio nuovo si aggiunge una voce in `EPISODI` (parole in ordine e parola della copertina) e si lancia `python3 strumenti/reel_niente.py <nome>`. Esce in `lavoro/niente/`, copertina in `copertine/<nome>.jpg`: è il fotogramma del reel con l'ultima parola e il logo sotto (deciso con Stefano: niente scritta "serie").
 - Uscita: un episodio a settimana, la domenica alle 11.
 - Episodio 1 (1/11): timer · timesheet · ore da segnare · fogli Excel · scuse (le parole del sito).
+- Episodio 2 (15/11, `reel-niente-2-chi`): cronometro · ore da giustificare · varianti regalate · previsioni a occhio · «chi ci ha lavorato?» (copertina: l'ultima). Con parole così lunghe i caratteri vengono più piccoli: dal prossimo, parole più corte.
 - Idee per i prossimi, da approvare: per il titolare "sorprese a fine commessa · conti a fine anno · «pensavo ci guadagnassimo»"; per i collaboratori "cronometro · ore da giustificare · riunioni del lunedì"; per il capo commessa "«tu su cosa sei?» · varianti regalate · previsioni a occhio". Parole brevi: la più lunga fissa la dimensione dei caratteri.
 
 ## Attività programmate
 - Promemoria con file e didascalia 5 minuti prima dei reel da pubblicare a mano: dom 1/11 10:55 (Niente 1), sab 7/11 10:55 (serata 3 cena).
+- Sab 14/11 10:30: promemoria a Stefano per la ripresa "venerdì, le fasi" (chiesto da lui il 7/11).
 - 9:27 ogni giorno "Clepsi Instagram · controllo casella": DM e commenti da Business Suite, promemoria LinkedIn, dal 27/10 anche profili da seguire (dal 1/11 3–5 al giorno) e 6–8 commenti proposti, più like mirati. Richiede il PC di Stefano acceso con l'app Claude.
 - Dal 7/11 il controllo del mattino propone anche 2 messaggi al giorno per la prova dell'app agli studi "caldi" (vedi 4d e `collaborazioni.md`) e segnala per primo chi risponde.
 - 19:57 ogni giorno "Clepsi Instagram · controllo serale": solo DM e commenti.
@@ -117,10 +157,11 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Follow e interazioni (decisi il 31/10 con Stefano): 3–5 follow al giorno, solo profili scelti bene, finché il profilo non supera 100 follower; obiettivo restare sotto 150–200 seguiti fino ad allora. Più interazioni: 6–8 commenti al giorno (max 10) sotto i post di profili già seguiti, soprattutto quelli di collaborazioni.md e chi ci ha seguito o ha interagito; like ai post commentati e ad altri 5–10 post recenti dei profili seguiti; risposte a ogni commento ricevuto (sotto i nostri post o in risposta ai nostri commenti). Tutto con OK di Stefano. Mai segui-e-togli.
 - Fonte dei follow (deciso il 2/11): dopo collaborazioni e chi interagisce con noi, il pubblico dei software per studi: chi commenta o mette like a @accasoftware (9K, italiano), @wethod.app (2K, italiano, solo studi tecnici) e @monographhq (18K, USA: solo italiani). Prima chi commenta, poi poche decine di follower al giorno. Mai commentare sotto i loro post.
 
-## Cosa dice il sito (controllato il 29/10: testo invariato dal 22/10) · i contenuti devono restare allineati
+## Cosa dice il sito (controllato il 7/11) · i contenuti devono restare allineati
+- **Cambi visti il 5/11 (rispetto al 29/10):** la domanda "Quando apre?" è diventata "Posso provarla adesso?" ("Sì. Funziona già… Le app per iPhone e Android arrivano sugli store più avanti; intanto si installa dal browser in un minuto"); pagine nuove dal 29/10: strumento gratuito "Quanto costa una giornata dello studio" (/costo-giornata-studio: persone, spese, 210 giornate l'anno, coefficiente 1,38 sulla RAL, esempio media 196 €; non salva niente) e "Gestionale per studi di architettura" (/gestionale-studio-architettura, stessi dati di esempio, SBR con fasi Fattibilità 6 di 6, Esecutivo 12 di 10, Esecuzione 2 di 9); in home "Hai uno studio di architettura o di ingegneria? Ogni sera il tuo team indica con due tap dove ha lavorato…", link "Guarda prima uno studio di esempio", prezzi nella domanda "Quanto costa?" (nei post non si usano); su /installa "Per ora Clepsi funziona solo sul telefono", su iPhone senza iOS 16.4 la domanda delle 19 arriva per email, "Quando Clepsi arriverà sugli store, perdo i miei dati? No". Il 6/11 nessun cambio di testo.
 - **Dal 31/10 sera niente lista d'attesa:** l'app si prova subito, gratis e senza carta, da www.clepsi.it/installa (pulsante "Prova l'app" in tutte le pagine; si installa dal browser, non è sugli store). Chiusura di didascalie e contenuti: "Prova l'app: link in bio. I primi 100 studi pagano la metà il primo anno." Mai "lista d'attesa", mai "per sempre"; "beta" solo per spiegare perché non è sugli store (titolo di /installa: "Entra nella community di Clepsi."). Didascalie programmate aggiornate il 31/10 sera; slide 4 di "Cos'è Clepsi" rifatta ("Provala adesso.", file in settimana-2/cos-e-prova-app/).
 - 27/10: nel piè di pagina icone Instagram (@clepsi.official, prima puntava a @clepsi) e LinkedIn (linkedin.com/company/clepsi-app).
-- Dettagli utili già sul sito: promemoria alle 21 per chi non risponde; si può rispondere anche nei due giorni dopo; ognuno corregge le proprie giornate fino alla domenica; il costo delle persone lo vede solo chi amministra lo studio; "Quando apre?": l'app si proverà prima con pochi studi, chi è in lista viene avvisato per primo e può candidarsi alla prova (nessuna data).
+- Dettagli utili già sul sito: promemoria alle 21 per chi non risponde; si può rispondere anche nei due giorni dopo; ognuno corregge le proprie giornate fino alla domenica; il costo delle persone lo vede solo chi amministra lo studio; "Posso provarla adesso?": sì, gratis e senza carta, store più avanti (nessuna data).
 - I dati dello "Studio di esempio" nell'app (reel) sono diversi dai dati di esempio del sito: nelle didascalie usare quelli visibili a schermo.
 - Titolo: "Sai quanto ti rende ogni commessa. Mentre la fai." Claim social: "Ogni sera / due tap."
 - Promessa centrale: la previsione. Clepsi dice come chiuderà ogni commessa, quando c'è ancora tempo per rimediare (non un bilancio a cose fatte).
