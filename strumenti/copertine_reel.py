@@ -25,6 +25,9 @@ COPERTINE = {
     'reel-sera-2-tennis': ('Mercoledì, ore 19:40', 'Due tap *dopo il tennis*.', 'scena', 'sorgenti/serate/dopo-le-19-4x5.mp4', 10.7),
     'reel-sera-3-cena': ('Giovedì, ore 20:30', 'Due tap *prima di cena*.', 'scena', 'sorgenti/serate/dopo-le-19-4x5.mp4', 17.9),
     'reel-sera-4-divano': ('Venerdì, ore 21:15', 'Due tap *dal divano*.', 'scena', 'sorgenti/serate/dopo-le-19-4x5.mp4', 25.1),
+    'reel-sospeso-1-cantiere': ('Il sopralluogo', '«Passo un *attimo*»', 'scena', 'sorgenti/racconto/s3-porta.mp4', 2.5),
+    'reel-sospeso-2-modifica': ('Le varianti', 'Solo una *piccola* modifica', 'scena', 'sorgenti/racconto/s6-tavole.mp4', 3.0),
+    'reel-sospeso-3-quale': ('Studio di esempio', 'Quale è *in perdita*?', 'app', 'lavoro/sospeso/reel-sospeso-3-quale.mp4', 8.9),
 }
 LOGO = ("<svg width='46' height='46' viewBox='0 0 22 22'><circle cx='11' cy='11' r='9.5' fill='none' stroke='#D4FF3A' stroke-width='1.6'/>"
         "<path d='M11 1.5 A9.5 9.5 0 0 0 11 20.5 Z' fill='#D4FF3A'/></svg>")
@@ -52,7 +55,8 @@ def html(sopra, titolo, tipo, img):
             f"<div class='b' style='font-size:96px;line-height:.98;letter-spacing:-.04em;margin-top:22px'>{tit}</div></div>{box}")
 
 if __name__ == '__main__':
-    voci = {n: html(s, ti, tp, fotogramma(n, tp, src, t)) for n, (s, ti, tp, src, t) in COPERTINE.items()}
+    solo = sys.argv[1:] or list(COPERTINE)   # nomi da rifare; senza argomenti tutte
+    voci = {n: html(s, ti, tp, fotogramma(n, tp, src, t)) for n, (s, ti, tp, src, t) in COPERTINE.items() if n in solo}
     render_pngs(voci, W)
     for n in voci:
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(W / f'{n}.png'), '-q:v', '2', str(OUT / f'{n}.jpg')], check=True)

@@ -26,6 +26,10 @@ EPISODI = {
         'parole': ['timer', 'timesheet', 'ore da segnare', 'fogli Excel', 'scuse'],
         'copertina': 'scuse',
     },
+    'reel-niente-2-chi': {
+        'parole': ['cronometro', 'ore da giustificare', 'varianti regalate', 'previsioni a occhio', '«chi ci ha lavorato?»'],
+        'copertina': '«chi ci ha lavorato?»',
+    },
 }
 PASSO = 1.2          # secondi per parola
 ULTIMA = 1.8         # la battuta finale
