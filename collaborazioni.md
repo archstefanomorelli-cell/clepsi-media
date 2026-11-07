@@ -97,7 +97,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 6/11 | @idd.ingegneri_del_domani | commento sotto "FAQ sull'esame di Stato" (uscito due volte per errore: Stefano ne cancella uno dall'app) · like al post |
 | 6/11 | @alessiapaulliarchitetto | like al suo "grazie" · commento sotto "Arredare online? 7 dettagli" · like al post |
 | 6/11 | @linda_russo_architetto, @gici_arch | like a "Dietro ad ogni progetto concluso" e a "Lo fanno tutti" |
-| 7/11 | @arch_danilo_carella | arrivati i dati dell'autopsia in DM (parcella 8k, SCIA 2 h, rilievo 1 persona, 5 revisioni, progetto 50 h, materiali 8 h, cantiere 6 mesi con ~200 h previste). Stefano: non chiedere altro · inviato DM con le ipotesi sui dati mancanti (rilievo 8 h, revisioni dentro le 50 h, tutto seguito da lui, 8k netti di IVA e cassa, 200 h di cantiere come totale), OK di Stefano. Conto: 268 h = 33,5 giornate, ~239 €/giornata, cantiere 75%. Prossimo passo: preparare la bozza dell'autopsia |
+| 7/11 | @arch_danilo_carella | arrivati i dati dell'autopsia in DM (parcella 8k, SCIA 2 h, rilievo 1 persona, 5 revisioni, progetto 50 h, materiali 8 h, cantiere 6 mesi con ~200 h previste). Stefano: non chiedere altro · inviato DM con le ipotesi sui dati mancanti (rilievo 8 h, revisioni dentro le 50 h, tutto seguito da lui, 8k netti di IVA e cassa, 200 h di cantiere come totale), OK di Stefano. Conto: 268 h = 33,5 giornate, ~239 €/giornata, cantiere 75%. Danilo corregge: rilievo 2 h, revisioni nelle 50 h, 8k + IVA e cassa, 200 h di cantiere in totale → 262 h ≈ 32,75 giornate, ~244 €/giornata, cantiere 76%. Risposto (OK di Stefano) che prepariamo la bozza. Prossimo passo: la bozza dell'autopsia |
 | 7/11 | @gici_arch | 3° commento, sotto il reel "Ho bisogno di un progetto per cambiare i pavimenti?" · like al reel |
 | 7/11 | @robertaplumari_architetto | 4° commento, sotto il reel "La vera domanda non è come sopravvivere" (i confini: incarico firmato prima di iniziare) · like al reel |
 | 7/11 | @matteo_pozza_architetto | 2° commento, sotto il reel della visita FIMA (rubinetto, lavabo e luce) · like al reel |
@@ -141,7 +141,7 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 
 | Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
 |---|---|---|---|---|
-| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | 6/11 sera (OK di Stefano) | |
+| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | 6/11 sera (OK di Stefano) | 7/11: "potrebbe essere una cosa interessante, sentiamoci la settimana prossima per capire meglio" |
 | @pria.studio | Ha risposto (2700K sui comodini), like ai commenti | la luce in camera e i 2700K | 6/11 sera (OK di Stefano) | |
 | @ihstudioit | Ha risposto il 6/11 (privacy e strada), like al commento | la Villa Minimal a Desenzano | 7/11 (OK di Stefano) | |
 | @arch.clarissastefano | Ci segue dal 28/10, like ai commenti | la casetta ereditata a Vasto | | |
