@@ -14,7 +14,7 @@ Approvato da Stefano il 26/10/2026. Lista compilata il 26/10 cercando su Instagr
 |---|---|---|---|---|
 | @idd.ingegneri_del_domani | 15K | Ingegneria e professione: codici ATECO, redditi, divario di genere | 30/10 (DM, tema: riforma dell'ingegneria ed esame di Stato) | 31/10: prima no ("non lavoriamo a commessa"), poi aperti solo a pagamento o con una proposta strutturata. 31/10 sera: dati del mese (340.000 visualizzazioni, 6.500 interazioni, 21.000 visualizzazioni storie; post da 20.000 a 85.000 visualizzazioni) e tariffe 180 € un post, 300 € due, 350 € tre. Rimandato da Stefano (l'app non porta ancora ricavi): risposto che li ricontattiamo; da riprendere con gli abbonamenti attivi. 1/11: chiudono cordiali ("quando volete siamo qua"); 2/11 ringraziato (OK di Stefano) |
 | @linda_russo_architetto | 1,6K | Temi della professione: polizze, tutele dell'architetto | 30/10 (DM, tema: polizze e tutele) | |
-| @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | 2/11 sera: "Parliamone!" · risposto con i dati da mandarci e l'offerta di una bozza con dati di esempio (tema Inarcassa e incassi in ritardo), OK di Stefano; attendere la commessa scelta |
+| @robertaplumari_architetto | 1,3K | Inarcassa, debiti contributivi, difficoltà della libera professione | 30/10 (DM, tema: Inarcassa, libera professione, cantiere) | 2/11 sera: "Parliamone!" · risposto con i dati da mandarci e l'offerta di una bozza con dati di esempio (tema Inarcassa e incassi in ritardo), OK di Stefano; attendere la commessa scelta. 9/11: si scusa (qualche giorno di influenza), manderà tutto nei prossimi giorni · risposto (OK di Stefano): nessuna fretta, bastano numeri a spanne |
 | @_architrash_ | 48K | Satira sulla professione (Inarcassa, clienti, parcelle). Fuori fascia ma pubblico perfetto: proporre un formato ironico | 31/10 (DM, formato ironico "autopsia in chiave architrash") | |
 
 ## Fascia B · architetti con studio che parlano ai clienti
@@ -105,6 +105,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 9/11 | @robertaplumari_architetto | risposta alla sua replica sotto "La vera domanda non è come sopravvivere" (incontro preliminare = lavoro anticipato o consulenza gratis; incarico firmato prima dei primi schizzi), OK di Stefano. Dati per l'autopsia non ancora arrivati |
 | 9/11 | @arch_danilo_carella | commento sotto "Prima di demolire una parete, fermati" (verifiche prima di una demolizione) · like al post |
 | 9/11 | @alessiapaulliarchitetto | commento sotto "Bonus edilizi 2027" (con quanto anticipo chiamare l'architetto) · like al post |
+| 9/11 | @robertaplumari_architetto | DM: influenza, dati dell'autopsia nei prossimi giorni · risposto "nessuna fretta, bastano numeri a spanne, nulla esce senza il tuo OK" (OK di Stefano) |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
 
