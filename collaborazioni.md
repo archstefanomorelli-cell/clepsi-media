@@ -152,7 +152,7 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 
 | Profilo | Perché è "caldo" | Aggancio per la prima riga | Proposto | Risposta |
 |---|---|---|---|---|
-| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | 6/11 sera (OK di Stefano) | 7/11: "potrebbe essere una cosa interessante, sentiamoci la settimana prossima per capire meglio" · risposto (OK di Stefano) chiedendo se preferiscono chiamata o messaggi, per noi dopo le 18:30, giorno a loro scelta; attendere |
+| @officinaabitare | Ci segue dal 6/11, ha risposto 3 volte, like ai commenti | il graticcio della Casa del Mandorlo | 6/11 sera (OK di Stefano) | 7/11: "potrebbe essere una cosa interessante, sentiamoci la settimana prossima per capire meglio" · risposto (OK di Stefano) chiedendo se preferiscono chiamata o messaggi, per noi dopo le 18:30, giorno a loro scelta; nessuna risposta · 10/11 messaggio (OK di Stefano, tono informale, senza proporre chiamate né orari) con Clepsi in breve e i 3 passi per partire (installa, crea lo studio e una commessa, invita il team), studio di esempio, offerta; verificato, una volta sola. Stefano: non insistere con chiamate |
 | @pria.studio | Ha risposto (2700K sui comodini), like ai commenti | la luce in camera e i 2700K | 6/11 sera (OK di Stefano) | |
 | @ihstudioit | Ha risposto il 6/11 (privacy e strada), like al commento | la Villa Minimal a Desenzano | 7/11 (OK di Stefano) | |
 | @arch.clarissastefano | Ci segue dal 28/10, like ai commenti | la casetta ereditata a Vasto | 9/11 (OK di Stefano) | |
