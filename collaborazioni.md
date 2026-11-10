@@ -157,6 +157,9 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 | @ihstudioit | Ha risposto il 6/11 (privacy e strada), like al commento | la Villa Minimal a Desenzano | 7/11 (OK di Stefano) | |
 | @arch.clarissastefano | Ci segue dal 28/10, like ai commenti | la casetta ereditata a Vasto | 9/11 (OK di Stefano) | |
 | @ylenialeonardingegnere | Ha risposto 2 volte (cerchiatura), like ai commenti | la parete portante e l'open space | 7/11 (OK di Stefano, al "tu") | |
+| @dejanafiamma | Walter (@walterdejana) ha risposto sotto Casa Diagonale e messo like a 3 nostri commenti | il sand-casting della Sala dei Giganti e le prove fino al modello 1:1 | 10/11 (OK di Stefano; verificato, una volta sola) | |
+| @icona_architetti_associati | Like ai nostri commenti (corridoio di 25 m), anche il 9/11 | il corridoio di 25 metri "stanza srotolata" | 10/11 (OK di Stefano; verificato, una volta sola) | |
+| @alessiapaulliarchitetto | Ha risposto 3 volte, like ai commenti | i bonus edilizi 2027 | 10/11 (OK di Stefano, al "tu"; verificato, una volta sola) | 10/11 solo messaggio automatico di benvenuto |
 | Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
 
 ## Messaggio · fascia A
