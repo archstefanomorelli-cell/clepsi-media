@@ -189,6 +189,12 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Nella prima ora dall'uscita: rispondere ai commenti; all'inizio chiedere a colleghi e amici di guardarlo e commentare.
 - Follow: 3–5 al giorno, solo profili scelti; più commenti veri che follow (rapporto seguiti/follower da tenere sotto controllo). Al 31/10: 11 post, 9 follower, 58 seguiti (dopo i 12 follow del giorno).
 
+## Reel a elenco numerato (11/11, idea di Stefano da una pubblicità di Magisterut)
+Promessa numerata in apertura ("4 cose che fa al posto tuo"), poi un punto per schermata con contatore "1 / 4" sempre visibile, titolo su due righe (domanda bianca + risposta lime, beneficio e non funzione) e sotto l'app vera; chiusura con le etichette dei punti e "Prova l'app gratis". Il contatore tiene chi guarda fino alla fine. Pilastro "Due tap" (fase 4); è anche il formato per le sponsorizzazioni con obiettivo "visite al sito".
+- `reel/reel-quattro-cose.mp4` (20,9 s, copertina in copertine/), script `strumenti/reel_quattro.py`: timesheet in due tap · come chiuderà · perdita vista in tempo · settimana dello studio. Non ancora programmato.
+- Da fare (Stefano, 11/11): la stessa idea per la facilità d'avvio, "Tre passi e lo studio è pronto": crea lo studio, crea una commessa (anche dalla parcella del calcolatore), invita il team. Serve una registrazione dello schermo nuova dall'inizio, con un account di prova creato da Stefano.
+- Possibile quinto punto in futuro: "La parcella? Diventa la commessa." (registrazione del calcolatore che si apre in Clepsi).
+
 ## Strategia: far emergere il bisogno (dal 9/11, decisa con Stefano il 4/11)
 Documento completo: "Strategia Instagram Clepsi: far emergere il bisogno" (doc negli artefatti di Stefano). Gli studi hanno il problema ma non lo sentono finché non lo vedono in un numero loro: ogni contenuto porta lo studio alla fase successiva, e a una sola.
 
