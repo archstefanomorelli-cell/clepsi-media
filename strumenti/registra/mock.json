@@ -1,0 +1,335 @@
+[
+{
+"u": "/rest/v1/studios?select=timezone%2Cevening_days&id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"timezone\":\"Europe/Rome\",\"evening_days\":[1,2,3,4,5]}"
+},
+{
+"u": "/rest/v1/members?select=id%2Cname%2Cwork_days%2Creceives_question%2Cstatus%2Cuser_id&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&order=created_at.asc",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"name\":\"Marta Rossi\",\"work_days\":[1,2,3,4,5],\"receives_question\":true,\"status\":\"active\",\"user_id\":\"b3484d45-dc2c-4695-9d4e-8caa50a7b883\"}, \n {\"id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"name\":\"Luca Bianchi\",\"work_days\":[1,2,3,4,5],\"receives_question\":true,\"status\":\"active\",\"user_id\":null}, \n {\"id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"name\":\"Sara Conti\",\"work_days\":[1,2,3,4,5],\"receives_question\":true,\"status\":\"active\",\"user_id\":null}, \n {\"id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"name\":\"Paolo Greco\",\"work_days\":[1,2,3,4,5],\"receives_question\":true,\"status\":\"active\",\"user_id\":null}]"
+},
+{
+"u": "/rest/v1/half_days?select=member_id%2Cday%2Chalf%2Ckind%2Cproject_id%2Cshare&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&day=gte.2026-11-09&day=lte.2026-11-15",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-29/*",
+"t": "[{\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"day\":\"2026-11-09\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"day\":\"2026-11-09\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-09\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-09\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-09\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-09\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-09\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-09\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"day\":\"2026-11-10\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"share\":1.0000}, \n {\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"day\":\"2026-11-10\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-10\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-10\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-10\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-10\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-10\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-10\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"day\":\"2026-11-11\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"day\":\"2026-11-11\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-11\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-11\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-11\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-11\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-11\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-11\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-12\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"share\":1.0000}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"day\":\"2026-11-12\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-12\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"day\":\"2026-11-12\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-12\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"share\":1.0000}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"day\":\"2026-11-12\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"share\":1.0000}]"
+},
+{
+"u": "/rest/v1/projects?select=id%2Cname%2Ccode%2Ccolor%2Clead_member_id&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"name\":\"Loft Navigli\",\"code\":\"LNA\",\"color\":\"#6FD3FF\",\"lead_member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\"}, \n {\"id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"name\":\"Scuola Brera\",\"code\":\"SBR\",\"color\":\"#9B8CFF\",\"lead_member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\"}, \n {\"id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"name\":\"Uffici Lambrate\",\"code\":\"ULA\",\"color\":\"#FF9ECF\",\"lead_member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\"}, \n {\"id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"name\":\"Villa Rossi\",\"code\":\"VRO\",\"color\":\"#D4FF3A\",\"lead_member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\"}]"
+},
+{
+"u": "/rest/v1/studios?select=timezone&id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"timezone\":\"Europe/Rome\"}"
+},
+{
+"u": "/rest/v1/members?select=id%2Cname&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"name\":\"Marta Rossi\"}, \n {\"id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"name\":\"Luca Bianchi\"}, \n {\"id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"name\":\"Sara Conti\"}, \n {\"id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"name\":\"Paolo Greco\"}]"
+},
+{
+"u": "/rest/v1/projects?select=id%2Cname%2Ccode%2Ccolor%2Clead_member_id&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&status=eq.active&order=name.asc",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"name\":\"Loft Navigli\",\"code\":\"LNA\",\"color\":\"#6FD3FF\",\"lead_member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\"}, \n {\"id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"name\":\"Scuola Brera\",\"code\":\"SBR\",\"color\":\"#9B8CFF\",\"lead_member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\"}, \n {\"id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"name\":\"Uffici Lambrate\",\"code\":\"ULA\",\"color\":\"#FF9ECF\",\"lead_member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\"}, \n {\"id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"name\":\"Villa Rossi\",\"code\":\"VRO\",\"color\":\"#D4FF3A\",\"lead_member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\"}]"
+},
+{
+"u": "/rest/v1/project_members?select=project_id&member_id=eq.ce893d87-b0f6-4cb7-99d5-e394b5ad0572",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\"}, \n {\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\"}, \n {\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\"}, \n {\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\"}]"
+},
+{
+"u": "/rest/v1/studios?select=timezone%2Cevening_time%2Cevening_days%2Creminder_enabled%2Creminder_delay_minutes&id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"timezone\":\"Europe/Rome\",\"evening_time\":\"19:00:00\",\"evening_days\":[1,2,3,4,5],\"reminder_enabled\":true,\"reminder_delay_minutes\":120}"
+},
+{
+"u": "/rest/v1/half_days?select=half&member_id=eq.ce893d87-b0f6-4cb7-99d5-e394b5ad0572&day=eq.2026-11-12",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "*/*",
+"t": "[]"
+},
+{
+"u": "/rest/v1/members?select=id%2Cname%2Cevening_time%2Cwork_days%2Creceives_question&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&status=eq.active&user_id=not.is.null",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-0/*",
+"t": "[{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"name\":\"Marta Rossi\",\"evening_time\":null,\"work_days\":[1,2,3,4,5],\"receives_question\":true}]"
+},
+{
+"u": "/rest/v1/half_days?select=member_id%2Chalf&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&day=eq.2026-11-12",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-5/*",
+"t": "[{\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"half\":\"am\"}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"half\":\"pm\"}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"half\":\"am\"}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"half\":\"pm\"}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"half\":\"am\"}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"half\":\"pm\"}]"
+},
+{
+"u": "/functions/v1/conti-commesse",
+"m": "POST",
+"b": "{}",
+"s": 200,
+"ct": "application/json",
+"cr": "",
+"t": "{\"costoMedioCent\":21571,\"commesse\":[{\"id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"compensoCent\":7200000,\"variantiPagateCent\":0,\"giornateUsate\":157,\"costoMezzeCent\":3593311,\"costiFinoraCent\":3593311,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.7277777777777777,\"costiPrevistiCent\":4937374,\"marginePrevistoCent\":2262626,\"stato\":\"bene\",\"costoGiornataCommessaCent\":22887,\"giornateCoperte\":157.58679599772796,\"giornateServono\":58.725190839694676,\"resaGiornataCent\":33376,\"fasi\":[{\"id\":\"f8b86640-529b-400c-a1f9-06ae83d6d6e0\",\"compensoCent\":1000000,\"stato\":\"done\",\"giornateBudget\":35,\"giornateUsate\":30,\"oltreBudget\":false,\"nome\":\"Studio di fattibilità\"},{\"id\":\"f6db780b-4f91-4c11-a5e0-74023395bf36\",\"compensoCent\":2200000,\"stato\":\"done\",\"giornateBudget\":76.5,\"giornateUsate\":70,\"oltreBudget\":false,\"nome\":\"Progetto definitivo\"},{\"id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\",\"compensoCent\":2400000,\"stato\":\"almost\",\"giornateBudget\":83.5,\"giornateUsate\":57,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"},{\"id\":\"adad8b27-7de1-4f45-b070-903b7d52b117\",\"compensoCent\":1600000,\"stato\":\"todo\",\"giornateBudget\":55.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Direzione lavori\"}],\"persone\":[{\"personaId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"giornate\":55.5,\"nome\":\"Luca Bianchi\"},{\"personaId\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"giornate\":55,\"nome\":\"Paolo Greco\"},{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":39,\"nome\":\"Marta Rossi\"},{\"personaId\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"giornate\":7.5,\"nome\":\"Sara Conti\"}],\"variantiMezze\":0,\"variantiValoreCent\":0,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":14,\"costoMezzaCent\":11575,\"varianti\":0},\"responsabileId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null},{\"id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"compensoCent\":4000000,\"variantiPagateCent\":0,\"giornateUsate\":55,\"costoMezzeCent\":1230954,\"costiFinoraCent\":1230954,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.3375,\"costiPrevistiCent\":3647271,\"marginePrevistoCent\":352729,\"stato\":\"guardare\",\"costoGiornataCommessaCent\":22381,\"giornateCoperte\":123.72306867432196,\"giornateServono\":107.96296296296296,\"resaGiornataCent\":24545,\"fasi\":[{\"id\":\"e87b6aae-42eb-49e2-8827-1f719da24f4e\",\"compensoCent\":700000,\"stato\":\"done\",\"giornateBudget\":24.5,\"giornateUsate\":21,\"oltreBudget\":false,\"nome\":\"Progetto preliminare\"},{\"id\":\"7976f832-1762-4ef0-9684-903675f85f35\",\"compensoCent\":1300000,\"stato\":\"half\",\"giornateBudget\":45,\"giornateUsate\":34,\"oltreBudget\":false,\"nome\":\"Progetto definitivo\"},{\"id\":\"4404452a-7386-4530-9c61-c76cc9d5a8db\",\"compensoCent\":1200000,\"stato\":\"todo\",\"giornateBudget\":41.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"},{\"id\":\"c9a21850-9db4-4a36-96fa-8264d6ee7967\",\"compensoCent\":800000,\"stato\":\"todo\",\"giornateBudget\":28,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Direzione lavori\"}],\"persone\":[{\"personaId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"giornate\":23.5,\"nome\":\"Luca Bianchi\"},{\"personaId\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"giornate\":16,\"nome\":\"Sara Conti\"},{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":15.5,\"nome\":\"Marta Rossi\"}],\"variantiMezze\":0,\"variantiValoreCent\":0,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":5,\"costoMezzaCent\":10623,\"varianti\":0},\"responsabileId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null},{\"id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"compensoCent\":2800000,\"variantiPagateCent\":0,\"giornateUsate\":86.5,\"costoMezzeCent\":1548700,\"costiFinoraCent\":1548700,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.4767857142857143,\"costiPrevistiCent\":3248210,\"marginePrevistoCent\":-448210,\"stato\":\"perdita\",\"costoGiornataCommessaCent\":17904,\"giornateCoperte\":69.88941018766756,\"giornateServono\":94.92322097378275,\"resaGiornataCent\":15434,\"fasi\":[{\"id\":\"c3ee2047-e56c-4209-ac7f-40b327f2e375\",\"compensoCent\":400000,\"stato\":\"done\",\"giornateBudget\":14,\"giornateUsate\":22,\"oltreBudget\":true,\"nome\":\"Rilievo\"},{\"id\":\"b52b0da7-9eea-4661-990b-cec7d9129f48\",\"compensoCent\":1100000,\"stato\":\"almost\",\"giornateBudget\":38,\"giornateUsate\":64.5,\"oltreBudget\":true,\"nome\":\"Progetto definitivo\"},{\"id\":\"f2185ee1-68a7-4131-84c3-a919cd6bb6ef\",\"compensoCent\":800000,\"stato\":\"todo\",\"giornateBudget\":28,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"},{\"id\":\"b9c698f6-06ed-408c-acd8-6e4d1149459a\",\"compensoCent\":500000,\"stato\":\"todo\",\"giornateBudget\":17.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Direzione lavori\"}],\"persone\":[{\"personaId\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"giornate\":55.5,\"nome\":\"Sara Conti\"},{\"personaId\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"giornate\":23,\"nome\":\"Paolo Greco\"},{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":8,\"nome\":\"Marta Rossi\"}],\"variantiMezze\":4,\"variantiValoreCent\":35831,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":9,\"costoMezzaCent\":8963,\"varianti\":0},\"responsabileId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null},{\"id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"compensoCent\":2000000,\"variantiPagateCent\":0,\"giornateUsate\":2.5,\"costoMezzeCent\":60316,\"costiFinoraCent\":60316,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.03,\"costiPrevistiCent\":null,\"marginePrevistoCent\":null,\"stato\":\"iniziata\",\"costoGiornataCommessaCent\":24126,\"giornateCoperte\":80.39807676365747,\"giornateServono\":null,\"resaGiornataCent\":null,\"fasi\":[{\"id\":\"efa0eeaa-3ad3-408c-8fa4-cea708d24795\",\"compensoCent\":300000,\"stato\":\"started\",\"giornateBudget\":10.5,\"giornateUsate\":2.5,\"oltreBudget\":false,\"nome\":\"Rilievo e concept\"},{\"id\":\"00cc535b-d350-4661-84a2-aad01d390eb1\",\"compensoCent\":900000,\"stato\":\"todo\",\"giornateBudget\":31.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto definitivo\"},{\"id\":\"d8baba95-35ae-4e69-a39c-d2b584bd143c\",\"compensoCent\":800000,\"stato\":\"todo\",\"giornateBudget\":28,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"}],\"persone\":[{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":1.5,\"nome\":\"Marta Rossi\"},{\"personaId\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"giornate\":1,\"nome\":\"Paolo Greco\"}],\"variantiMezze\":0,\"variantiValoreCent\":0,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":2,\"costoMezzaCent\":11718,\"varianti\":0},\"responsabileId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null}],\"resaPerTipo\":null}"
+},
+{
+"u": "/rest/v1/expenses?select=id&project_id=eq.41f3b76d-ccb8-4bc5-b89d-0b1379f48441",
+"m": "HEAD",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "*/0",
+"t": ""
+},
+{
+"u": "/rest/v1/projects?select=name%2Ccode%2Ccolor%2Cassignment_type%2Clead_member_id%2Cstatus%2Cparcel_id&id=eq.41f3b76d-ccb8-4bc5-b89d-0b1379f48441",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"name\":\"Uffici Lambrate\",\"code\":\"ULA\",\"color\":\"#FF9ECF\",\"assignment_type\":null,\"lead_member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"status\":\"active\",\"parcel_id\":null}"
+},
+{
+"u": "/functions/v1/conti-commesse",
+"m": "POST",
+"b": "{\"commessa\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\"}",
+"s": 200,
+"ct": "application/json",
+"cr": "",
+"t": "{\"costoMedioCent\":21571,\"commesse\":[{\"id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"compensoCent\":2800000,\"variantiPagateCent\":0,\"giornateUsate\":86.5,\"costoMezzeCent\":1548700,\"costiFinoraCent\":1548700,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.4767857142857143,\"costiPrevistiCent\":3248210,\"marginePrevistoCent\":-448210,\"stato\":\"perdita\",\"costoGiornataCommessaCent\":17904,\"giornateCoperte\":69.88941018766756,\"giornateServono\":94.92322097378275,\"resaGiornataCent\":15434,\"fasi\":[{\"id\":\"c3ee2047-e56c-4209-ac7f-40b327f2e375\",\"compensoCent\":400000,\"stato\":\"done\",\"giornateBudget\":14,\"giornateUsate\":22,\"oltreBudget\":true,\"nome\":\"Rilievo\"},{\"id\":\"b52b0da7-9eea-4661-990b-cec7d9129f48\",\"compensoCent\":1100000,\"stato\":\"almost\",\"giornateBudget\":38,\"giornateUsate\":64.5,\"oltreBudget\":true,\"nome\":\"Progetto definitivo\"},{\"id\":\"f2185ee1-68a7-4131-84c3-a919cd6bb6ef\",\"compensoCent\":800000,\"stato\":\"todo\",\"giornateBudget\":28,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"},{\"id\":\"b9c698f6-06ed-408c-acd8-6e4d1149459a\",\"compensoCent\":500000,\"stato\":\"todo\",\"giornateBudget\":17.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Direzione lavori\"}],\"persone\":[{\"personaId\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"giornate\":55.5,\"nome\":\"Sara Conti\"},{\"personaId\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"giornate\":23,\"nome\":\"Paolo Greco\"},{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":8,\"nome\":\"Marta Rossi\"}],\"variantiMezze\":4,\"variantiValoreCent\":35831,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":9,\"costoMezzaCent\":8963,\"varianti\":0},\"responsabileId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null}],\"resaPerTipo\":null}"
+},
+{
+"u": "/rest/v1/studios?select=timezone%2Cevening_time&id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"timezone\":\"Europe/Rome\",\"evening_time\":\"19:00:00\"}"
+},
+{
+"u": "/rest/v1/members?select=work_days%2Cevening_time&id=eq.ce893d87-b0f6-4cb7-99d5-e394b5ad0572",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"work_days\":[1,2,3,4,5],\"evening_time\":null}"
+},
+{
+"u": "/rest/v1/projects?select=id%2Cname%2Ccode%2Ccolor&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&status=eq.active&order=name.asc",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"name\":\"Loft Navigli\",\"code\":\"LNA\",\"color\":\"#6FD3FF\"}, \n {\"id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"name\":\"Scuola Brera\",\"code\":\"SBR\",\"color\":\"#9B8CFF\"}, \n {\"id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"name\":\"Uffici Lambrate\",\"code\":\"ULA\",\"color\":\"#FF9ECF\"}, \n {\"id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"name\":\"Villa Rossi\",\"code\":\"VRO\",\"color\":\"#D4FF3A\"}]"
+},
+{
+"u": "/rest/v1/phases?select=id%2Cname%2Cposition%2Cstatus%2Cproject_id&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&order=position.asc",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-14/*",
+"t": "[{\"id\":\"f8b86640-529b-400c-a1f9-06ae83d6d6e0\",\"name\":\"Studio di fattibilità\",\"position\":0,\"status\":\"done\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\"}, \n {\"id\":\"e87b6aae-42eb-49e2-8827-1f719da24f4e\",\"name\":\"Progetto preliminare\",\"position\":0,\"status\":\"done\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\"}, \n {\"id\":\"c3ee2047-e56c-4209-ac7f-40b327f2e375\",\"name\":\"Rilievo\",\"position\":0,\"status\":\"done\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\"}, \n {\"id\":\"efa0eeaa-3ad3-408c-8fa4-cea708d24795\",\"name\":\"Rilievo e concept\",\"position\":0,\"status\":\"started\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\"}, \n {\"id\":\"00cc535b-d350-4661-84a2-aad01d390eb1\",\"name\":\"Progetto definitivo\",\"position\":1,\"status\":\"todo\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\"}, \n {\"id\":\"7976f832-1762-4ef0-9684-903675f85f35\",\"name\":\"Progetto definitivo\",\"position\":1,\"status\":\"half\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\"}, \n {\"id\":\"b52b0da7-9eea-4661-990b-cec7d9129f48\",\"name\":\"Progetto definitivo\",\"position\":1,\"status\":\"almost\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\"}, \n {\"id\":\"f6db780b-4f91-4c11-a5e0-74023395bf36\",\"name\":\"Progetto definitivo\",\"position\":1,\"status\":\"done\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\"}, \n {\"id\":\"f2185ee1-68a7-4131-84c3-a919cd6bb6ef\",\"name\":\"Progetto esecutivo\",\"position\":2,\"status\":\"todo\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\"}, \n {\"id\":\"4404452a-7386-4530-9c61-c76cc9d5a8db\",\"name\":\"Progetto esecutivo\",\"position\":2,\"status\":\"todo\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\"}, \n {\"id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\",\"name\":\"Progetto esecutivo\",\"position\":2,\"status\":\"almost\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\"}, \n {\"id\":\"d8baba95-35ae-4e69-a39c-d2b584bd143c\",\"name\":\"Progetto esecutivo\",\"position\":2,\"status\":\"todo\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\"}, \n {\"id\":\"adad8b27-7de1-4f45-b070-903b7d52b117\",\"name\":\"Direzione lavori\",\"position\":3,\"status\":\"todo\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\"}, \n {\"id\":\"b9c698f6-06ed-408c-acd8-6e4d1149459a\",\"name\":\"Direzione lavori\",\"position\":3,\"status\":\"todo\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\"}, \n {\"id\":\"c9a21850-9db4-4a36-96fa-8264d6ee7967\",\"name\":\"Direzione lavori\",\"position\":3,\"status\":\"todo\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\"}]"
+},
+{
+"u": "/rest/v1/half_days?select=day%2Chalf%2Ckind%2Cproject_id%2Cphase_id&member_id=eq.ce893d87-b0f6-4cb7-99d5-e394b5ad0572&day=gte.2026-10-22&order=day.desc",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-29/*",
+"t": "[{\"day\":\"2026-11-11\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"phase_id\":\"b52b0da7-9eea-4661-990b-cec7d9129f48\"}, \n {\"day\":\"2026-11-11\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-10\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"phase_id\":\"efa0eeaa-3ad3-408c-8fa4-cea708d24795\"}, \n {\"day\":\"2026-11-10\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"phase_id\":\"7976f832-1762-4ef0-9684-903675f85f35\"}, \n {\"day\":\"2026-11-09\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-09\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-06\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-06\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"phase_id\":\"efa0eeaa-3ad3-408c-8fa4-cea708d24795\"}, \n {\"day\":\"2026-11-05\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"phase_id\":\"7976f832-1762-4ef0-9684-903675f85f35\"}, \n {\"day\":\"2026-11-05\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-04\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"phase_id\":\"b52b0da7-9eea-4661-990b-cec7d9129f48\"}, \n {\"day\":\"2026-11-04\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-03\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"phase_id\":\"efa0eeaa-3ad3-408c-8fa4-cea708d24795\"}, \n {\"day\":\"2026-11-03\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"phase_id\":\"7976f832-1762-4ef0-9684-903675f85f35\"}, \n {\"day\":\"2026-11-02\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-11-02\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-30\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-30\",\"half\":\"am\",\"kind\":\"studio\",\"project_id\":null,\"phase_id\":null}, \n {\"day\":\"2026-10-29\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"phase_id\":\"7976f832-1762-4ef0-9684-903675f85f35\"}, \n {\"day\":\"2026-10-29\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-28\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"41f3b76d-ccb8-4bc5-b89d-0b1379f48441\",\"phase_id\":\"b52b0da7-9eea-4661-990b-cec7d9129f48\"}, \n {\"day\":\"2026-10-28\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-27\",\"half\":\"pm\",\"kind\":\"studio\",\"project_id\":null,\"phase_id\":null}, \n {\"day\":\"2026-10-27\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"phase_id\":\"7976f832-1762-4ef0-9684-903675f85f35\"}, \n {\"day\":\"2026-10-26\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-26\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-23\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}, \n {\"day\":\"2026-10-23\",\"half\":\"am\",\"kind\":\"studio\",\"project_id\":null,\"phase_id\":null}, \n {\"day\":\"2026-10-22\",\"half\":\"pm\",\"kind\":\"project\",\"project_id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"phase_id\":\"7976f832-1762-4ef0-9684-903675f85f35\"}, \n {\"day\":\"2026-10-22\",\"half\":\"am\",\"kind\":\"project\",\"project_id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"phase_id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\"}]"
+},
+{
+"u": "/rest/v1/members?select=id%2Cname%2Cemail%2Crole%2Cstatus%2Cuser_id%2Ccreated_at%2Creceives_question%2Cevening_time&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380&status=neq.inactive&order=created_at.asc",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"name\":\"Marta Rossi\",\"email\":null,\"role\":\"admin\",\"status\":\"active\",\"user_id\":\"b3484d45-dc2c-4695-9d4e-8caa50a7b883\",\"created_at\":\"2026-11-12T07:32:07.285061+00:00\",\"receives_question\":true,\"evening_time\":null}, \n {\"id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"name\":\"Luca Bianchi\",\"email\":null,\"role\":\"project_lead\",\"status\":\"active\",\"user_id\":null,\"created_at\":\"2026-11-12T07:32:07.285061+00:00\",\"receives_question\":true,\"evening_time\":null}, \n {\"id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"name\":\"Sara Conti\",\"email\":null,\"role\":\"collaborator\",\"status\":\"active\",\"user_id\":null,\"created_at\":\"2026-11-12T07:32:07.285061+00:00\",\"receives_question\":true,\"evening_time\":null}, \n {\"id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"name\":\"Paolo Greco\",\"email\":null,\"role\":\"collaborator\",\"status\":\"active\",\"user_id\":null,\"created_at\":\"2026-11-12T07:32:07.285061+00:00\",\"receives_question\":true,\"evening_time\":null}]"
+},
+{
+"u": "/rest/v1/studios?select=id%2Cname%2Ccurrency%2Ctimezone%2Cemployee_coefficient%2Cdefault_annual_days%2Cevening_time%2Cevening_days%2Creminder_enabled%2Creminder_delay_minutes&id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"id\":\"5145620a-7b8f-4cfa-a730-74a78f571380\",\"name\":\"Studio di esempio\",\"currency\":\"EUR\",\"timezone\":\"Europe/Rome\",\"employee_coefficient\":1.38,\"default_annual_days\":210,\"evening_time\":\"19:00:00\",\"evening_days\":[1,2,3,4,5],\"reminder_enabled\":true,\"reminder_delay_minutes\":120}"
+},
+{
+"u": "/rest/v1/member_costs?select=member_id%2Ckind%2Cannual_amount_cents%2Cannual_days%2Cvalid_from%2Cvalid_to%2Cis_estimate&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-3/*",
+"t": "[{\"member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"kind\":\"partner\",\"annual_amount_cents\":4800000,\"annual_days\":200,\"valid_from\":\"2025-11-12\",\"valid_to\":null,\"is_estimate\":false}, \n {\"member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"kind\":\"employee\",\"annual_amount_cents\":3200000,\"annual_days\":210,\"valid_from\":\"2025-11-12\",\"valid_to\":null,\"is_estimate\":false}, \n {\"member_id\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"kind\":\"freelance\",\"annual_amount_cents\":2700000,\"annual_days\":210,\"valid_from\":\"2025-11-12\",\"valid_to\":null,\"is_estimate\":false}, \n {\"member_id\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"kind\":\"employee\",\"annual_amount_cents\":2600000,\"annual_days\":210,\"valid_from\":\"2025-11-12\",\"valid_to\":null,\"is_estimate\":false}]"
+},
+{
+"u": "/rest/v1/rpc/studio_overhead",
+"m": "POST",
+"b": "{\"p_studio\":\"5145620a-7b8f-4cfa-a730-74a78f571380\"}",
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-0/*",
+"t": "2400000"
+},
+{
+"u": "/rest/v1/assignment_types?select=id&studio_id=eq.5145620a-7b8f-4cfa-a730-74a78f571380",
+"m": "HEAD",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "*/0",
+"t": ""
+},
+{
+"u": "/rest/v1/members?select=id%2Cname%2Crole%2Cstudio_id%2Cstudios%28name%29&user_id=eq.b3484d45-dc2c-4695-9d4e-8caa50a7b883&status=eq.active",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-0/*",
+"t": "[{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"name\":\"Marta Rossi\",\"role\":\"admin\",\"studio_id\":\"5145620a-7b8f-4cfa-a730-74a78f571380\",\"studios\":{\"name\": \"Studio di esempio\"}}]"
+},
+{
+"u": "/rest/v1/members?select=sounds_enabled&id=eq.ce893d87-b0f6-4cb7-99d5-e394b5ad0572",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "0-0/*",
+"t": "[{\"sounds_enabled\":true}]"
+},
+{
+"u": "/rest/v1/expenses?select=id&project_id=eq.1822a471-22fb-4f2c-8b90-7412b4019afb",
+"m": "HEAD",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "*/0",
+"t": ""
+},
+{
+"u": "/rest/v1/projects?select=name%2Ccode%2Ccolor%2Cassignment_type%2Clead_member_id%2Cstatus%2Cparcel_id&id=eq.1822a471-22fb-4f2c-8b90-7412b4019afb",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"name\":\"Scuola Brera\",\"code\":\"SBR\",\"color\":\"#9B8CFF\",\"assignment_type\":null,\"lead_member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"status\":\"active\",\"parcel_id\":null}"
+},
+{
+"u": "/functions/v1/conti-commesse",
+"m": "POST",
+"b": "{\"commessa\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\"}",
+"s": 200,
+"ct": "application/json",
+"cr": "",
+"t": "{\"costoMedioCent\":21571,\"commesse\":[{\"id\":\"1822a471-22fb-4f2c-8b90-7412b4019afb\",\"compensoCent\":4000000,\"variantiPagateCent\":0,\"giornateUsate\":55,\"costoMezzeCent\":1230954,\"costiFinoraCent\":1230954,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.3375,\"costiPrevistiCent\":3647271,\"marginePrevistoCent\":352729,\"stato\":\"guardare\",\"costoGiornataCommessaCent\":22381,\"giornateCoperte\":123.72306867432196,\"giornateServono\":107.96296296296296,\"resaGiornataCent\":24545,\"fasi\":[{\"id\":\"e87b6aae-42eb-49e2-8827-1f719da24f4e\",\"compensoCent\":700000,\"stato\":\"done\",\"giornateBudget\":24.5,\"giornateUsate\":21,\"oltreBudget\":false,\"nome\":\"Progetto preliminare\"},{\"id\":\"7976f832-1762-4ef0-9684-903675f85f35\",\"compensoCent\":1300000,\"stato\":\"half\",\"giornateBudget\":45,\"giornateUsate\":34,\"oltreBudget\":false,\"nome\":\"Progetto definitivo\"},{\"id\":\"4404452a-7386-4530-9c61-c76cc9d5a8db\",\"compensoCent\":1200000,\"stato\":\"todo\",\"giornateBudget\":41.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"},{\"id\":\"c9a21850-9db4-4a36-96fa-8264d6ee7967\",\"compensoCent\":800000,\"stato\":\"todo\",\"giornateBudget\":28,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Direzione lavori\"}],\"persone\":[{\"personaId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"giornate\":23.5,\"nome\":\"Luca Bianchi\"},{\"personaId\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"giornate\":16,\"nome\":\"Sara Conti\"},{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":15.5,\"nome\":\"Marta Rossi\"}],\"variantiMezze\":0,\"variantiValoreCent\":0,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":5,\"costoMezzaCent\":10623,\"varianti\":0},\"responsabileId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null}],\"resaPerTipo\":null}"
+},
+{
+"u": "/rest/v1/expenses?select=id&project_id=eq.f366fd04-1007-4fe9-87e3-11aceb4907f1",
+"m": "HEAD",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "*/0",
+"t": ""
+},
+{
+"u": "/rest/v1/projects?select=name%2Ccode%2Ccolor%2Cassignment_type%2Clead_member_id%2Cstatus%2Cparcel_id&id=eq.f366fd04-1007-4fe9-87e3-11aceb4907f1",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"name\":\"Villa Rossi\",\"code\":\"VRO\",\"color\":\"#D4FF3A\",\"assignment_type\":null,\"lead_member_id\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"status\":\"active\",\"parcel_id\":null}"
+},
+{
+"u": "/functions/v1/conti-commesse",
+"m": "POST",
+"b": "{\"commessa\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\"}",
+"s": 200,
+"ct": "application/json",
+"cr": "",
+"t": "{\"costoMedioCent\":21571,\"commesse\":[{\"id\":\"f366fd04-1007-4fe9-87e3-11aceb4907f1\",\"compensoCent\":7200000,\"variantiPagateCent\":0,\"giornateUsate\":157,\"costoMezzeCent\":3593311,\"costiFinoraCent\":3593311,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.7277777777777777,\"costiPrevistiCent\":4937374,\"marginePrevistoCent\":2262626,\"stato\":\"bene\",\"costoGiornataCommessaCent\":22887,\"giornateCoperte\":157.58679599772796,\"giornateServono\":58.725190839694676,\"resaGiornataCent\":33376,\"fasi\":[{\"id\":\"f8b86640-529b-400c-a1f9-06ae83d6d6e0\",\"compensoCent\":1000000,\"stato\":\"done\",\"giornateBudget\":35,\"giornateUsate\":30,\"oltreBudget\":false,\"nome\":\"Studio di fattibilità\"},{\"id\":\"f6db780b-4f91-4c11-a5e0-74023395bf36\",\"compensoCent\":2200000,\"stato\":\"done\",\"giornateBudget\":76.5,\"giornateUsate\":70,\"oltreBudget\":false,\"nome\":\"Progetto definitivo\"},{\"id\":\"de579552-a3a5-4b08-85bb-1c7c41f41d56\",\"compensoCent\":2400000,\"stato\":\"almost\",\"giornateBudget\":83.5,\"giornateUsate\":57,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"},{\"id\":\"adad8b27-7de1-4f45-b070-903b7d52b117\",\"compensoCent\":1600000,\"stato\":\"todo\",\"giornateBudget\":55.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Direzione lavori\"}],\"persone\":[{\"personaId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"giornate\":55.5,\"nome\":\"Luca Bianchi\"},{\"personaId\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"giornate\":55,\"nome\":\"Paolo Greco\"},{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":39,\"nome\":\"Marta Rossi\"},{\"personaId\":\"120bc2fc-ca6c-40eb-9944-97b59eb81304\",\"giornate\":7.5,\"nome\":\"Sara Conti\"}],\"variantiMezze\":0,\"variantiValoreCent\":0,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":14,\"costoMezzaCent\":11575,\"varianti\":0},\"responsabileId\":\"f26652b5-ecd7-4dee-9730-4a4cad238992\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null}],\"resaPerTipo\":null}"
+},
+{
+"u": "/rest/v1/projects?select=name%2Ccode%2Ccolor%2Cassignment_type%2Clead_member_id%2Cstatus%2Cparcel_id&id=eq.fccae467-6c6a-4d13-8de8-99d64f00af20",
+"m": "GET",
+"b": null,
+"s": 200,
+"ct": "application/vnd.pgrst.object+json; charset=utf-8",
+"cr": "0-0/*",
+"t": "{\"name\":\"Loft Navigli\",\"code\":\"LNA\",\"color\":\"#6FD3FF\",\"assignment_type\":null,\"lead_member_id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"status\":\"active\",\"parcel_id\":null}"
+},
+{
+"u": "/rest/v1/expenses?select=id&project_id=eq.fccae467-6c6a-4d13-8de8-99d64f00af20",
+"m": "HEAD",
+"b": null,
+"s": 200,
+"ct": "application/json; charset=utf-8",
+"cr": "*/0",
+"t": ""
+},
+{
+"u": "/functions/v1/conti-commesse",
+"m": "POST",
+"b": "{\"commessa\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\"}",
+"s": 200,
+"ct": "application/json",
+"cr": "",
+"t": "{\"costoMedioCent\":21571,\"commesse\":[{\"id\":\"fccae467-6c6a-4d13-8de8-99d64f00af20\",\"compensoCent\":2000000,\"variantiPagateCent\":0,\"giornateUsate\":2.5,\"costoMezzeCent\":60316,\"costiFinoraCent\":60316,\"mezzeSenzaCosto\":0,\"lavoroFatto\":0.03,\"costiPrevistiCent\":null,\"marginePrevistoCent\":null,\"stato\":\"iniziata\",\"costoGiornataCommessaCent\":24126,\"giornateCoperte\":80.39807676365747,\"giornateServono\":null,\"resaGiornataCent\":null,\"fasi\":[{\"id\":\"efa0eeaa-3ad3-408c-8fa4-cea708d24795\",\"compensoCent\":300000,\"stato\":\"started\",\"giornateBudget\":10.5,\"giornateUsate\":2.5,\"oltreBudget\":false,\"nome\":\"Rilievo e concept\"},{\"id\":\"00cc535b-d350-4661-84a2-aad01d390eb1\",\"compensoCent\":900000,\"stato\":\"todo\",\"giornateBudget\":31.5,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto definitivo\"},{\"id\":\"d8baba95-35ae-4e69-a39c-d2b584bd143c\",\"compensoCent\":800000,\"stato\":\"todo\",\"giornateBudget\":28,\"giornateUsate\":0,\"oltreBudget\":false,\"nome\":\"Progetto esecutivo\"}],\"persone\":[{\"personaId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"giornate\":1.5,\"nome\":\"Marta Rossi\"},{\"personaId\":\"fd044747-c31b-43f3-b15b-552606cdb665\",\"giornate\":1,\"nome\":\"Paolo Greco\"}],\"variantiMezze\":0,\"variantiValoreCent\":0,\"settimana\":{\"lunedi\":\"2026-11-09\",\"mezze\":2,\"costoMezzaCent\":11718,\"varianti\":0},\"responsabileId\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"venerdi\":{\"settimana\":\"2026-11-09\",\"rispostaAlle\":\"2026-11-12T07:32:07.285061+00:00\",\"rispostaDa\":{\"id\":\"ce893d87-b0f6-4cb7-99d5-e394b5ad0572\",\"nome\":\"Marta Rossi\"}},\"previsioneFerma\":false,\"chiusura\":null}],\"resaPerTipo\":null}"
+}
+]

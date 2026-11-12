@@ -1,13 +1,16 @@
 """Reel "4 cose che Clepsi fa al posto tuo" (formato a elenco numerato, idea di Stefano dell'11/11 da una pubblicità di Magisterut).
 
 Apertura con la promessa numerata, poi un punto per schermata: contatore "1 / 4", titolo su due righe (bianco + lime)
-e sotto l'app vera (pezzi in sorgenti/app/, Studio di esempio); chiusura con le etichette dei punti e "Prova l'app gratis".
+e sotto l'app vera; chiusura con le etichette dei punti e "Prova l'app gratis".
+Le riprese (12/11) sono fatte fotogramma per fotogramma con strumenti/registra/ (Studio di esempio, 30 fps, scorrimenti
+con accelerazione morbida, tocco visibile): tra una ripresa e l'altra una dissolvenza incrociata, mai un taglio secco.
 Telefono dentro la zona sicura di Instagram. Solo i suoni dell'app: la musica la aggiunge Stefano.
 
-Uso: python3 strumenti/reel_quattro.py
+Uso: node strumenti/registra/riprese_quattro.js lavoro/quattro/riprese   (con la build dell'app servita su :8765)
+     python3 strumenti/reel_quattro.py
 Esce in lavoro/quattro/reel-quattro-cose.mp4 e copertine/reel-quattro-cose.jpg
 """
-import subprocess, sys, pathlib
+import subprocess, sys, pathlib, json
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from reel_lib import render_pngs, overlay
 
@@ -19,18 +22,17 @@ FPS = 30
 PW, PH, PX, PY = 520, 1064, 280, 432          # telefono (zona sicura: sotto 1500 copre la didascalia)
 LIME, NERO = '#D4FF3A', '#0B0B0D'
 APERTURA, CHIUSURA, DISS = 1.8, 3.4, 0.3
+XF = 0.3                                       # dissolvenza tra le riprese
+RIP = W / 'riprese'
+SCALA = 2                                      # le riprese sono a 2x: 780x1684, la striscia "Studio di esempio" (44 px css) si taglia
 
-# punti: (domanda, risposta in lime, pezzi [(file, da, a)], suoni [(suono, secondi dall'inizio del punto)])
+# punti: (domanda, risposta in lime, riprese, suoni per ogni tocco nell'ordine)
 PUNTI = [
-    ('Il timesheet?', 'Due tap, la sera.',
-     [('domanda_c-0', 0.6, 2.4), ('domanda_c-2', 0.2, 1.4), ('domanda_c-3', 0.0, 0.7)],
-     [('clepsi_tocco_mattina', 0.4), ('clepsi_tocco_pomeriggio', 1.8 + 0.4), ('clepsi_giornata_registrata', 3.0 + 0.55)]),
-    ('Come chiuderà?', 'Lo sai la mattina dopo.',
-     [('titolare_g-0', 0.0, 2.5), ('titolare_g-1', 0.0, 1.5)], []),
-    ('Una commessa in perdita?', 'La vedi quando c’è tempo.',
-     [('commessa_c-0', 0.0, 3.2), ('commessa_c-1', 0.0, 0.8)], []),
-    ('Chi ha lavorato su cosa?', 'Senza chiederlo a nessuno.',
-     [('settimana-0', 0.5, 4.5)], []),
+    ('Il timesheet?', 'Due tap, la sera.', ['1a', '1b', '1c'],
+     ['clepsi_tocco_mattina', 'clepsi_tocco_pomeriggio', 'clepsi_giornata_registrata']),
+    ('Come chiuderà?', 'Lo sai la mattina dopo.', ['2a'], []),
+    ('Una commessa in perdita?', 'La vedi quando c’è tempo.', ['3a', '3b'], ['clepsi_tocco_mattina']),
+    ('Chi ha lavorato su cosa?', 'Senza chiederlo a nessuno.', ['4a', '4b'], ['clepsi_tocco_mattina']),
 ]
 ETICHETTE = ['Due tap la sera', 'Come chiuderà ogni commessa', 'Perdite viste in tempo', 'La settimana dello studio']
 
@@ -72,23 +74,45 @@ def chiusura():
             "<div style='font-size:32px;color:#A9A8B2;margin-top:22px'>clepsi.it · Studio e dati di esempio</div></div>")
 
 def main():
-    # traccia del telefono: tutti i pezzi in fila
-    pezzi, inizi, t = [], [], APERTURA
-    for k, (_, _, lista, _) in enumerate(PUNTI):
-        inizi.append(t)
-        for j, (f, a, b) in enumerate(lista):
-            o = W / f'p{k}-{j}.mp4'
-            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(APP / f'{f}.mp4'), '-vf', f'trim={a}:{b},setpts=PTS-STARTPTS,fps={FPS}',
-                            '-an', '-c:v', 'libx264', '-crf', '16', str(o)], check=True)
-            pezzi.append(o); t += b - a
-    fine = t; tot = fine + CHIUSURA
-    lista = W / 'telefono.txt'; lista.write_text(''.join(f"file '{p}'\n" for p in pezzi))
+    # riprese → clip 520x1064, poi una sola traccia con dissolvenze incrociate
+    riprese, inizi, suoni = [], [], []
+    for k, (_, _, nomi, sk) in enumerate(PUNTI):
+        for n in nomi:
+            d = RIP / n; o = W / f'r{n}.mp4'
+            nf = len(list(d.glob('*.jpg')))
+            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', str(FPS), '-i', str(d / '%05d.jpg'),
+                            '-vf', f'crop=780:{PH * 780 // PW}:0:{44 * SCALA},scale={PW}:{PH}:flags=lanczos,format=yuv420p',
+                            '-c:v', 'libx264', '-crf', '14', str(o)], check=True)
+            t = json.loads((d / 'tocchi.json').read_text()) if (d / 'tocchi.json').exists() else []
+            riprese.append((o, nf / FPS, k, t))
+    t0, partenze = 0.0, []
+    for i, (o, dur, k, tocchi) in enumerate(riprese):
+        partenze.append(t0)
+        if not inizi or riprese[i - 1][2] != k:
+            inizi.append(t0 + (XF / 2 if i else 0))
+        for f in tocchi: suoni.append((APERTURA + t0 + f / FPS + 0.12, k))
+        t0 += dur - XF
+    fine = APERTURA + t0 + XF; tot = fine + CHIUSURA
+    inizi = [APERTURA + x for x in inizi]
+    # suoni: nell'ordine dei tocchi di ciascun punto
+    per = {k: list(p[3]) for k, p in enumerate(PUNTI)}
+    lista = []
+    for x, k in suoni:
+        if per[k]:
+            nome = per[k].pop(0); lista.append((nome, x + (0.15 if nome == 'clepsi_giornata_registrata' else 0)))
+    suoni = lista
+    args = ['ffmpeg', '-v', 'error', '-y']
+    for o, *_ in riprese: args += ['-i', str(o)]
+    fc, last, acc = [], '0:v', 0.0
+    for i in range(1, len(riprese)):
+        acc += riprese[i - 1][1] - XF
+        fc.append(f'[{last}][{i}:v]xfade=transition=fade:duration={XF}:offset={acc:.3f}[x{i}]'); last = f'x{i}'
     tel = W / 'telefono.mp4'
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', str(lista), '-c', 'copy', str(tel)], check=True)
+    subprocess.run(args + ['-filter_complex', ';'.join(fc), '-map', f'[{last}]', '-c:v', 'libx264', '-crf', '14', str(tel)], check=True)
     base = W / 'base.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c={NERO[1:]}:s=1080x1920:r={FPS}:d={tot:.3f}',
                     '-itsoffset', f'{APERTURA}', '-i', str(tel), '-filter_complex',
-                    f'[1:v]scale={PW}:{PH}[t];[0:v][t]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1',
+                    f'[0:v][1:v]overlay={PX}:{PY}:eof_action=pass,format=yuv420p,setsar=1',
                     '-t', f'{tot:.3f}', '-c:v', 'libx264', '-crf', '16', str(base)], check=True)
     voci = {'apertura': apertura(), 'cornice': cornice(), 'chiusura': chiusura()}
     for k, (d, r, _, _) in enumerate(PUNTI):
@@ -101,8 +125,6 @@ def main():
         ovs.append((P(f't{k}'), a, b, 0.25 if k else 0, 0.2))
     ovs.insert(0, (P('apertura'), 0, APERTURA + DISS, 0, DISS))
     ovs.append((P('chiusura'), fine - DISS, tot, DISS, 0))
-    # suoni
-    suoni = [(s, inizi[k] + o) for k, p in enumerate(PUNTI) for s, o in p[3]]
     aud = W / 'audio.wav'
     args = ['ffmpeg', '-v', 'error', '-y']
     for s, _ in suoni: args += ['-i', str(AUD / f'{s}.wav')]
