@@ -1,4 +1,4 @@
-"""Reel "Ti sei dimenticato ieri?" (12/11): il promemoria delle 21, mercoledì recuperato con un tocco, oggi «Come mercoledì».
+"""Reel "Ti sei dimenticato ieri?" (12/11): il promemoria delle 21, mercoledì recuperato, poi oggi: prima la mattina e poi il pomeriggio.
 
 Stesso formato e stesso montaggio del reel "4 cose" (reel_quattro.py): un'unica ripresa fotogramma per fotogramma,
 transizioni come nell'app, camera che segue il dito, finestra grande dentro la zona sicura di Instagram.
@@ -18,11 +18,11 @@ T, P, F = 'clepsi_tocco_mattina', 'clepsi_tocco_pomeriggio', 'clepsi_giornata_re
 N = 'clepsi_notifica'
 q.PUNTI = [
     ('Ieri sera ti è sfuggita?', 'Stasera te la richiede.', [N, T]),
-    ('Mercoledì?', 'Un tocco, tutto il giorno.', [T, P]),
-    ('Oggi uguale?', '«Come mercoledì».', [T]),
+    ('Mercoledì?', 'Mattina, poi pomeriggio.', [T, P, P, T]),
+    ('E oggi?', 'Altri due tap.', [T, P, P]),
     ('Settimana completa.', 'Senza buchi.', [F]),
 ]
-q.ETICHETTE = ['Il promemoria', 'Recupero di due giorni', 'Come ieri, un tocco']
+q.ETICHETTE = ['Il promemoria', 'Recupero di due giorni', 'Due tap per giorno']
 q.COPERTINA = ('Ti sei dimenticato', 'ieri?', 0, 3.4)
 
 def titolo(i, d, r):

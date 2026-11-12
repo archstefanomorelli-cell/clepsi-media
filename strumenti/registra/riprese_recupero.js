@@ -1,4 +1,4 @@
-// Reel "Ti sei dimenticato ieri?": il promemoria delle 21, il recupero di mercoledì con un tocco, oggi «Come mercoledì».
+// Reel "Ti sei dimenticato ieri?": il promemoria delle 21, il recupero di mercoledì, poi oggi: ogni giorno prima la mattina e poi il pomeriggio.
 // Uso: app servita su :8765 (python3 serve.py <app.clepsi.it> 8765 spa), poi: node riprese_recupero.js <cartella>
 // Paolo (collaboratore finto, mock_nuovo.js) ha segnato lunedì e martedì; mercoledì gli è sfuggito.
 const { chromium } = require('playwright'); const { Rec, apri } = require('./rec'); const mock = require('./mock_nuovo'); const blocco = require('./blocco');
@@ -23,15 +23,19 @@ const OUT = process.argv[2] || 'riprese';
   await tocca(p.locator('#__notifica'), { stacco: true });
   await blocco.togli(p); await p.clock.runFor(300); await r.passa('dissolve', 0.5);
   await r.hold(2.2);                                   // "Mercoledì ti è sfuggito. Com'è andato?"
-  // 2 · Mercoledì: tutto il giorno sulla stessa commessa, un tocco
-  r.segna('p2'); r.camera(0.3, 0.8); await r.hold(0.6);
-  await tocca(p.getByText('Tutto il giorno su Casa sul lago', { exact: true })); await r.hold(1.4);
+  // 2 · Mercoledì: prima la mattina, poi il pomeriggio
+  r.segna('p2'); r.camera(0.15, 0.8); await r.hold(0.6);
+  await tocca(p.getByText('Casa sul lago', { exact: true }).first()); await r.hold(0.8);
+  await tocca(p.getByText('Pomeriggio', { exact: true })); await r.hold(0.6);
+  await tocca(p.getByText('Villa Rossi', { exact: true }).first()); await r.hold(1.0);
   r.camera(1, 0.7); await r.hold(0.5);
   await tocca(p.getByText('Avanti', { exact: true }), { scuro: false, stacco: true, attesa: 900 }); await r.passa('entra', 0.45); r.camera(0, 0.5);
-  await r.hold(1.6);                                   // "Com'è andata oggi, Paolo?"
-  // 3 · Oggi come mercoledì
-  r.segna('p3'); r.camera(0.3, 0.8); await r.hold(0.6);
-  await tocca(p.getByText('Come mercoledì', { exact: true })); await r.hold(1.4);
+  await r.hold(1.4);                                   // "Com'è andata oggi, Paolo?"
+  // 3 · Oggi: di nuovo mattina e pomeriggio
+  r.segna('p3'); r.camera(0.15, 0.8); await r.hold(0.5);
+  await tocca(p.getByText('Villa Rossi', { exact: true }).first()); await r.hold(0.8);
+  await tocca(p.getByText('Pomeriggio', { exact: true })); await r.hold(0.6);
+  await tocca(p.getByText('Scuola di Lodi', { exact: true }).first()); await r.hold(1.0);
   r.camera(1, 0.7); await r.hold(0.5);
   await tocca(p.getByText('Fatto', { exact: true }), { scuro: false, stacco: true, attesa: 1500 }); await r.passa('dissolve', 0.45); r.camera(0.3, 0.01);
   // fatto · la settimana completa
