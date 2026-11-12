@@ -12,6 +12,8 @@ class Rec {
   salva() { fs.writeFileSync(`${this.dir}/eventi.json`, JSON.stringify({ tocchi: this.taps, eventi: this.eventi }, null, 1)); }
   segna(nome) { this.eventi.push({ tipo: 'segno', nome, f: this.n }); this.salva(); }
   // cambio di schermata: il composer inserisce la transizione tra il fotogramma f-1 (prima) e f (dopo)
+  // inquadratura: 0 = parte alta dello schermo, 1 = parte bassa; il composer ci arriva in 'durata' secondi da qui
+  camera(pos, durata = 0.7) { this.eventi.push({ tipo: 'camera', pos, durata, f: this.n }); this.salva(); }
   async passa(tipo, durata) { this.eventi.push({ tipo: 'passaggio', come: tipo, durata, f: this.n }); this.salva(); }
   async hold(s) { for (let i = 0; i < Math.round(s * FPS); i++) await this.frame(); }
   async ripple(x, y, k, scuro) { // k: 0..1 fase del tocco

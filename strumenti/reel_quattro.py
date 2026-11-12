@@ -19,7 +19,9 @@ APP, AUD = ROOT / 'sorgenti' / 'app', ROOT / 'sorgenti' / 'audio'
 W = ROOT / 'lavoro' / 'quattro'; W.mkdir(parents=True, exist_ok=True)
 NOME = 'reel-quattro-cose'
 FPS = 30
-PW, PH, PX, PY = 520, 1064, 280, 432          # telefono (zona sicura: sotto 1500 copre la didascalia)
+PW, PH, PX, PY = 800, 1060, 130, 440          # finestra sullo schermo: dentro la zona sicura (sotto 1500 la didascalia, oltre x 940 le icone)
+SW, SH = 780, 1596                             # schermo intero della ripresa (390x798 css a 2x, senza la striscia "Studio di esempio")
+CH = SH * 0 + PH * SW / PW                     # altezza di schermo che entra nella finestra: il resto lo mostra la camera
 LIME, NERO = '#D4FF3A', '#0B0B0D'
 APERTURA, CHIUSURA, DISS = 1.8, 3.4, 0.3
 ENTRA = 0.35                                   # il telefono entra ed esce sfumando, mai sovrapposto ai cartelli
@@ -107,18 +109,36 @@ def main():
     fot = sorted(d.glob('*.jpg'))
     passaggi = {e['f']: e for e in ev['eventi'] if e['tipo'] == 'passaggio'}
     segni = {e['nome']: e['f'] for e in ev['eventi'] if e['tipo'] == 'segno'}
-    taglio = (0, 44 * SCALA, 780, 44 * SCALA + PH * 780 // PW)
+    taglio = (0, 44 * SCALA, SW, 44 * SCALA + SH)
     carica = lambda i: Image.open(fot[i]).convert('RGB').crop(taglio)
     T = W / 'telefono'; T.mkdir(exist_ok=True)
     for x in T.glob('*.jpg'): x.unlink()
-    mappa, k = {}, 0                                 # fotogramma della ripresa → fotogramma del video
-    prima = None
+    # 1) scaletta del video: fotogrammi della ripresa e transizioni in mezzo
+    voci, mappa, k = [], {}, 0
     for i in range(len(fot)):
+        if i in passaggi and i > 0:
+            n = round(passaggi[i]['durata'] * FPS)
+            voci.append(('tr', i, n)); k += n
+        mappa[i] = k; voci.append(('f', i, 0)); k += 1
+    inizio = {i: mappa[i] - (round(passaggi[i]['durata'] * FPS) if i in passaggi and i > 0 else 0) for i in mappa}
+    # 2) camera: si sposta con un'accelerazione morbida da un'inquadratura all'altra
+    cam = [0.0] * k; pos = 0.0; mosse = sorted((inizio[e['f']], e['pos'], e['durata']) for e in ev['eventi'] if e['tipo'] == 'camera')
+    for j, (a, dove, dur) in enumerate(mosse):
+        n = max(1, round(dur * FPS)); b = mosse[j + 1][0] if j + 1 < len(mosse) else k
+        da = cam[a - 1] if a > 0 else dove
+        for t in range(a, b): cam[t] = da + (dove - da) * ease(min(1, (t - a + 1) / n))
+    def inquadra(im, t):
+        y = cam[t] * (SH - CH)
+        return im.resize((PW, round(PW * SH / SW)), Image.LANCZOS, box=None).crop((0, round(y * PW / SW), PW, round(y * PW / SW) + PH))
+    # 3) fotogrammi
+    k, prima = 0, None
+    for tipo, i, n in voci:
         im = carica(i)
-        if i in passaggi and prima is not None:
-            for f in transizione(prima, im, passaggi[i]['come'], round(passaggi[i]['durata'] * FPS)):
-                f.save(T / f'{k:05d}.jpg', quality=94); k += 1
-        mappa[i] = k; im.save(T / f'{k:05d}.jpg', quality=94); k += 1; prima = im
+        if tipo == 'tr':
+            for f in transizione(prima, im, passaggi[i]['come'], n):
+                inquadra(f, k).save(T / f'{k:05d}.jpg', quality=94); k += 1
+        else:
+            inquadra(im, k).save(T / f'{k:05d}.jpg', quality=94); k += 1; prima = im
     durata = k / FPS
     t0 = APERTURA + DISS                              # il telefono entra quando l'apertura è sparita del tutto
     fine = t0 + durata; tot = fine + CHIUSURA
@@ -131,7 +151,7 @@ def main():
             suoni.append((nome, t0 + mappa[f] / FPS + (0.25 if nome == 'clepsi_giornata_registrata' else 0)))
     tel = W / 'telefono.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', str(FPS), '-i', str(T / '%05d.jpg'),
-                    '-vf', f'scale={PW}:{PH}:flags=lanczos,fade=t=in:st=0:d={ENTRA},fade=t=out:st={durata - ENTRA:.3f}:d={ENTRA},format=yuv420p',
+                    '-vf', f'fade=t=in:st=0:d={ENTRA},fade=t=out:st={durata - ENTRA:.3f}:d={ENTRA},format=yuv420p',
                     '-c:v', 'libx264', '-crf', '14', str(tel)], check=True)
     base = W / 'base.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', f'color=c={NERO[1:]}:s=1080x1920:r={FPS}:d={tot:.3f}',
@@ -159,7 +179,7 @@ def main():
     overlay(str(base), ovs, str(out), audio=str(aud))
     # copertina: l'apertura con sotto la schermata del titolare
     fr = W / 'fr.jpg'
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{inizi[1] + 1.0:.2f}', '-i', str(out), '-frames:v', '1',
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{inizi[2] + 2.1:.2f}', '-i', str(out), '-frames:v', '1',
                     '-vf', f'crop={PW}:{PH}:{PX}:{PY}', '-q:v', '2', str(fr)], check=True)
     import base64
     img = 'data:image/jpeg;base64,' + base64.b64encode(fr.read_bytes()).decode()
@@ -167,7 +187,7 @@ def main():
            "<div style='position:absolute;left:90px;top:300px;width:900px'>"
            f"<div style='display:flex;align-items:center;justify-content:space-between'><span style='font-size:32px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:{LIME}'>Clepsi</span>{LOGO.format(s=46, c=LIME)}</div>"
            f"<div class='b' style='font-size:96px;line-height:.98;letter-spacing:-.04em;margin-top:22px'>4 cose che fa<br><span style='color:{LIME}'>al posto tuo.</span></div></div>"
-           f"<div style='position:absolute;left:{(1080 - 508) // 2}px;top:640px;width:508px;height:1020px;border-radius:44px;overflow:hidden;box-shadow:0 0 0 3px #2E2E34'>"
+           f"<div style='position:absolute;left:{(1080 - PW) // 2}px;top:600px;width:{PW}px;height:{PH}px;border-radius:46px;overflow:hidden;box-shadow:0 0 0 3px #2E2E34'>"
            f"<img src='{img}' style='width:100%;height:100%;object-fit:cover;object-position:top'></div>")
     render_pngs({'copertina': cop}, W)
     (ROOT / 'copertine').mkdir(exist_ok=True)

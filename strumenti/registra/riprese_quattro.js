@@ -21,15 +21,15 @@ const MARTA = 'ce893d87-b0f6-4cb7-99d5-e394b5ad0572';
   const r = new Rec(p, `${OUT}/unica`);
   const tocca = async (loc, o = {}) => r.tap(...await r.box(loc), o);
   // 1 · Due tap, la sera
-  r.segna('p1'); await r.hold(1.3);
+  r.segna('p1'); r.camera(0, 0.01); await r.hold(1.3);
   await tocca(p.getByText("Com'è andata oggi?"), { stacco: true, attesa: 1100 }); await r.passa('sale', 0.55);
   await r.hold(1.4);
   await tocca(p.getByText('Tutto il giorno su', { exact: false }), { scuro: true });
-  await r.hold(1.5);
-  await tocca(p.getByRole('button', { name: /Fatto/ }).last(), { scuro: true, stacco: true, attesa: 1100 }); await r.passa('dissolve', 0.5);
+  await r.hold(1.0); r.camera(1, 0.8); await r.hold(1.2);
+  await tocca(p.getByRole('button', { name: /Fatto/ }).last(), { scuro: true, stacco: true, attesa: 1100 }); await r.passa('dissolve', 0.5); r.camera(0.5, 0.6);
   await r.hold(1.9);
   // 2 · Come chiuderà: si chiude la sera, si torna alla home e si scorrono le commesse
-  r.segna('p2'); await r.hold(0.9);
+  r.segna('p2'); await r.hold(0.4); r.camera(0, 0.7); await r.hold(1.0);
   await tocca(p.locator('[aria-label="Chiudi"]:visible').first(), { scuro: true, stacco: true, attesa: 1100 }); await r.passa('scende', 0.55);
   await r.hold(1.0); await r.scroll(560, 3.6); await r.hold(1.6);
   // 3 · La perdita: si torna su e si apre Uffici Lambrate
@@ -39,8 +39,8 @@ const MARTA = 'ce893d87-b0f6-4cb7-99d5-e394b5ad0572';
   // 4 · La settimana: indietro e tab Settimana
   r.segna('p4'); await r.hold(0.5); await r.scroll(0, 0.8); await r.hold(0.4);
   await tocca(p.locator('[aria-label="Indietro"]:visible').first(), { stacco: true, attesa: 1100 }); await r.passa('esce', 0.5);
-  await r.hold(0.8);
-  await tocca(p.locator('a[href="/settimana"]:visible').first(), { stacco: true, attesa: 1300 }); await r.passa('dissolve', 0.4);
+  await r.hold(0.4); r.camera(1, 0.8); await r.hold(1.1);
+  await tocca(p.locator('a[href="/settimana"]:visible').first(), { stacco: true, attesa: 1300 }); await r.passa('dissolve', 0.4); r.camera(0, 0.7);
   await r.hold(1.8); await r.scroll(330, 2.4); await r.hold(2.0);
   r.segna('fine');
   await b.close();
