@@ -30,6 +30,10 @@ EPISODI = {
         'parole': ['cronometro', 'ore da giustificare', 'varianti regalate', 'previsioni a occhio', '«chi ci ha lavorato?»'],
         'copertina': '«chi ci ha lavorato?»',
     },
+    'reel-niente-3-boh': {
+        'parole': ['sorprese', 'rincorse', 'fogli ore', 'stime a caso', '«boh»'],
+        'copertina': '«boh»',
+    },
 }
 PASSO = 1.2          # secondi per parola
 ULTIMA = 1.8         # la battuta finale
