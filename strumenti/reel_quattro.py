@@ -19,7 +19,7 @@ APP, AUD = ROOT / 'sorgenti' / 'app', ROOT / 'sorgenti' / 'audio'
 W = ROOT / 'lavoro' / 'quattro'; W.mkdir(parents=True, exist_ok=True)
 NOME = 'reel-quattro-cose'
 FPS = 30
-PW, PH, PX, PY = 800, 1060, 130, 440          # finestra sullo schermo: dentro la zona sicura (sotto 1500 la didascalia, oltre x 940 le icone)
+PW, PH, PX, PY = 860, 1100, 80, 440           # finestra sullo schermo, allineata ai titoli: a destra si ferma alle icone (x 940), sotto lascia 380 px a nome, didascalia e audio
 SW, SH = 780, 1596                             # schermo intero della ripresa (390x798 css a 2x, senza la striscia "Studio di esempio")
 CH = SH * 0 + PH * SW / PW                     # altezza di schermo che entra nella finestra: il resto lo mostra la camera
 LIME, NERO = '#D4FF3A', '#0B0B0D'
@@ -31,7 +31,7 @@ SCALA = 2                                      # le riprese sono a 2x: 780x1684,
 # punti: (domanda, risposta in lime, suoni dei tocchi nell'ordine). La ripresa è una sola (riprese/unica):
 # i segni p1..p4 in eventi.json dicono dove cambia il titolo.
 PUNTI = [
-    ('Il timesheet?', 'Due tap, la sera.', ['clepsi_tocco_mattina', 'clepsi_tocco_pomeriggio', 'clepsi_giornata_registrata']),
+    ('Il timesheet?', 'Due tap, la sera.', ['clepsi_tocco_mattina', 'clepsi_tocco_mattina', 'clepsi_tocco_pomeriggio', 'clepsi_tocco_pomeriggio', 'clepsi_giornata_registrata']),
     ('Come chiuderà?', 'Lo sai la mattina dopo.', ['clepsi_tocco_mattina']),
     ('Una commessa in perdita?', 'La vedi quando c’è tempo.', ['clepsi_tocco_mattina']),
     ('Chi ha lavorato su cosa?', 'Senza chiederlo a nessuno.', ['clepsi_tocco_mattina', 'clepsi_tocco_pomeriggio']),

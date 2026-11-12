@@ -24,8 +24,13 @@ const MARTA = 'ce893d87-b0f6-4cb7-99d5-e394b5ad0572';
   r.segna('p1'); r.camera(0, 0.01); await r.hold(1.3);
   await tocca(p.getByText("Com'è andata oggi?"), { stacco: true, attesa: 1100 }); await r.passa('sale', 0.55);
   await r.hold(1.4);
-  await tocca(p.getByText('Tutto il giorno su', { exact: false }), { scuro: true });
-  await r.hold(1.0); r.camera(1, 0.8); await r.hold(1.2);
+  // la mattina: Villa Rossi; il pomeriggio: Scuola Brera
+  await tocca(p.getByRole('button', { name: 'Villa Rossi', exact: true }), { scuro: true });
+  await r.hold(1.1);
+  await tocca(p.getByText('Pomeriggio', { exact: true }).last(), { scuro: true });
+  await r.hold(0.5);
+  await tocca(p.getByRole('button', { name: 'Scuola Brera', exact: true }), { scuro: true });
+  await r.hold(1.1); r.camera(1, 0.8); await r.hold(1.1);
   await tocca(p.getByRole('button', { name: /Fatto/ }).last(), { scuro: true, stacco: true, attesa: 1100 }); await r.passa('dissolve', 0.5); r.camera(0.5, 0.6);
   await r.hold(1.9);
   // 2 · Come chiuderà: si chiude la sera, si torna alla home e si scorrono le commesse
