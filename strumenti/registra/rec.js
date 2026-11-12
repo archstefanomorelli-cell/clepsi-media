@@ -3,12 +3,16 @@ const { chromium } = require('playwright'); const { prepara } = require('./mock'
 const FPS = 30, DT = 1000 / FPS;
 const ease = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 class Rec {
-  constructor(page, dir) { this.p = page; this.dir = dir; this.n = 0; this.acc = 0; this.taps = []; fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true }); }
+  constructor(page, dir) { this.p = page; this.dir = dir; this.n = 0; this.acc = 0; this.taps = []; this.eventi = []; fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true }); }
   async frame() {
     this.acc += DT; const step = Math.floor(this.acc); this.acc -= step;
     await this.p.clock.runFor(step);
     await this.p.screenshot({ path: `${this.dir}/${String(this.n++).padStart(5, '0')}.jpg`, type: 'jpeg', quality: 93 });
   }
+  salva() { fs.writeFileSync(`${this.dir}/eventi.json`, JSON.stringify({ tocchi: this.taps, eventi: this.eventi }, null, 1)); }
+  segna(nome) { this.eventi.push({ tipo: 'segno', nome, f: this.n }); this.salva(); }
+  // cambio di schermata: il composer inserisce la transizione tra il fotogramma f-1 (prima) e f (dopo)
+  async passa(tipo, durata) { this.eventi.push({ tipo: 'passaggio', come: tipo, durata, f: this.n }); this.salva(); }
   async hold(s) { for (let i = 0; i < Math.round(s * FPS); i++) await this.frame(); }
   async ripple(x, y, k, scuro) { // k: 0..1 fase del tocco
     await this.p.evaluate(([x, y, k, scuro]) => {
@@ -26,9 +30,9 @@ class Rec {
   // tocco: 0.15 s di avvicinamento, poi il click, poi 0.35 s di sfumatura (la UI risponde intanto)
   async tap(x, y, { scuro = false, attesa = 0, stacco = false } = {}) {
     // stacco: il tocco chiude la ripresa (cambia schermata): resta il dito premuto, il resto lo fa la dissolvenza
-    const n1 = Math.round(.18 * FPS), n2 = Math.round(.3 * FPS);
+    const n1 = Math.round(.28 * FPS), n2 = Math.round(.4 * FPS);
     for (let i = 0; i < n1; i++) { await this.ripple(x, y, .3 * (i + 1) / n1, scuro); await this.frame(); }
-    this.taps.push(this.n); fs.writeFileSync(`${this.dir}/tocchi.json`, JSON.stringify(this.taps));
+    this.taps.push(this.n); this.salva();
     await this.p.mouse.click(x, y); await this.p.mouse.move(2, 2);
     if (attesa) await this.p.waitForTimeout(attesa);
     if (!stacco) for (let i = 0; i < n2; i++) { await this.ripple(x, y, .3 + .7 * (i + 1) / n2, scuro); await this.frame(); }
@@ -47,9 +51,9 @@ class Rec {
   }
   async box(loc) { const b = await loc.boundingBox(); return [b.x + b.width / 2, b.y + b.height / 2]; }
 }
-async function apri(browser, ora) {
+async function apri(browser, ora, opz = {}) {
   const ctx = await browser.newContext({ viewport: { width: 390, height: 842 }, deviceScaleFactor: 2, serviceWorkers: 'block' });
-  await prepara(ctx);
+  await prepara(ctx, opz);
   const p = await ctx.newPage();
   const t0 = new Date(ora);
   await p.clock.install({ time: t0 });
