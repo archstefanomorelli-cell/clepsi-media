@@ -57,7 +57,7 @@ File in `settimana-4/` (tavole), `reel/`, `copertine/`; sorgenti `grafiche/forfe
 | Mar 10/11, 13:00 | Il conto · 2 | Carosello crema "La soglia del forfettario, in giornate" (documento n. 1, tabella 65/85/100 mila con 210 e 180 giornate). Notizia da ricontrollare la mattina: ddl di Bilancio, proposta, non legge | carosello 5, automatico | 419790581 | no | — |
 | Mer 11/11, 19:00 | È proprio così · 1 | Reel in sospeso "«è solo una piccola modifica»" (contatore 1→3 mezze giornate, rivelazione "480 € di lavoro. Fatturati: 0 €."), clip racconto "tavole" | reel normale, 13,2 s | 419790595 | sì | late night lo-fi, chill electronic, ambient minimal |
 | Gio 12/11, 13:00 | Il tuo numero · 3 | Domanda lime "La tua ultima commessa chiusa, quanto ti ha pagato a giornata?" A/B/C + AUTOPSIA in DM | immagine, automatica | 419790606 | no | — |
-| Ven 13/11, 19:00 | Due tap · 4 | **Sostituito il 12/11** (OK di Stefano): al posto del reel in sospeso "Una di queste quattro" esce "4 cose che Clepsi fa al posto tuo" (vedi sotto, settimane 13–27/11). Il reel "Quale" resta in `reel/` per un'altra occasione | reel normale, 46 s | 425794956 | no | chill electronic, lo-fi house, minimal house |
+| Ven 13/11, 19:00 | Due tap · 4 | **Sostituito il 12/11** (OK di Stefano): al posto del reel in sospeso "Una di queste quattro" esce "4 cose che Clepsi fa al posto tuo" (vedi sotto, settimane 13–27/11). Il reel "Quale" resta in `reel/` per un'altra occasione | reel normale, 46 s | 426102652 | no | chill electronic, lo-fi house, minimal house |
 | Sab 14/11, 11:00 | Il tuo numero · 3 | Autopsia in Collab con @arch_danilo_carella: carosello 4 tavole a mezze giornate (crema, nera, crema, lime: ristrutturazione da 8.000 €, la parcella scomposta in 33,5 giornate, soglia ≈ 240 €/giornata con schede 200/280 € come nell'app, "Metodo prima del preventivo" + AUTOPSIA). File in `collab/danilo/`, sorgenti `grafiche/danilo-1..4.dc.html`. OK di Danilo il 7/11; lui deve accettare l'invito alla collaborazione dall'app | carosello 4, automatico, collaboratore arch_danilo_carella | 420116433 | no | — |
 | Dom 15/11, 11:00 | Niente · 1 | Niente episodio 2: cronometro · ore da giustificare · varianti regalate · previsioni a occhio · «chi ci ha lavorato?» | reel normale, 14,2 s | 419790628 | no | minimal house, glitch electronic, clicky beats |
 
@@ -69,15 +69,15 @@ Sette reel nuovi registrati fotogramma per fotogramma dall'app vera (vedi "Reel 
 
 | Quando | Reel | Durata | Metricool reel | Storia | Raccolta in evidenza | Sostituisce (da archiviare dopo l'uscita) |
 |---|---|---|---|---|---|---|
-| Ven 13/11, 19:00 | 4 cose che Clepsi fa al posto tuo | 46 s | 425794956 | 425796058 | Come funziona | "Come funziona con l'app vera" (2/11, DfQIMocxzdY) e "La settimana" (8/11, Dfesl6NNASu) |
-| Lun 16/11, 19:00 | Il collaboratore, la prima sera | 33 s | 425795169 | 425796160 | Come funziona | "Ore 19 · timesheet? due tap" (4/11, DfVEOxLReL-) |
-| Mer 18/11, 19:00 | Dalla parcella alla commessa | 39 s | 425795337 | 425796190 | Parcella | — |
-| Ven 20/11, 18:00 | Il venerdì, un minuto (esce all'ora della domanda del venerdì) | 27 s | 425795482 | 425796283 (19:30) | Margini | "La mattina dopo" (6/11, DfaN4_WtULN) e "Varianti veloci" con Seneca (28/10, DfDScs9Rvkf, dice ancora "Lista d'attesa") |
-| Lun 23/11, 19:00 | Ti sei dimenticato ieri? | 30 s | 425795628 | 425796309 | La sera | — |
-| Mer 25/11, 19:00 | La commessa chiusa | 32 s | 425795784 | 425796359 | Margini | — |
-| Ven 27/11, 19:00 | Lo studio pronto in tre passi | 39 s | 425795918 | 425796411 | Come funziona | — |
+| Ven 13/11, 19:00 | 4 cose che Clepsi fa al posto tuo | 46 s | 426102652 | 425796058 | Come funziona | "Come funziona con l'app vera" (2/11, DfQIMocxzdY) e "La settimana" (8/11, Dfesl6NNASu) |
+| Lun 16/11, 19:00 | Il collaboratore, la prima sera | 33 s | 426102821 | 425796160 | Come funziona | "Ore 19 · timesheet? due tap" (4/11, DfVEOxLReL-) |
+| Mer 18/11, 19:00 | Dalla parcella alla commessa | 39 s | 426102947 | 425796190 | Parcella | — |
+| Ven 20/11, 18:00 | Il venerdì, un minuto (esce all'ora della domanda del venerdì) | 27 s | 426103123 | 425796283 (19:30) | Margini | "La mattina dopo" (6/11, DfaN4_WtULN) e "Varianti veloci" con Seneca (28/10, DfDScs9Rvkf, dice ancora "Lista d'attesa") |
+| Lun 23/11, 19:00 | Ti sei dimenticato ieri? | 30 s | 426103244 | 425796309 | La sera | — |
+| Mer 25/11, 19:00 | La commessa chiusa | 32 s | 426103357 | 425796359 | Margini | — |
+| Ven 27/11, 19:00 | Lo studio pronto in tre passi | 39 s | 426103459 | 425796411 | Come funziona | — |
 
-Restano invariati: sab 14/11 Autopsia con Danilo (420116433), dom 15/11 Niente 2 (420013769). Martedì, giovedì e domenica delle settimane 16–22/11 e 23–29/11 li propone il piano del giovedì come sempre.
+Restano invariati: sab 14/11 Autopsia con Danilo (420116433), dom 15/11 Niente 2 (426103532). Martedì, giovedì e domenica delle settimane 16–22/11 e 23–29/11 li propone il piano del giovedì come sempre.
 
 **Da fare dopo le uscite** (lo fa Stefano dall'app di Instagram, oppure Claude dal browser con un OK esplicito di Stefano per quella azione: il 12/11 il salvataggio di una didascalia dal browser è stato bloccato senza quell'OK):
 - Archiviare (non cancellare: si ripristinano da Archivio) i cinque reel della colonna "Sostituisce", ciascuno il giorno in cui esce il suo sostituto.
@@ -235,8 +235,10 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Quindi tutti i reel si programmano su Metricool con `autoPublish: false`: all'ora stabilita Metricool manda una notifica sull'app Metricool del telefono; Stefano apre il reel in Instagram, aggiunge il brano (volume basso, sotto i suoni dell'app) e pubblica. Per i reel di prova deve anche scegliere "Reel di prova" nella schermata di condivisione.
 - I file dei reel restano senza musica (solo i suoni dell'app). Caroselli e post singoli restano automatici.
 - `strumenti/musica.py` (brano generato da noi) resta come riserva se un giorno si torna alla pubblicazione automatica.
+- 12/11: Stefano vorrebbe usare sempre il brano "Aura" e far pubblicare i reel in automatico. Riprovato il catalogo audio di Instagram da Metricool: ancora errore 403 (succede se l'account non è Business collegato a una Pagina Facebook). Strade: (a) collegare @clepsi.official come account Business a una Pagina Facebook e riprovare; (b) avere il file del brano con licenza d'uso e inserirlo noi nel video, così i reel escono da soli.
 
 ## Regole dei reel (30/10, dai dati della prima settimana)
+- **Hashtag (12/11, deciso da Stefano):** nei reel al massimo 5 hashtag. Tolto il sesto dai reel già programmati.
 - I primi reel: 7–8 persone su 10 scorrono via prima dei 3 secondi; chi resta ne guarda circa metà. Il problema è il primo secondo.
 - Ogni reel apre con un **gancio**: frase grande (120 px, una parte in lime) su fondo scurito per 1,6 s, già al fotogramma zero, che tocca un problema concreto dell'architetto (soldi, varianti, timesheet, tempo). Niente aperture d'atmosfera.
 - Durata: reel corti 8–14 s (si riguardano in loop), fino a 15–18 s per i reel in sospeso; solo il reel "Come funziona" più lungo.
