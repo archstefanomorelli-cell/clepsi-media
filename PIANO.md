@@ -85,6 +85,18 @@ Restano invariati: sab 14/11 Autopsia con Danilo (420116433), dom 15/11 Niente 2
 - Post fissati in alto (al posto di "Cos'è Clepsi" e "Come funziona"): "4 cose" dal 13/11, poi "Collaboratore" dal 16/11 e "Parcella" dal 18/11.
 - Storie in evidenza. Le Serie di Instagram sono in prova solo per alcuni creator e dal web non compaiono: Stefano controlla dal telefono (+ nel profilo → "Serie"); se ci sono, si usano quelle con gli stessi temi. Quattro raccolte, copertine in `evidenza/` (script `strumenti/copertine_evidenza.py`): **Come funziona** (4 cose, Collaboratore, Tre passi), **La sera** (Ti sei dimenticato ieri? più i video delle serate da ricondividere in storia: aperitivo, tennis, cena), **Margini** (Venerdì, Commessa chiusa, carosello Autopsia), **Parcella** (reel Parcella, carosello "Quanto vale la tua parcella"). Ogni raccolta si crea dopo la prima storia del suo tema (profilo → Nuova, oppure dalla storia → Metti in evidenza), poi Modifica copertina con l'immagine di `evidenza/`.
 
+## Settimana 16–22/11 · Instagram, programmata su Metricool il 12/11/2026 (OK di Stefano il 12/11) · periodo 1
+Lunedì, mercoledì e venerdì sono i reel dell'app vera già programmati (vedi sopra: Collaboratore, Parcella, Venerdì). Tema della settimana: le varianti. File in `settimana-5/`, sorgenti `grafiche/piccola-modifica-1..5.dc.html` e `grafiche/domanda-variante.dc.html` (render: `python3 strumenti/render_ig.py grafiche lavoro piccola-modifica-1,piccola-modifica-2,piccola-modifica-3,piccola-modifica-4,piccola-modifica-5,domanda-variante`). Media su Metricool dal commit ce4fb64.
+
+| Quando | Pilastro · fase | Contenuto | Tipo | Metricool | IA | Musica da cercare |
+|---|---|---|---|---|---|---|
+| Mar 17/11, 13:00 | Il conto · 2 | Carosello crema "Quanto vale una «piccola modifica»" (documento n. 2: 3 mezze giornate = 480 €, tabella 1/2/4/6/12 mezze giornate a 200/260/320 €, Uffici Lambrate 265 → 321 € a giornata con le varianti fatturate, tre passi prima di dire «va bene») | carosello 5, automatico | 426102163 | no | — |
+| Gio 19/11, 13:00 | Il tuo numero · 3 | Domanda lime "Il cliente chiede una «piccola modifica». Tu?" A quoto prima / B ne parlo a fine lavori / C la faccio e basta + AUTOPSIA | immagine, automatica | 426102193 | no | — |
+| Dom 22/11, 11:00 | Niente · 1 | Niente episodio 3 (`reel-niente-3-boh`): sorprese · rincorse · fogli ore · stime a caso · «boh» | reel normale, 14,2 s, notifica | 426102227 | no | minimal house, clicky beats, glitch electronic |
+
+Dati al 12/11: reel senza condivisioni né commenti; "Passo un attimo" (9/11) 5 visualizzazioni, visione media 8,5 s su 14,8 (58%); il reel "piccola modifica" dell'11/11 non compare nelle statistiche (chiesto a Stefano se è uscito). Carosello forfettario 0 salvataggi, 6 persone raggiunte. 0 parcelle dal 7/11. Nessuno studio nuovo da /installa che risponde alle 19 (lo studio creato il 12/11 con risposte dal 27/7 sembra una prova). 22 follower, 81 seguiti; picco di 838 persone raggiunte il 10/11. Notizia verificata il 12/11: soglia forfettario a 100.000 € ancora proposta (ddl alla Camera, approvazione attesa entro il 31/12); questionario MEF fino al 18/11.
+Pronti per quando lunedì e mercoledì tornano a "È proprio così" (dal 30/11), proposti il 12/11 e non ancora approvati: reel in sospeso "«Pensavo ci guadagnassimo»" (clip racconto sabbia, contatore 9→18→27→31 giornate, rivelazione "34 giornate. Ne avevi previste 27.") e "Il timesheet del venerdì, a memoria" (clip racconto orologio, LUN/MAR/MER/GIO, rivelazione "Tre ore o tre ore e venti? Nessuno se lo ricorda.").
+
 ## LinkedIn · pagina aziendale Clepsi
 Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi un documento → icona dell'orologio accanto a Pubblica). Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
 
@@ -151,6 +163,28 @@ Testo gio 12/11 (con il sondaggio):
 > Prova l'app gratis: www.clepsi.it/installa
 > #gestionestudio #architetti #ingegneri
 
+Settimana 16–22/11 (testi approvati da Stefano il 12/11):
+
+| Quando | Post | File | Titolo documento |
+|---|---|---|---|
+| Lun 16/11, 9:00 | Quanto vale una piccola modifica (PDF) | linkedin/clepsi-piccola-modifica.pdf | Quanto vale una piccola modifica |
+| Gio 19/11, 9:00 | Il collaboratore, la prima sera (video) | reel/reel-collaboratore.mp4 | — |
+
+Testo lun 16/11:
+> Una variante chiesta in corso d'opera è lavoro come tutto il resto, e si misura allo stesso modo: in mezze giornate.
+> Tre mezze giornate, con un costo di 320 € a giornata, valgono 480 €. Se nessuno le fattura, escono dal margine della commessa senza che nessuno se ne accorga. Nell'esempio di Uffici Lambrate, 6 giornate di varianti non fatturate fanno scendere la resa da 321 a 265 € a giornata.
+> Nel documento c'è la tabella con i valori da 1 a 12 mezze giornate e tre costi giornalieri, da tenere a portata di mano quando arriva la prossima «piccola modifica».
+> Clepsi conta le giornate di ogni commessa con due tap la sera, e il venerdì chi segue la commessa indica cosa era lavoro in più.
+> Prova l'app gratis: www.clepsi.it/installa
+> #architetti #ingegneri #gestionestudio
+
+Testo gio 19/11:
+> "Il mio team non lo userà mai." È il dubbio che sentiamo più spesso quando parliamo di gestione del tempo negli studi.
+> Ecco cosa deve fare un collaboratore con Clepsi. Riceve un link e scrive la sua email. Alle 19 gli arriva una domanda: su quale commessa ha lavorato la mattina e su quale il pomeriggio. Due tap, e ha finito. Niente da imparare, niente timer, nessuna ora da ricordare, e non vede mai un importo.
+> Nel video, l'app vera con uno studio di esempio.
+> Prova l'app gratis: www.clepsi.it/installa
+> #gestionestudio #architetti #ingegneri
+
 ## Reel disponibili (18, in `reel/`)
 - Serate (14 s): aperitivo, tennis, cena, divano. In alto giorno/ora e situazione, scena con la schermata di Clepsi, dissolvenza, tabella della settimana che si riempie, dissolvenza, chiusura "Ogni sera / due tap." + logo + Clepsi + clepsi.it. Niente scritte veloci in apertura (tolte su richiesta).
 - Racconto (9 s): meridiana, strappo, porta, sabbia, orologio, tavole. In alto un caso concreto fisso fino alla chiusura; in basso latino (Seneca, Lettere a Lucilio I) + italiano. Stessa chiusura.
@@ -167,6 +201,7 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 - Uscita: un episodio a settimana, la domenica alle 11.
 - Episodio 1 (1/11): timer · timesheet · ore da segnare · fogli Excel · scuse (le parole del sito).
 - Episodio 2 (15/11, `reel-niente-2-chi`): cronometro · ore da giustificare · varianti regalate · previsioni a occhio · «chi ci ha lavorato?» (copertina: l'ultima). Con parole così lunghe i caratteri vengono più piccoli: dal prossimo, parole più corte.
+- Episodio 3 (22/11, `reel-niente-3-boh`): sorprese · rincorse · fogli ore · stime a caso · «boh» (copertina: l'ultima).
 - Idee per i prossimi, da approvare: per il titolare "sorprese a fine commessa · conti a fine anno · «pensavo ci guadagnassimo»"; per i collaboratori "cronometro · ore da giustificare · riunioni del lunedì"; per il capo commessa "«tu su cosa sei?» · varianti regalate · previsioni a occhio". Parole brevi: la più lunga fissa la dimensione dei caratteri.
 
 ## Attività programmate
