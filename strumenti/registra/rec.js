@@ -55,6 +55,18 @@ class Rec {
   async scrivi(testo, cps = 13) {
     for (const c of testo) { await this.p.keyboard.type(c); await this.p.waitForTimeout(15); const n = Math.max(1, Math.round(FPS / cps)); for (let i = 0; i < n; i++) await this.frame(); }
   }
+  // scorre la pagina intera (siti normali, dove scorre il documento e non un riquadro)
+  async scrollDoc(to, s) {
+    const from = await this.p.evaluate(() => scrollY);
+    const max = await this.p.evaluate(() => document.documentElement.scrollHeight - innerHeight); to = Math.min(to, max);
+    const n = Math.max(1, Math.round(s * FPS));
+    for (let i = 1; i <= n; i++) { await this.p.evaluate(y => scrollTo(0, y), from + (to - from) * ease(i / n)); await this.frame(); }
+  }
+  // fa passare il tempo senza fotogrammi (per un cambio di pagina): finché 'pronto' non è vero
+  async avanza(pronto, max = 80) {
+    for (let k = 0; k < max; k++) { await this.p.clock.runFor(100); await this.p.waitForTimeout(80); if (await pronto().catch(() => false)) return true; }
+    return false;
+  }
   async box(loc) { const b = await loc.boundingBox(); return [b.x + b.width / 2, b.y + b.height / 2]; }
 }
 async function apri(browser, ora, opz = {}) {
@@ -64,7 +76,7 @@ async function apri(browser, ora, opz = {}) {
   const p = await ctx.newPage();
   const t0 = new Date(ora);
   await p.clock.install({ time: t0 });
-  await p.goto('http://localhost:8765/'); await p.waitForTimeout(3500);
+  await p.goto(opz.url || 'http://localhost:8765/'); await p.waitForTimeout(3500);
   await p.clock.pauseAt(new Date(t0.getTime() + 8000));
   await p.waitForTimeout(300);
   return p;
