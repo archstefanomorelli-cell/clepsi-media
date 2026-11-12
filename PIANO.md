@@ -62,7 +62,7 @@ File in `settimana-4/` (tavole), `reel/`, `copertine/`; sorgenti `grafiche/forfe
 | Dom 15/11, 11:00 | Niente · 1 | Niente episodio 2: cronometro · ore da giustificare · varianti regalate · previsioni a occhio · «chi ci ha lavorato?» | reel normale, 14,2 s | 419790628 | no | minimal house, glitch electronic, clicky beats |
 
 Dati al 7/11 (prima settimana): reel senza condivisioni né commenti; "Ore 19" visione media 2,8 s su 13, 18% oltre i 3 s; "Come funziona" 15 s su 42, 20%. Caroselli e domande senza salvataggi. 20 parcelle dal calcolatore dal 2 al 6/11. 2 studi da /installa (4/11), nessuno risponde alle 19. 12 follower, 72 seguiti.
-Prossima ripresa da chiedere: "venerdì, le fasi" dallo Studio di esempio, entro il 17/11 per il reel Due tap del 20/11 (promemoria a Stefano il 14/11 alle 10:30).
+Ripresa "venerdì, le fasi": non serve più, il reel del 20/11 è "Il venerdì, un minuto" (registrato il 12/11).
 
 ## Reel dell'app vera, 13–27/11 · programmati su Metricool il 12/11/2026 (OK di Stefano il 12/11)
 Sette reel nuovi registrati fotogramma per fotogramma dall'app vera (vedi "Reel a elenco numerato" più sotto; file in `reel/`, copertine in `copertine/`). Media su Metricool dal commit 52fb4f2. Dal 12/11 sera i reel escono da soli (autoPublish true) con il brano "Aura" di cloud cover (vedi Musica dei reel); ogni reel ha la sua storia automatica alle 20:30 (il venerdì alle 19:30) con lo stesso video, che poi va nella raccolta in evidenza del suo tema. Per due settimane i reel del lunedì e del mercoledì sono reel dell'app (pilastro Due tap) invece di "È proprio così": scelta di Stefano per rifare il profilo.
@@ -208,11 +208,11 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 
 ## Attività programmate
 - Promemoria con file e didascalia 5 minuti prima dei reel da pubblicare a mano: dom 1/11 10:55 (Niente 1), sab 7/11 10:55 (serata 3 cena).
-- Sab 14/11 10:30: promemoria a Stefano per la ripresa "venerdì, le fasi" (chiesto da lui il 7/11).
+- ~~Sab 14/11 10:30: promemoria per la ripresa "venerdì, le fasi"~~ disattivato il 12/11: il reel "Il venerdì, un minuto" è già fatto e programmato per il 20/11.
 - 9:27 ogni giorno "Clepsi Instagram · controllo casella": DM e commenti da Business Suite, promemoria LinkedIn, dal 27/10 anche profili da seguire (dal 1/11 3–5 al giorno) e 6–8 commenti proposti, più like mirati. Richiede il PC di Stefano acceso con l'app Claude.
 - Dal 7/11 il controllo del mattino propone anche 2 messaggi al giorno per la prova dell'app agli studi "caldi" (vedi 4d e `collaborazioni.md`) e segnala per primo chi risponde.
 - 19:57 ogni giorno "Clepsi Instagram · controllo serale": solo DM e commenti.
-- Giovedì "Clepsi · piano social settimana successiva": propone il piano della settimana dopo (Instagram e LinkedIn), con i video da realizzare e i prompt Kling; dopo l'OK prepara, carica e programma.
+- Giovedì "Clepsi · piano social settimana successiva": propone il piano della settimana dopo (Instagram e LinkedIn), con i video da realizzare e i prompt Kling; dopo l'OK prepara, carica e programma. Aggiornato il 12/11: guarda prima cosa è già programmato e usa solo gli slot liberi (settimana 23–29/11: solo martedì, giovedì, domenica), reel con "Aura" e autoPublish true, al massimo 5 hashtag nei reel.
 - Follow e interazioni (decisi il 31/10 con Stefano): 3–5 follow al giorno, solo profili scelti bene, finché il profilo non supera 100 follower; obiettivo restare sotto 150–200 seguiti fino ad allora. Più interazioni: 6–8 commenti al giorno (max 10) sotto i post di profili già seguiti, soprattutto quelli di collaborazioni.md e chi ci ha seguito o ha interagito; like ai post commentati e ad altri 5–10 post recenti dei profili seguiti; risposte a ogni commento ricevuto (sotto i nostri post o in risposta ai nostri commenti). Tutto con OK di Stefano. Mai segui-e-togli.
 - Fonte dei follow (deciso il 2/11): dopo collaborazioni e chi interagisce con noi, il pubblico dei software per studi: chi commenta o mette like a @accasoftware (9K, italiano), @wethod.app (2K, italiano, solo studi tecnici) e @monographhq (18K, USA: solo italiani). Prima chi commenta, poi poche decine di follower al giorno. Mai commentare sotto i loro post.
 
