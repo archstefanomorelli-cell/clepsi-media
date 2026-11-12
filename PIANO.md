@@ -57,12 +57,33 @@ File in `settimana-4/` (tavole), `reel/`, `copertine/`; sorgenti `grafiche/forfe
 | Mar 10/11, 13:00 | Il conto · 2 | Carosello crema "La soglia del forfettario, in giornate" (documento n. 1, tabella 65/85/100 mila con 210 e 180 giornate). Notizia da ricontrollare la mattina: ddl di Bilancio, proposta, non legge | carosello 5, automatico | 419790581 | no | — |
 | Mer 11/11, 19:00 | È proprio così · 1 | Reel in sospeso "«è solo una piccola modifica»" (contatore 1→3 mezze giornate, rivelazione "480 € di lavoro. Fatturati: 0 €."), clip racconto "tavole" | reel normale, 13,2 s | 419790595 | sì | late night lo-fi, chill electronic, ambient minimal |
 | Gio 12/11, 13:00 | Il tuo numero · 3 | Domanda lime "La tua ultima commessa chiusa, quanto ti ha pagato a giornata?" A/B/C + AUTOPSIA in DM | immagine, automatica | 419790606 | no | — |
-| Ven 13/11, 19:00 | Due tap · 4 | Reel in sospeso "Una di queste quattro commesse è in perdita. Quale?" (carte coperte, due tap, schermata del titolare, carte scoperte), app vera | reel normale, 13,4 s | 419790619 | no | chill electronic, lo-fi house, minimal house |
+| Ven 13/11, 19:00 | Due tap · 4 | **Sostituito il 12/11** (OK di Stefano): al posto del reel in sospeso "Una di queste quattro" esce "4 cose che Clepsi fa al posto tuo" (vedi sotto, settimane 13–27/11). Il reel "Quale" resta in `reel/` per un'altra occasione | reel normale, 46 s | 425794956 | no | chill electronic, lo-fi house, minimal house |
 | Sab 14/11, 11:00 | Il tuo numero · 3 | Autopsia in Collab con @arch_danilo_carella: carosello 4 tavole a mezze giornate (crema, nera, crema, lime: ristrutturazione da 8.000 €, la parcella scomposta in 33,5 giornate, soglia ≈ 240 €/giornata con schede 200/280 € come nell'app, "Metodo prima del preventivo" + AUTOPSIA). File in `collab/danilo/`, sorgenti `grafiche/danilo-1..4.dc.html`. OK di Danilo il 7/11; lui deve accettare l'invito alla collaborazione dall'app | carosello 4, automatico, collaboratore arch_danilo_carella | 420116433 | no | — |
 | Dom 15/11, 11:00 | Niente · 1 | Niente episodio 2: cronometro · ore da giustificare · varianti regalate · previsioni a occhio · «chi ci ha lavorato?» | reel normale, 14,2 s | 419790628 | no | minimal house, glitch electronic, clicky beats |
 
 Dati al 7/11 (prima settimana): reel senza condivisioni né commenti; "Ore 19" visione media 2,8 s su 13, 18% oltre i 3 s; "Come funziona" 15 s su 42, 20%. Caroselli e domande senza salvataggi. 20 parcelle dal calcolatore dal 2 al 6/11. 2 studi da /installa (4/11), nessuno risponde alle 19. 12 follower, 72 seguiti.
 Prossima ripresa da chiedere: "venerdì, le fasi" dallo Studio di esempio, entro il 17/11 per il reel Due tap del 20/11 (promemoria a Stefano il 14/11 alle 10:30).
+
+## Reel dell'app vera, 13–27/11 · programmati su Metricool il 12/11/2026 (OK di Stefano il 12/11)
+Sette reel nuovi registrati fotogramma per fotogramma dall'app vera (vedi "Reel a elenco numerato" più sotto; file in `reel/`, copertine in `copertine/`). Media su Metricool dal commit 52fb4f2. Reel con autoPublish false (Stefano aggiunge il brano, a volume basso sotto i suoni dell'app, e pubblica); ogni reel ha la sua storia automatica alle 20:30 (il venerdì alle 19:30) con lo stesso video, che poi va nella raccolta in evidenza del suo tema. Per due settimane i reel del lunedì e del mercoledì sono reel dell'app (pilastro Due tap) invece di "È proprio così": scelta di Stefano per rifare il profilo.
+
+| Quando | Reel | Durata | Metricool reel | Storia | Raccolta in evidenza | Sostituisce (da archiviare dopo l'uscita) |
+|---|---|---|---|---|---|---|
+| Ven 13/11, 19:00 | 4 cose che Clepsi fa al posto tuo | 46 s | 425794956 | 425796058 | Come funziona | "Come funziona con l'app vera" (2/11, DfQIMocxzdY) e "La settimana" (8/11, Dfesl6NNASu) |
+| Lun 16/11, 19:00 | Il collaboratore, la prima sera | 33 s | 425795169 | 425796160 | Come funziona | "Ore 19 · timesheet? due tap" (4/11, DfVEOxLReL-) |
+| Mer 18/11, 19:00 | Dalla parcella alla commessa | 39 s | 425795337 | 425796190 | Parcella | — |
+| Ven 20/11, 18:00 | Il venerdì, un minuto (esce all'ora della domanda del venerdì) | 27 s | 425795482 | 425796283 (19:30) | Margini | "La mattina dopo" (6/11, DfaN4_WtULN) e "Varianti veloci" con Seneca (28/10, DfDScs9Rvkf, dice ancora "Lista d'attesa") |
+| Lun 23/11, 19:00 | Ti sei dimenticato ieri? | 30 s | 425795628 | 425796309 | La sera | — |
+| Mer 25/11, 19:00 | La commessa chiusa | 32 s | 425795784 | 425796359 | Margini | — |
+| Ven 27/11, 19:00 | Lo studio pronto in tre passi | 39 s | 425795918 | 425796411 | Come funziona | — |
+
+Restano invariati: sab 14/11 Autopsia con Danilo (420116433), dom 15/11 Niente 2 (420013769). Martedì, giovedì e domenica delle settimane 16–22/11 e 23–29/11 li propone il piano del giovedì come sempre.
+
+**Da fare dopo le uscite** (lo fa Stefano dall'app di Instagram, oppure Claude dal browser con un OK esplicito di Stefano per quella azione: il 12/11 il salvataggio di una didascalia dal browser è stato bloccato senza quell'OK):
+- Archiviare (non cancellare: si ripristinano da Archivio) i cinque reel della colonna "Sostituisce", ciascuno il giorno in cui esce il suo sostituto.
+- Correggere le due didascalie che dicono ancora "lista d'attesa": aperitivo (24/10, De3w-P8gktB) e Seneca "Omnia, Lucili" (27/10, DfAdbCADKPE). Ultimo paragrafo nuovo: "Prova l'app: link in bio. I primi 100 studi pagano la metà il primo anno." (il resto invariato).
+- Post fissati in alto (al posto di "Cos'è Clepsi" e "Come funziona"): "4 cose" dal 13/11, poi "Collaboratore" dal 16/11 e "Parcella" dal 18/11.
+- Storie in evidenza. Le Serie di Instagram sono in prova solo per alcuni creator e dal web non compaiono: Stefano controlla dal telefono (+ nel profilo → "Serie"); se ci sono, si usano quelle con gli stessi temi. Quattro raccolte, copertine in `evidenza/` (script `strumenti/copertine_evidenza.py`): **Come funziona** (4 cose, Collaboratore, Tre passi), **La sera** (Ti sei dimenticato ieri? più i video delle serate da ricondividere in storia: aperitivo, tennis, cena), **Margini** (Venerdì, Commessa chiusa, carosello Autopsia), **Parcella** (reel Parcella, carosello "Quanto vale la tua parcella"). Ogni raccolta si crea dopo la prima storia del suo tema (profilo → Nuova, oppure dalla storia → Metti in evidenza), poi Modifica copertina con l'immagine di `evidenza/`.
 
 ## LinkedIn · pagina aziendale Clepsi
 Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi un documento → icona dell'orologio accanto a Pubblica). Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
@@ -191,7 +212,7 @@ Reel tipografico come l'intestazione della home: fondo nero, "NIENTE" bianco fer
 
 ## Reel a elenco numerato (11/11, idea di Stefano da una pubblicità di Magisterut)
 Promessa numerata in apertura ("4 cose che fa al posto tuo"), poi un punto per schermata con contatore "1 / 4" sempre visibile, titolo su due righe (domanda bianca + risposta lime, beneficio e non funzione) e sotto l'app vera; chiusura con le etichette dei punti e "Prova l'app gratis". Il contatore tiene chi guarda fino alla fine. Pilastro "Due tap" (fase 4); è anche il formato per le sponsorizzazioni con obiettivo "visite al sito".
-- `reel/reel-quattro-cose.mp4` (20,9 s, copertina in copertine/), script `strumenti/reel_quattro.py`: timesheet in due tap · come chiuderà · perdita vista in tempo · settimana dello studio. Non ancora programmato.
+- `reel/reel-quattro-cose.mp4` (46 s, copertina in copertine/), script `strumenti/reel_quattro.py`: timesheet in due tap · come chiuderà · perdita vista in tempo · settimana dello studio. Programmato per il 13/11 (vedi "Reel dell'app vera, 13–27/11").
 - Fatto (12/11): "Lo studio pronto in tre passi" (reel/reel-tre-passi.mp4, 39 s): studio, prima commessa, team con il link, poi "Fatto. Stasera alle 19 la prima domanda.". Account finto in locale (strumenti/registra/mock_nuovo.js): nessuno studio vero, nessun invito spedito.
 - Fatto (12/11): "Dalla parcella alla commessa" (reel/reel-parcella.mp4, 39 s): calcolatore di clepsi.it con 540.000 € di lavori (173 giornate), «Aprila in Clepsi», nome alla commessa, commessa con le tre fasi e 173 giornate coperte. Sito e app in locale (strumenti/registra/serve.py), titolare finto: la parcella non va sul server.
 - Fatto (12/11): "Il collaboratore, la prima sera" (reel/reel-collaboratore.mp4, 33 s): invito con il link, email e codice, schermata di blocco con la notifica delle 19 (testo vero di invia-domande, disegnata in strumenti/registra/blocco.js), due tap, "A domani alle 19:00".
@@ -248,7 +269,7 @@ Verifiche: **6 dicembre** (se non superata: due settimane in più sulle fasi 1 e
 ## Griglia del profilo (28/10, deciso con Stefano)
 - Colori fissi per tipo di contenuto: **nero** = reel (app, serate, racconto); **crema** = caroselli e casi (Autopsia, Varianti, Parcella, Sopralluogo…); **lime** = domande alla community (Le 19, sondaggio della domenica, "quanto dura il tuo sopralluogo?"), 1–2 a settimana.
 - Ogni reel ha una copertina su fondo nero: sopra in lime, titolo grande con una parola in lime, sotto la schermata dell'app vera o la scena. Script `strumenti/copertine_reel.py` (aggiungere una voce in COPERTINE), file in `copertine/`. La griglia mostra il centro 1080x1440 della copertina: testi e immagine stanno lì. Stefano la sceglie come copertina quando pubblica (per i reel già usciti: Modifica → Modifica copertina).
-- Post fissati in alto, in quest'ordine: reel "Come funziona" (quando esce), carosello "Cos'è Clepsi", Autopsia.
+- Post fissati in alto, in quest'ordine: reel "Come funziona" (quando esce), carosello "Cos'è Clepsi", Autopsia. Dal 13/11 (deciso con Stefano il 12/11): "4 cose", "Collaboratore", "Parcella".
 
 ## Linea editoriale
 - 28/10: Stefano ha tolto da Instagram il post "Primi 100" con i prezzi (non gli piaceva). Niente post dedicati ai prezzi; la riga sull'offerta in didascalia può restare ("I primi 100 studi in lista pagano la metà il primo anno").
