@@ -26,7 +26,7 @@ LIME, NERO = '#D4FF3A', '#0B0B0D'
 APERTURA, CHIUSURA, DISS = 1.8, 3.4, 0.3
 ENTRA = 0.35                                   # il telefono entra ed esce sfumando, mai sovrapposto ai cartelli
 RIP = W / 'riprese'
-SCALA = 2                                      # le riprese sono a 2x: 780x1684, la striscia "Studio di esempio" (44 px css) si taglia
+STRISCIA = 88                                  # le riprese sono a 2x: 780x1684, la striscia "Studio di esempio" (44 px css) si taglia
 
 # punti: (domanda, risposta in lime, suoni dei tocchi nell'ordine). La ripresa è una sola (riprese/unica):
 # i segni p1..p4 in eventi.json dicono dove cambia il titolo.
@@ -36,6 +36,7 @@ PUNTI = [
     ('Una commessa in perdita?', 'La vedi quando c’è tempo.', ['clepsi_tocco_mattina']),
     ('Chi ha lavorato su cosa?', 'Senza chiederlo a nessuno.', ['clepsi_tocco_mattina', 'clepsi_tocco_pomeriggio']),
 ]
+COPERTINA = ('4 cose che fa', 'al posto tuo.', 2, 2.1)   # titolo, poi da che punto e dopo quanti secondi prendere lo schermo
 ETICHETTE = ['Due tap la sera', 'Come chiuderà ogni commessa', 'Perdite viste in tempo', 'La settimana dello studio']
 
 LOGO = ("<svg width='{s}' height='{s}' viewBox='0 0 22 22'><circle cx='11' cy='11' r='9.5' fill='none' stroke='{c}' stroke-width='1.5'/>"
@@ -109,7 +110,7 @@ def main():
     fot = sorted(d.glob('*.jpg'))
     passaggi = {e['f']: e for e in ev['eventi'] if e['tipo'] == 'passaggio'}
     segni = {e['nome']: e['f'] for e in ev['eventi'] if e['tipo'] == 'segno'}
-    taglio = (0, 44 * SCALA, SW, 44 * SCALA + SH)
+    taglio = (0, STRISCIA, SW, STRISCIA + SH)
     carica = lambda i: Image.open(fot[i]).convert('RGB').crop(taglio)
     T = W / 'telefono'; T.mkdir(exist_ok=True)
     for x in T.glob('*.jpg'): x.unlink()
@@ -179,14 +180,14 @@ def main():
     overlay(str(base), ovs, str(out), audio=str(aud))
     # copertina: l'apertura con sotto la schermata del titolare
     fr = W / 'fr.jpg'
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{inizi[2] + 2.1:.2f}', '-i', str(out), '-frames:v', '1',
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{inizi[COPERTINA[2]] + COPERTINA[3]:.2f}', '-i', str(out), '-frames:v', '1',
                     '-vf', f'crop={PW}:{PH}:{PX}:{PY}', '-q:v', '2', str(fr)], check=True)
     import base64
     img = 'data:image/jpeg;base64,' + base64.b64encode(fr.read_bytes()).decode()
     cop = (f"<div style='position:absolute;inset:0;background:{NERO}'></div>"
            "<div style='position:absolute;left:90px;top:300px;width:900px'>"
            f"<div style='display:flex;align-items:center;justify-content:space-between'><span style='font-size:32px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:{LIME}'>Clepsi</span>{LOGO.format(s=46, c=LIME)}</div>"
-           f"<div class='b' style='font-size:96px;line-height:.98;letter-spacing:-.04em;margin-top:22px'>4 cose che fa<br><span style='color:{LIME}'>al posto tuo.</span></div></div>"
+           f"<div class='b' style='font-size:96px;line-height:.98;letter-spacing:-.04em;margin-top:22px'>{COPERTINA[0]}<br><span style='color:{LIME}'>{COPERTINA[1]}</span></div></div>"
            f"<div style='position:absolute;left:{(1080 - PW) // 2}px;top:600px;width:{PW}px;height:{PH}px;border-radius:46px;overflow:hidden;box-shadow:0 0 0 3px #2E2E34'>"
            f"<img src='{img}' style='width:100%;height:100%;object-fit:cover;object-position:top'></div>")
     render_pngs({'copertina': cop}, W)

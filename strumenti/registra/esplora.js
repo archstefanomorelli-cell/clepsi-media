@@ -1,0 +1,22 @@
+const { chromium } = require('playwright'); const { prepara } = require('./mock_nuovo');
+(async () => {
+  const b = await chromium.launch();
+  const ctx = await b.newContext({ viewport: { width: 390, height: 798 }, deviceScaleFactor: 1, serviceWorkers: 'block', permissions: ['clipboard-read', 'clipboard-write'] });
+  await prepara(ctx, { log: true });
+  const p = await ctx.newPage();
+  await p.clock.install({ time: new Date('2026-11-12T11:00:00+01:00') });
+  p.on('console', m => { if (m.type() === 'error') console.log('ERR', m.text().slice(0, 200)); });
+  await p.goto('http://localhost:8765/'); await p.waitForTimeout(3500);
+  let i = 1; const sh = async () => { await p.waitForTimeout(700); await p.screenshot({ path: `e${i++}.png` }); };
+  await p.getByPlaceholder('Studio…').fill('Studio Ferri Architetti');
+  await p.getByPlaceholder('Nome e cognome').fill('Giulia Ferri');
+  await p.getByText('4 – 6', { exact: true }).click(); await sh();
+  await p.getByText('Avanti', { exact: true }).click(); await p.waitForTimeout(1500); await sh();
+  console.log('--- passo 2\n' + (await p.locator('body').innerText()).slice(0, 900));
+  const inputs = p.locator('input:visible'); console.log('inputs', await inputs.count());
+  await inputs.nth(0).fill('Casa sul lago'); await inputs.nth(1).fill('38000');
+  await p.getByText('A metà', { exact: true }).click(); await sh();
+  await p.getByText('Avanti', { exact: true }).click(); await p.waitForTimeout(1500); await sh();
+  console.log('--- passo 3\n' + (await p.locator('body').innerText()).slice(0, 900));
+  await b.close();
+})();

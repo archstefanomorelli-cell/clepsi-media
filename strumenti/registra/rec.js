@@ -51,11 +51,16 @@ class Rec {
     const n = Math.max(1, Math.round(s * FPS));
     for (let i = 1; i <= n; i++) { await h.evaluate((e, y) => { e.scrollTop = y; }, from + (to - from) * ease(i / n)); await this.frame(); }
   }
+  // scrive come una persona: un carattere alla volta, con un ritmo regolare
+  async scrivi(testo, cps = 13) {
+    for (const c of testo) { await this.p.keyboard.type(c); await this.p.waitForTimeout(15); const n = Math.max(1, Math.round(FPS / cps)); for (let i = 0; i < n; i++) await this.frame(); }
+  }
   async box(loc) { const b = await loc.boundingBox(); return [b.x + b.width / 2, b.y + b.height / 2]; }
 }
 async function apri(browser, ora, opz = {}) {
-  const ctx = await browser.newContext({ viewport: { width: 390, height: 842 }, deviceScaleFactor: 2, serviceWorkers: 'block' });
-  await prepara(ctx, opz);
+  const ctx = await browser.newContext({ viewport: opz.viewport || { width: 390, height: 842 }, deviceScaleFactor: 2, serviceWorkers: 'block',
+    permissions: ['clipboard-read', 'clipboard-write'] });
+  await (opz.prepara || prepara)(ctx, opz);
   const p = await ctx.newPage();
   const t0 = new Date(ora);
   await p.clock.install({ time: t0 });
