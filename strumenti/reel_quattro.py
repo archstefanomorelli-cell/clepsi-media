@@ -19,7 +19,7 @@ APP, AUD = ROOT / 'sorgenti' / 'app', ROOT / 'sorgenti' / 'audio'
 W = ROOT / 'lavoro' / 'quattro'; W.mkdir(parents=True, exist_ok=True)
 NOME = 'reel-quattro-cose'
 FPS = 30
-PW, PH, PX, PY = 860, 1100, 80, 440           # finestra sullo schermo, allineata ai titoli: a destra si ferma alle icone (x 940), sotto lascia 380 px a nome, didascalia e audio
+PW, PH, PX, PY = 860, 1100, 110, 440          # finestra centrata; a destra le icone sfiorano solo il margine bianco dell'app (x 940-970), sotto lascia 380 px a nome, didascalia e audio
 SW, SH = 780, 1596                             # schermo intero della ripresa (390x798 css a 2x, senza la striscia "Studio di esempio")
 CH = SH * 0 + PH * SW / PW                     # altezza di schermo che entra nella finestra: il resto lo mostra la camera
 LIME, NERO = '#D4FF3A', '#0B0B0D'
@@ -42,7 +42,7 @@ LOGO = ("<svg width='{s}' height='{s}' viewBox='0 0 22 22'><circle cx='11' cy='1
         "<path d='M11 1.5 A9.5 9.5 0 0 0 11 20.5 Z' fill='{c}'/></svg>")
 
 def titolo(i, d, r):
-    return ("<div style='position:absolute;left:80px;top:178px;width:920px'>"
+    return (f"<div style='position:absolute;left:{PX}px;top:178px;width:930px'>"
             f"<span style='display:inline-block;font-size:26px;font-weight:700;letter-spacing:.12em;color:{LIME};border:2px solid {LIME};"
             f"border-radius:999px;padding:6px 16px'>{i} / {len(PUNTI)}</span>"
             f"<div class='b' style='font-size:74px;line-height:1.0;letter-spacing:-.04em;margin-top:22px'>{d}<br>"
