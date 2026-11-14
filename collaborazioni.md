@@ -120,6 +120,7 @@ Pubblico più ampio ma fatto soprattutto di committenti: l'autopsia va proposta 
 | 13/11 | @robertaplumari_architetto | commento sotto il reel "CHE FASTIDIO" (la PEC per spostare una presa: dove mettere il confine tra scritto e deciso a voce) · like al reel e al reel "NO PANICO" (pilastro nell'armadio) (OK di Stefano; verificato) |
 | 13/11 | @idd.ingegneri_del_domani | commento sotto il post sul mercato del lavoro degli ingegneri (assunzioni in studi tecnici o in aziende) · like al post (OK di Stefano; verificato) |
 | 13/11 | @arch_danilo_carella | commento sotto il reel del bagno di Casa ET (decisione già presa prima del cantiere, quote degli impianti) · like al reel (OK di Stefano; verificato). Collab in uscita sab 14/11 |
+| 14/11 | @arch_danilo_carella | uscito alle 11 il carosello Collab "Quante giornate ci sono dentro una ristrutturazione da 8.000 €" (Dft8ipen4R0); Danilo ha accettato/condiviso il post (detto da Stefano alle 14:15). Prossimo passo: ringraziarlo e proporgli la prova dell'app (bozza a Stefano) |
 | 13/11 | @matteo_pozza_architetto | messaggio per la prova dell'app (al "tu", aggancio: reel dei tre showroom e delle tre cucine), OK di Stefano; verificato, una volta sola |
 
 Altri profili seguiti il 27/10 (non Collab): @xzlabarchitettura (commento sotto il convegno Infoprogetto), @studioarch.caramel, @bstr.architects, @ihstudioit, @samarchsatwork, @nicola_salami_architetto, @arch.clarissastefano (commento sotto "Devo solo fare una CILA…"), @arch_danilo_carella.
