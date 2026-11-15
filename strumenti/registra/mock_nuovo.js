@@ -6,7 +6,7 @@ const JWT = B64({ alg: 'HS256', typ: 'JWT' }) + '.' + B64({ sub: UID, role: 'aut
 const USER = { id: UID, aud: 'authenticated', role: 'authenticated', email: 'titolare@studio.it', app_metadata: { provider: 'email' }, user_metadata: {}, identities: [], created_at: '2026-11-12T08:00:00Z' };
 const SESSION = { access_token: JWT, token_type: 'bearer', expires_in: 31536000, expires_at: 4102444800, refresh_token: 'nuovo', user: USER };
 const CORS = { 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': '*', 'access-control-expose-headers': '*' };
-async function prepara(ctx, { log = false, studio = null, invito = null, commesse = [], giorniFatti = [], giorniLavoro = null, sono = null, resaPerTipo = null } = {}) {
+async function prepara(ctx, { griglia = null, log = false, studio = null, invito = null, commesse = [], giorniFatti = [], giorniLavoro = null, sono = null, resaPerTipo = null } = {}) {
   await ctx.addInitScript(([k, v]) => { if (!sessionStorage.getItem('__ok')) { localStorage.clear(); if (v) localStorage.setItem(k, v); sessionStorage.setItem('__ok', '1'); } }, ['sb-pabxblvvikxgrvigxsfv-auth-token', invito ? '' : JSON.stringify(SESSION)]);
   // notifiche già attive, come su un telefono dove l'utente ha detto sì
   await ctx.addInitScript(() => { try { Object.defineProperty(Notification, 'permission', { get: () => 'granted' }); } catch {} });
@@ -28,6 +28,12 @@ async function prepara(ctx, { log = false, studio = null, invito = null, commess
     if (p.includes('/rpc/accept_invite')) { const x = S.persone.find(q => q.name === invito.nome); x.user_id = UID; S.persone.forEach(q => { if (q !== x && q.user_id === UID) q.user_id = null; }); return ok(null); }
     if (p.includes('/functions/v1/conti-commesse') && body && body.commessa) return ok(conti(body.commessa));
     if (p.includes('/functions/v1/conti-commesse') && S.progetti.some(q => q.dati)) return ok({ costoMedioCent: S.costoGiornataCent || 32000, resaPerTipo: null, commesse: S.progetti.map(contiDi) });
+    if (p.includes('/functions/v1/costo-medio')) return ok({ costo_medio_cent: S.costoGiornataCent || 32000 });
+    if (p.includes('/rest/v1/assignment_types?select=')) return ok([
+      { id: 'a7000000-0000-4000-8000-000000000001', name: 'Ristrutturazione', position: 1, phases: [{ name: 'Rilievo' }, { name: 'Progetto definitivo' }, { name: 'Pratica edilizia' }, { name: 'Direzione lavori' }] },
+      { id: 'a7000000-0000-4000-8000-000000000002', name: 'Nuova costruzione', position: 2, phases: [{ name: 'Fattibilità' }, { name: 'Progetto definitivo' }, { name: 'Progetto esecutivo' }, { name: 'Pratiche' }, { name: 'Direzione lavori' }] },
+      { id: 'a7000000-0000-4000-8000-000000000003', name: 'Interni', position: 3, phases: [{ name: 'Rilievo' }, { name: 'Concept' }, { name: 'Progetto' }, { name: 'Forniture e cantiere' }] },
+    ]);
     if (p.includes('/functions/v1/parcella-apri')) { S.datiParcella = body && body.dati; return ok({ link: 'http://localhost:8765/parcella/K7M2Q9' }); }
     if (u.pathname.startsWith('/functions/v1/')) return ok({});
     if (p.includes('/rpc/create_studio')) { S.studio = id('51d10000'); S.nome = body.p_name; S.persone.push({ id: id('aaaa0000'), name: body.p_my_name, role: 'admin', user_id: UID, status: 'active' }); return ok(S.studio); }
@@ -48,6 +54,11 @@ async function prepara(ctx, { log = false, studio = null, invito = null, commess
       const row = { id: me.id, name: me.name, role: me.role, studio_id: S.studio, studios: { name: S.nome } };
       return ok(single ? row : [row]);
     }
+    // la settimana di tutto lo studio (griglia "Mezze giornate"): persone nell'app, commesse, mezze giornate di tutti
+    if (p.includes('/rest/v1/members?select=id,name,role,status,user_id&studio_id')) return ok(S.persone.map((q, i) => ({ id: q.id, name: q.name, role: q.role, status: 'active', user_id: q.user_id || `0000000${i}-0000-4000-8000-0000000000bb` })));
+    if (p.includes('/rest/v1/members?select=id,name,work_days,receives_question,status,user_id')) return ok(S.persone.map((q, i) => ({ id: q.id, name: q.name, work_days: [1, 2, 3, 4, 5], receives_question: true, status: 'active', user_id: q.user_id || `0000000${i}-0000-4000-8000-0000000000bb` })));
+    if (p.includes('/rest/v1/projects?select=id,name,code,color,status,closed_on,lead_member_id')) return ok(S.progetti.map(q => ({ id: q.id, name: q.name, code: q.code, color: q.color, status: q.status || 'active', closed_on: q.chiusaIl || null, lead_member_id: S.persone[0].id })));
+    if (p.includes('/rest/v1/half_days?select=member_id,day,half,kind,project_id,phase_id,share')) return ok(S.griglia || []);
     const pr = p.match(/projects\?select=name.*id=eq\.([0-9a-f-]+)/);
     if (pr) { const x = S.progetti.find(q => q.id === pr[1]) || {}; const me = S.persone.find(q => q.user_id === UID); return ok({ name: x.name, code: x.code, color: x.color, assignment_type: (x.dati && x.dati.tipo) || null, lead_member_id: me.id, status: x.status || 'active', parcel_id: x.parcella ? 'a1b2c3d4-0000-4000-8000-000000000001' : null }); }
     if (giorniLavoro && p.includes('/rest/v1/members?select=work_days')) return ok({ work_days: giorniLavoro, evening_time: null });
@@ -91,7 +102,7 @@ async function prepara(ctx, { log = false, studio = null, invito = null, commess
     const out = { id: x.id, compensoCent: tot, variantiPagateCent: 0, giornateUsate: usate, costoMezzeCent: costoMezze, costiFinoraCent: costoMezze, mezzeSenzaCosto: 0, lavoroFatto: fatto,
       costiPrevistiCent: costiPrev, marginePrevistoCent: margPrev, stato, costoGiornataCommessaCent: costo, giornateCoperte: (tot - costoMezze) / costo,
       giornateServono: costiPrev ? usate / fatto - usate : null, resaGiornataCent: costiPrev ? Math.round(tot / (usate / fatto)) : null,
-      fasi: fp.map((f, j) => { const b = Math.round(f.fee_cents * (1 - margine) / costo * 2) / 2, u = (d.giornateFasi || [])[j] || 0; return { id: f.id, compensoCent: f.fee_cents, stato: f.status, giornateBudget: b, giornateUsate: u, oltreBudget: u > b, nome: f.name }; }),
+      fasi: fp.map((f, j) => { const b = (d.budgetFasi || [])[j] ?? Math.round(f.fee_cents * (1 - margine) / costo * 2) / 2, u = (d.giornateFasi || [])[j] || 0; return { id: f.id, compensoCent: f.fee_cents, stato: f.status, giornateBudget: b, giornateUsate: u, oltreBudget: u > b, nome: f.name }; }),
       persone: (d.persone || []).map(([n, g]) => { const q = S.persone.find(z => z.name === n); return { personaId: q ? q.id : n, giornate: g, nome: n }; }),
       variantiMezze: varTot, variantiValoreCent: Math.round(varTot * costo / 2),
       settimana: { lunedi: '2026-11-09', mezze: d.mezzeSettimana || 0, costoMezzaCent: Math.round(costo / 2), varianti: var_ },
@@ -116,6 +127,22 @@ async function prepara(ctx, { log = false, studio = null, invito = null, commess
     (c.fasi || []).forEach((f, j) => S.fasi.push({ id: id('fa5e0000'), project_id: pid, name: f.nome, position: j + 1, status: f.stato || 'todo', fee_cents: f.cent || 0 }));
   });
   S.mezze = [];
+  // griglia: { 'Nome persona': ['VRO','VRO','ULA',...] } una voce per mezza giornata da lunedì mattina; 'S' studio, '-' assente, '' vuota
+  if (griglia) {
+    S.griglia = [];
+    const lun = new Date('2026-11-09T12:00:00Z');
+    for (const [nome, celle] of Object.entries(griglia)) {
+      const q = S.persone.find(z => z.name === nome); if (!q) continue;
+      celle.forEach((c, k) => {
+        if (!c) return;
+        const d = new Date(lun.getTime() + Math.floor(k / 2) * 864e5).toISOString().slice(0, 10), half = k % 2 ? 'pm' : 'am';
+        for (const sig of c.split('+')) {
+          const pr = S.progetti.find(z => z.code === sig);
+          S.griglia.push({ member_id: q.id, day: d, half, kind: sig === 'S' ? 'studio' : sig === '-' ? 'absent' : 'project', project_id: pr ? pr.id : null, phase_id: null, share: 1 / c.split('+').length, modified_by: null });
+        }
+      });
+    }
+  }
   // entrare come un collaboratore dello studio invece che come titolare
   if (sono) S.persone.forEach(q => { q.user_id = q.name === sono ? UID : (q.user_id === UID ? null : q.user_id); });
   return S;
