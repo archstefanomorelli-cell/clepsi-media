@@ -22,7 +22,7 @@ const OUT = process.argv[2] || 'riprese';
   // 2 · il bilancio: giornate, resa per giornata, varianti non fatturate
   r.segna('p2');
   await r.guarda(p.getByText('Il bilancio', { exact: true }), 680, 120, 0.9, 32); await r.hold(2.2);
-  await r.guarda(p.getByText(/giornate usate, \d+ in più/).first(), 680, 20, 0.9, 40); await r.hold(2.6);
+  { const bb = await p.getByText(/giornate usate, \d+ in più/).first().boundingBox(); r.vista(924, bb.y + 10, 860, 0.9, 'c'); } await r.hold(2.6);
   await r.guarda(p.getByText('Varianti chieste dal cliente', { exact: true }), 680, 70, 0.9); await r.hold(2.4);
   // 3 · quanto ti rende una giornata, per tipo di incarico
   r.segna('p3');

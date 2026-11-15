@@ -15,16 +15,16 @@ const OUT = process.argv[2] || 'riprese';
   r.segna('p1'); await r.guarda(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), 700, 60, 0.01, 40); await r.cursore(1100, 700, 0); await r.hold(1.0);
   await r.cursore(1000, 620, 1);
   await r.clic(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), { attesa: 800 }); await r.hold(0.3);
-  await r.guarda(p.getByText(/A che punto è Villa Rossi/).first(), 700, 170, 0.9); await r.hold(1.2);
+  await r.guarda(p.getByText(/A che punto è Villa Rossi/).first(), 830, 170, 0.9, 30); await r.hold(1.2);
   await r.clic(p.getByText('Fatta', { exact: true }).last(), { attesa: 300 }); await r.hold(0.9);
   // 2 · le varianti della settimana
   r.segna('p2');
-  await r.guarda(p.getByText('Varianti del cliente', { exact: true }).last(), 700, 40, 0.8); await r.hold(0.5);
+  await r.guarda(p.getByText('Varianti del cliente', { exact: true }).last(), 830, 40, 0.8, 30); await r.hold(0.5);
   const piu = p.getByText('+', { exact: true }).last();
   for (let i = 0; i < 4; i++) { await r.clic(piu, { attesa: 200, s: i ? 0.35 : 0.7 }); await r.hold(0.25); }
   await r.hold(0.6);
   await r.clic(p.getByText('Aggiorna le previsioni', { exact: true }), { scuro: true, attesa: 1500 }); await r.hold(0.2);
-  await r.guarda(p.getByText(/Previsioni aggiornate/).first(), 700, 90, 0.9); await r.hold(2.6);
+  await r.guarda(p.getByText(/Previsioni aggiornate/).first(), 830, 90, 0.9, 30); await r.hold(2.6);
   // 3 · nella scheda della commessa, con il valore
   r.segna('p3');
   await r.clic(p.getByText('Villa Rossi', { exact: true }).first(), { attesa: 900 }); await r.hold(0.3);
