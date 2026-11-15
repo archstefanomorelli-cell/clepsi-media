@@ -22,7 +22,7 @@ const OUT = process.argv[2] || 'riprese';
   await r.nascondi();
   await r.portaA(p.getByText('Nuova commessa', { exact: true }).first(), 20, 1.0);
   await r.guarda(p.getByText('Fasi', { exact: true }).first(), 760, 230, 1.0, 30); await r.hold(1.4);
-  r.vista(968, 430, 760, 1.1, 'c'); await r.hold(2.0);
+  r.vista(968, 365, 760, 1.1, 'c'); await r.hold(2.0);
   // 2 · il margine che vuoi tenere: le giornate si ricalcolano
   r.segna('p2');
   const piu = p.getByText('+', { exact: true }).first();
