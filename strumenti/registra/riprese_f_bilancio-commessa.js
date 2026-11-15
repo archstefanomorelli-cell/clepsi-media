@@ -14,16 +14,15 @@ const OUT = process.argv[2] || 'riprese';
   const r = new Desk(p, `${OUT}/unica`);
   await r.avanza(() => p.getByText('Chiudi la commessa', { exact: true }).first().isVisible()); await p.clock.runFor(800); await p.waitForTimeout(300);
   // 1 · la commessa è finita: la chiudi
-  r.segna('p1'); await r.guarda(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), 760, 80, 0.01); await r.cursore(1150, 700, 0); await r.hold(1.2);
+  r.segna('p1'); await r.guarda(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), 700, 80, 0.01, 40); await r.cursore(1150, 700, 0); await r.hold(1.2);
   await r.cursore(1050, 600, 1);
   await r.clic(p.getByText('Chiudi la commessa', { exact: true }).first(), { attesa: 600 }); await r.hold(1.6);
   await r.clic(p.getByText('Sì, chiudila', { exact: true }), { scuro: true, attesa: 1500 }); await r.hold(0.2);
   await r.nascondi();
   // 2 · il bilancio: giornate, resa per giornata, varianti non fatturate
   r.segna('p2');
-  await r.guarda(p.getByText('Il bilancio', { exact: true }), 680, 120, 0.9); await r.hold(2.2);
-  await r.guarda(p.getByText('ti ha reso ogni giornata', { exact: false }).first(), 680, 20, 0.9); await r.hold(0.1);
-  await r.guarda(p.getByText('giornate usate', { exact: false }).first(), 680, 30, 0.01); await r.hold(2.4);
+  await r.guarda(p.getByText('Il bilancio', { exact: true }), 680, 120, 0.9, 32); await r.hold(2.2);
+  await r.guarda(p.getByText(/giornate usate, \d+ in più/).first(), 680, 20, 0.9, 40); await r.hold(2.6);
   await r.guarda(p.getByText('Varianti chieste dal cliente', { exact: true }), 680, 70, 0.9); await r.hold(2.4);
   // 3 · quanto ti rende una giornata, per tipo di incarico
   r.segna('p3');

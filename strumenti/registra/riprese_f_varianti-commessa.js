@@ -12,7 +12,7 @@ const OUT = process.argv[2] || 'riprese';
   const r = new Desk(p, `${OUT}/unica`);
   await r.avanza(() => p.getByText('Aggiorna fasi e varianti', { exact: true }).first().isVisible()); await p.clock.runFor(800); await p.waitForTimeout(300);
   // 1 · venerdì: a che punto è la commessa
-  r.segna('p1'); await r.guarda(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), 760, 60, 0.01); await r.cursore(1100, 700, 0); await r.hold(1.0);
+  r.segna('p1'); await r.guarda(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), 700, 60, 0.01, 40); await r.cursore(1100, 700, 0); await r.hold(1.0);
   await r.cursore(1000, 620, 1);
   await r.clic(p.getByText('Aggiorna fasi e varianti', { exact: true }).first(), { attesa: 800 }); await r.hold(0.3);
   await r.guarda(p.getByText(/A che punto è Villa Rossi/).first(), 700, 170, 0.9); await r.hold(1.2);
