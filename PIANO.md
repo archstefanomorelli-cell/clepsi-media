@@ -182,7 +182,7 @@ Settimana 9–15/11 (testi approvati da Stefano il 7/11):
 | Quando | Post | File | Titolo documento |
 |---|---|---|---|
 | Lun 9/11, 9:00 | La soglia del forfettario, in giornate (PDF) | linkedin/clepsi-forfettario-in-giornate.pdf | La soglia del forfettario, in giornate |
-| Gio 12/11, 9:00 | Sondaggio nativo (durata 1 settimana): "L'ultima commessa chiusa, quanto ti ha pagato a giornata?" · opzioni "Più di quanto mi costa" / "Meno di quanto mi costa" / "Non l'ho mai calcolato" | — | — |
+| ~~Gio 12/11, 9:00~~ mai uscito, rimesso lun 16/11 | Sondaggio nativo (durata 1 settimana): "L'ultima commessa chiusa, quanto ti ha pagato a giornata?" · opzioni "Più di quanto mi costa" / "Meno di quanto mi costa" / "Non l'ho mai calcolato" | — | — |
 
 Testo lun 9/11 (ricontrollare la mattina che la soglia sia ancora solo una proposta):
 > La soglia del regime forfettario potrebbe salire da 85.000 a 100.000 € dal 2027. Lo propone il disegno di legge di Bilancio approvato dal Consiglio dei Ministri il 28 ottobre; ora è in Parlamento, e per l'IVA la soglia resterebbe a 85.000 €. Fino al 18 novembre il MEF raccoglie anche le opinioni dei professionisti sulla soglia attuale, con un questionario online.
@@ -203,7 +203,8 @@ Settimana 16–22/11 (testi approvati da Stefano il 12/11; chiusura cambiata il 
 
 | Quando | Post | File | Titolo documento | Stato |
 |---|---|---|---|---|
-| ~~Lun 16/11, 9:00~~ uscito dom 15/11 ~10:15 | Quanto vale una piccola modifica (PDF) | linkedin/clepsi-piccola-modifica.pdf | Quanto vale una piccola modifica | Pubblicato il 15/11 (l'ora di programmazione non si era fissata, Stefano l'ha confermato così). Primo commento "Prova l'app gratis: www.clepsi.it/installa" pubblicato come Clepsi il 15/11. Lunedì 16/11 niente da fare. |
+| ~~Lun 16/11, 9:00~~ uscito dom 15/11 ~10:15 | Quanto vale una piccola modifica (PDF) | linkedin/clepsi-piccola-modifica.pdf | Quanto vale una piccola modifica | Pubblicato il 15/11 (l'ora di programmazione non si era fissata, Stefano l'ha confermato così). Primo commento "Prova l'app gratis: www.clepsi.it/installa" pubblicato come Clepsi il 15/11. |
+| Lun 16/11, 9:00 | Sondaggio del 12/11 (mai uscito), rimesso nello slot del lunedì rimasto libero: "L'ultima commessa chiusa, quanto ti ha pagato a giornata?" · "Più di quanto mi costa" / "Meno di quanto mi costa" / "Non l'ho mai calcolato", durata 1 settimana | — | — | Programmato da Claude il 15/11 (OK di Stefano: "sì rimettiamolo"). Testo del 12/11 con due ritocchi per la strategia: "uno strumento gratuito sul sito di Clepsi" al posto di www.clepsi.it e "Il link per provare l'app è nel primo commento." al posto del link. Il 16/11 dopo le 9 il controllo del mattino pubblica come Clepsi il primo commento "Prova l'app gratis: www.clepsi.it/installa". |
 | Gio 19/11, 9:00 | Il collaboratore, la prima sera (video) | reel/reel-collaboratore.mp4 | — | Programmato da Claude il 15/11 con Chrome. Il 19/11 dopo le 9 il controllo del mattino pubblica come Clepsi il primo commento "Prova l'app gratis: www.clepsi.it/installa". |
 
 Testo lun 16/11:
