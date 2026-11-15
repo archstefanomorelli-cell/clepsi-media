@@ -35,12 +35,12 @@ VIDEO = {
         ('18.000 € di compenso?', 'Diventano giornate.'),
         ('Vuoi tenere più margine?', 'Le giornate si ricalcolano.'),
         ('Fase per fase,', 'vedi quando sfora.')],
-        chiusura=('Il compenso,', 'in giornate.'), poster=7.5),
+        chiusura=('Il compenso,', 'in giornate.'), poster=11.8),
     'varianti-commessa': dict(viewport=(1280, 960), titoli=[
         ('Venerdì, un minuto:', 'a che punto è la commessa?'),
         ('Lavoro in più del cliente?', 'Lo segni qui.'),
         ('Ha un valore.', 'Da chiedere al cliente.')],
-        chiusura=('Il lavoro in più,', 'da far pagare.'), poster=6.0),
+        chiusura=('Il lavoro in più,', 'da far pagare.'), poster=7.2),
     'settimana-studio': dict(viewport=(1280, 960), titoli=[
         ('Chi ha lavorato su cosa?', 'In una griglia.'),
         ('Quale commessa pesa di più?', 'Lo vedi in un attimo.'),
@@ -56,7 +56,7 @@ VIDEO = {
         ('Mattina e pomeriggio.', 'Due tap.'),
         ('Dieci secondi.', 'Niente ore da segnare.'),
         ('Ti sei dimenticato?', 'Promemoria alle 21.')],
-        chiusura=('Niente timesheet.', 'Due tap la sera.'), poster=4.0),
+        chiusura=('Niente timesheet.', 'Due tap la sera.'), poster=3.4),
 }
 
 # formati come il video della home: finestra (x, y, w, h), titolo (x, y, larghezza, corpo)
