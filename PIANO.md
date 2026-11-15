@@ -134,7 +134,7 @@ Profilo della pagina sistemato il 15/11 (richiesta di Stefano): nome "Clepsi" (p
 Misure nel riassunto del giovedì: nuovi follower della pagina, impression, visite alla pagina, clic sul link. Verifica il 6/12: cosa porta più follower.
 
 ## LinkedIn · pagina aziendale Clepsi
-Pubblica Stefano a mano con la programmazione nativa (Crea un post → Aggiungi un documento → icona dell'orologio accanto a Pubblica). Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
+**Dal 15/11 i post LinkedIn li programma Claude** (OK di Stefano), dalla sessione principale con Claude in Chrome (il Chrome vero di Stefano, collegato come amministratore della pagina): il browser integrato non riesce a caricare file grandi. Metodo: pannello della pagina /company/145340493/admin/page-posts/published/ → "Aggiungi un video" o composer → documento; il file si carica con `file_upload` da un percorso della cartella di lavoro (es. /home/claude/clepsi-media/linkedin/…pdf; i percorsi del PC e /mnt/user-data/outputs vengono rifiutati); identità "Clepsi" in alto nel composer; per i PDF titolo del documento; testo a paragrafi; **non premere Esc** nel composer (chiede di salvare la bozza); icona dell'orologio → Data: clic sul giorno nel calendario (scrivere la data non chiude il calendario, che copre l'ora) → Ora: aprire l'elenco e scegliere l'opzione (scrivere l'ora non funziona) → Avanti → controllare "Pubblicazione: …" → Programma. Il primo commento con il link lo pubblica come pagina il controllo del mattino il giorno dell'uscita. Metricool gratuito non include LinkedIn. PDF in `linkedin/`. Promemoria nel controllo del mattino il giorno prima e il giorno stesso. Linea: 2 post a settimana (lunedì e giovedì alle 9), tono professionale, massimo 3 hashtag, caroselli come PDF, reel come video normali.
 
 Settimana 26/10–1/11 (testi e file invariati, confermati da Stefano il 23/10):
 
@@ -199,26 +199,26 @@ Testo gio 12/11 (con il sondaggio):
 > Prova l'app gratis: www.clepsi.it/installa
 > #gestionestudio #architetti #ingegneri
 
-Settimana 16–22/11 (testi approvati da Stefano il 12/11):
+Settimana 16–22/11 (testi approvati da Stefano il 12/11; chiusura cambiata il 15/11 con la strategia LinkedIn: "Il link per provare l'app è nel primo commento." al posto del link nel testo):
 
-| Quando | Post | File | Titolo documento |
-|---|---|---|---|
-| Lun 16/11, 9:00 | Quanto vale una piccola modifica (PDF) | linkedin/clepsi-piccola-modifica.pdf | Quanto vale una piccola modifica |
-| Gio 19/11, 9:00 | Il collaboratore, la prima sera (video) | reel/reel-collaboratore.mp4 | — |
+| Quando | Post | File | Titolo documento | Stato |
+|---|---|---|---|---|
+| ~~Lun 16/11, 9:00~~ uscito dom 15/11 ~10:15 | Quanto vale una piccola modifica (PDF) | linkedin/clepsi-piccola-modifica.pdf | Quanto vale una piccola modifica | Pubblicato il 15/11 (l'ora di programmazione non si era fissata, Stefano l'ha confermato così). Primo commento "Prova l'app gratis: www.clepsi.it/installa" pubblicato come Clepsi il 15/11. Lunedì 16/11 niente da fare. |
+| Gio 19/11, 9:00 | Il collaboratore, la prima sera (video) | reel/reel-collaboratore.mp4 | — | Programmato da Claude il 15/11 con Chrome. Il 19/11 dopo le 9 il controllo del mattino pubblica come Clepsi il primo commento "Prova l'app gratis: www.clepsi.it/installa". |
 
 Testo lun 16/11:
 > Una variante chiesta in corso d'opera è lavoro come tutto il resto, e si misura allo stesso modo: in mezze giornate.
 > Tre mezze giornate, con un costo di 320 € a giornata, valgono 480 €. Se nessuno le fattura, escono dal margine della commessa senza che nessuno se ne accorga. Nell'esempio di Uffici Lambrate, 6 giornate di varianti non fatturate fanno scendere la resa da 321 a 265 € a giornata.
 > Nel documento c'è la tabella con i valori da 1 a 12 mezze giornate e tre costi giornalieri, da tenere a portata di mano quando arriva la prossima «piccola modifica».
 > Clepsi conta le giornate di ogni commessa con due tap la sera, e il venerdì chi segue la commessa indica cosa era lavoro in più.
-> Prova l'app gratis: www.clepsi.it/installa
+> Il link per provare l'app è nel primo commento.
 > #architetti #ingegneri #gestionestudio
 
 Testo gio 19/11:
 > "Il mio team non lo userà mai." È il dubbio che sentiamo più spesso quando parliamo di gestione del tempo negli studi.
 > Ecco cosa deve fare un collaboratore con Clepsi. Riceve un link e scrive la sua email. Alle 19 gli arriva una domanda: su quale commessa ha lavorato la mattina e su quale il pomeriggio. Due tap, e ha finito. Niente da imparare, niente timer, nessuna ora da ricordare, e non vede mai un importo.
 > Nel video, l'app vera con uno studio di esempio.
-> Prova l'app gratis: www.clepsi.it/installa
+> Il link per provare l'app è nel primo commento.
 > #gestionestudio #architetti #ingegneri
 
 ## Reel disponibili (18, in `reel/`)
