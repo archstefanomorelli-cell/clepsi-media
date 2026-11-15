@@ -43,12 +43,12 @@ VIDEO = {
         chiusura=('Il lavoro in più,', 'da far pagare.'), poster=6.0),
     'settimana-studio': dict(viewport=(1280, 960), titoli=[
         ('Chi ha lavorato su cosa?', 'In una griglia.'),
-        ('Quale commessa mangia il tempo?', 'Lo vedi in un attimo.'),
+        ('Quale commessa pesa di più?', 'Lo vedi in un attimo.'),
         ('Una risposta sbagliata?', 'La correggi con un clic.')],
         chiusura=('La settimana', 'dello studio.'), poster=2.0),
     'bilancio-commessa': dict(viewport=(1280, 960), titoli=[
         ('Commessa finita?', 'La chiudi.'),
-        ('Quanto ti ha reso ogni giornata?', 'Il bilancio è pronto.'),
+        ('Quanto rende ogni giornata?', 'Il bilancio è pronto.'),
         ('Il prossimo preventivo?', 'Lo fai sui numeri.')],
         chiusura=('Quanto ti ha reso', 'ogni giornata.'), poster=9.0),
     'senza-timesheet': dict(viewport=(414, 847), telefono=True, titoli=[

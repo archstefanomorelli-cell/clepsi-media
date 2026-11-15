@@ -40,6 +40,12 @@ async function prepara(ctx, { griglia = null, log = false, studio = null, invito
     if (p.includes('/rpc/create_project')) { const x = id('c0c00000'); S.progetti.push({ id: x, ...body }); return ok(x); }
     if (p.includes('/rpc/parcel_preview')) return ok(S.parcella ? { total_cents: S.parcella.totaleCent, days: S.parcella.giornate, phases: S.parcella.fasi.map(f => ({ name: f.nome, fee_cents: f.cent })) } : null);
     if (p.includes('/rpc/claim_parcel')) { const x = id('c0c00000'); S.progetti.push({ id: x, name: body.p_name, code: body.p_project_code, color: body.p_color, parcella: true }); return ok(x); }
+    if (p.includes('/rpc/save_member_half_day') && S.griglia) {   // correzione dell'amministratore nella griglia
+      S.griglia = S.griglia.filter(x => !(x.member_id === body.p_member && x.day === body.p_day && x.half === body.p_half));
+      const it = body.p_items || [];
+      it.forEach(v => S.griglia.push({ member_id: body.p_member, day: body.p_day, half: body.p_half, kind: v.kind || 'project', project_id: v.project_id || null, phase_id: v.phase_id || null, share: 1 / it.length, modified_by: S.persone[0].id }));
+      return ok(null);
+    }
     if (p.includes('/rpc/save_half_day')) { S.salvate = (S.salvate || 0) + 1; if (body && body.p_day && body.p_half) { const it = (body.p_items || [])[0] || {}; S.mezze = S.mezze.filter(x => !(x.day === body.p_day && x.half === body.p_half)); S.mezze.push({ day: body.p_day, half: body.p_half, kind: it.kind || 'project', project_id: it.project_id || null, phase_id: it.phase_id || null }); } return ok(null); }
     if (p.includes('/rpc/save_friday')) { for (const f of body.p_phases || []) { const x = S.fasi.find(q => q.id === f.id); if (x) x.status = f.status; } S.varianti = S.varianti || {}; S.varianti[body.p_project] = body.p_variants || 0; S.venerdiAlle = S.oraVenerdi || '2026-11-13T16:32:00+00:00'; return ok(null); }
     if (p.includes('/rpc/close_project')) { const x = S.progetti.find(q => q.id === body.p_project); if (x) { x.status = 'closed'; x.chiusaIl = '2026-11-12'; } return ok(null); }

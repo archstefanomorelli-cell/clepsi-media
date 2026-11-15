@@ -11,7 +11,7 @@ const OUT = process.argv[2] || 'riprese';
   const titolo = p.getByText('Mezze giornate del team', { exact: true });
   // 1 · la griglia
   r.segna('p1'); await r.guarda(titolo, 980, 300, 0.01); await r.cursore(1100, 760, 0); await r.hold(1.4);
-  await r.guarda(p.getByText('Luca', { exact: true }).first(), 700, 150, 1.1); await r.hold(0.4);
+  await r.guarda(p.getByText('Luca', { exact: true }).first(), 700, 150, 1.1, 74); await r.hold(0.4);
   await r.cursore(820, 640, 1);
   const celle = p.getByText('SBR', { exact: true });
   await r.punta(celle.nth(0), 0.6); await r.punta(p.getByText('ULA', { exact: true }).nth(0), 0.5); await r.punta(p.getByText('VRO', { exact: true }).nth(0), 0.6); await r.hold(0.8);
@@ -29,7 +29,7 @@ const OUT = process.argv[2] || 'riprese';
   await r.guarda(pannello, 620, 200, 0.9); await r.hold(0.9);
   await r.clic(p.getByText('Loft Navigli', { exact: true }).last(), { attesa: 300 }); await r.hold(0.6);
   await r.clic(p.getByText('Salva la correzione', { exact: true }), { scuro: true, attesa: 900 }); await r.hold(0.4);
-  await r.guarda(p.getByText('Paolo', { exact: true }).first(), 760, 40, 1.0); await r.hold(2.4);
+  await r.guarda(p.getByText('Paolo', { exact: true }).first(), 760, 40, 1.0, 74); await r.hold(2.4);
   r.segna('fine');
   await b.close();
   console.log('ok', r.n, 'fotogrammi', ((Date.now() - t) / 1000).toFixed(0) + 's');
