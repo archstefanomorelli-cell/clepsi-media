@@ -231,3 +231,10 @@ Commenti scritti come pagina Clepsi (identità "Clepsi" scelta dal menu "Passa a
 Il 16/11 tutti verificati: usciti una volta, con il nome Clepsi, e like della pagina ai due post. Follower della pagina al 16/11: 3.
 
 Da non commentare: Diego Franzoni (scelta di Stefano, 15/11).
+
+## Facebook · commenti nei gruppi
+
+Dal 16/11 (deciso con Stefano): commenti nei gruppi Facebook sempre come pagina Clepsi. Data, gruppo, link al post, testo.
+
+| Data | Gruppo | Post | Commento |
+|---|---|---|---|
