@@ -250,8 +250,8 @@ Settimana 23–29/11 (testi approvati da Stefano il 19/11):
 
 | Quando | Post | File | Titolo documento | Pagine da taggare | Stato |
 |---|---|---|---|---|---|
-| Lun 23/11, 9:00 | Autopsia con Danilo Carella (PDF) · **se Danilo dà l'OK per LinkedIn**; altrimenti il ripiego qui sotto | linkedin/clepsi-autopsia-danilo.pdf | Quante giornate ci sono dentro una ristrutturazione da 8.000 € | Danilo Carella, se è su LinkedIn (da verificare da Stefano) | Da programmare: il 19/11 Claude in Chrome non era disponibile in questa sessione. Si programma dalla chat principale ("programma i post LinkedIn") appena Stefano riferisce la risposta di Danilo |
-| Lun 23/11, 9:00 (ripiego) | Bilancio di una commessa chiusa: Uffici Lambrate (PDF, dati di esempio del sito) | linkedin/clepsi-bilancio-uffici-lambrate.pdf | Uffici Lambrate: ci abbiamo guadagnato? | — | Da programmare se Danilo non risponde entro domenica 22/11 sera |
+| Lun 23/11, 9:00 | Autopsia con Danilo Carella (PDF) · **OK di Danilo per LinkedIn arrivato il 19/11** (riferito da Stefano): esce questo, il ripiego resta in archivio | linkedin/clepsi-autopsia-danilo.pdf | Quante giornate ci sono dentro una ristrutturazione da 8.000 € | Danilo Carella, se è su LinkedIn (da verificare da Stefano) | Da programmare: il 19/11 Claude in Chrome non era disponibile in questa sessione. Si programma dalla chat principale ("programma i post LinkedIn") appena Stefano riferisce la risposta di Danilo |
+| ~~Lun 23/11, 9:00 (ripiego)~~ non serve | Bilancio di una commessa chiusa: Uffici Lambrate (PDF, dati di esempio del sito) | linkedin/clepsi-bilancio-uffici-lambrate.pdf | Uffici Lambrate: ci abbiamo guadagnato? | — | Non serve più (Danilo ha dato l'OK): resta pronto per un'altra settimana |
 | Gio 26/11, 9:00 | La commessa chiusa (video) | reel/reel-chiusura.mp4 | — | — | Da programmare (come sopra) |
 
 Primo commento di tutti e tre, come Clepsi subito dopo l'uscita (controllo del mattino): "Prova l'app gratis: www.clepsi.it/installa".
