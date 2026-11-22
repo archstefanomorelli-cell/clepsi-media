@@ -215,6 +215,50 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 | @emmepi_studio_di_architettura_ | Ha risposto "grazie ☺️" e like al nostro commento (anche il cofondatore @ale_mori_3) | il post sul minimalismo, «togliere e custodire» | 18/11 (OK di Stefano; verificato, una volta sola) | |
 | Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
 
+## Obiettivi · studi della rubrica Archi&Interiors (22/11, proposta di Stefano)
+
+Fonte: i 20 caroselli di @archieinteriors_ salvati sul profilo ("25 studi da conoscere" città per città: Roma, Napoli, Torino, Palermo, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, più quattro sugli interni e uno sulla nuova generazione). 346 profili taggati in tutto. Obiettivo: arrivare con gli studi piccoli e medi allo stesso percorso di @officinaabitare (follow, commenti veri, risposta, poi la proposta di provare l'app al "tu" con un aggancio a uno scambio vero). Scartati i troppo grandi (oltre ~25K follower o strutture note), chi non pubblica, profili personali di docenti, imprese.
+
+Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Follower al 22/11. Stato: da seguire dopo l'OK di Stefano; prima la fascia A.
+
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Roma | @nemesiarchitects | 3,8K | A | Nemesi Architects |
+| Roma | @scapearch | 2,4K | A | SCAPE Architecture |
+| Roma | @modostudio_architetti | 1,1K | A | modostudio |
+| Roma | @capoleicavalliarchitecture | 1,7K | A | 3C+t architecture |
+| Roma | @studio_transit | 4,1K | A | Studio Transit |
+| Roma | @insula_gram | 1,3K | A | INSULA |
+| Roma | @its__vision | 5,9K | A | It's |
+| Roma | @2apassociates | 5,5K | A | 2A+P/A Associates |
+| Roma | @tstudio_salimei | 1,2K | A | Tstudio Guendalina Salimei; pubblica poco (22 post) |
+| Roma | @lazzarinipickering | 8,1K | B | Lazzarini Pickering Architetti |
+| Roma | @studiotamat | 20K | B | Studio Tamat |
+| Roma | @orizzontale_architecture | 17K | B | collettivo, più spazio pubblico che commesse private |
+| Roma | @setarchitects | 24K | B | Set Architects, pochi post |
+| Napoli | @4rcharchitettura | 1,2K | A | 4rch Architettura & Interior Design |
+| Napoli | @sifolasposato | 3,7K | A | Sifola Sposato Architetti |
+| Napoli | @odaofficinadarchitettura | 2,5K | A | od'a officina d'architettura |
+| Napoli | @kellerarchitettura | 6,1K | A | Antonio G. Martiniello |
+| Napoli | @studioarchitectonica | 233 | A | Studio Architectonica, profilo piccolo |
+| Napoli | @studio_maan_srl | 341 | A | Studio MAAN, architettura e paesaggio |
+| Napoli | @in_novastudio | 7,3K | A | IN-NOVA Studio |
+| Napoli | @corvinoemultari | 3,1K | A | Corvino+Multari |
+| Napoli | @vulcanicaarchitettura | 1,4K | A | Vulcanica |
+| Napoli | @rebuilt_studio | 1,4K | A | ReBuilt Studio |
+| Napoli | @marioferrara | 6,1K | A | Mario Ferrara |
+| Napoli | @archielleinteriors | 10K | B | Studio Archielle, architettura e interni |
+| Napoli | @primoatelier | 11K | B | Primoatelier |
+| Napoli | @fad.architects | 17K | B | FAD Architects, pochi post |
+| Napoli | @officinearchitetti | 17K | B | officine architetti |
+| Napoli | @antoniodimaro__architect | 18K | B | Antonio Di Maro |
+| Napoli | @carlo_oriente | 19K | B | Carlo Oriente |
+| Torino | @benedettocameranastudio | 545 | A | Benedetto Camerana Studio |
+| Torino | @_isolarchitetti_ | 1,8K | A | Isolarchitetti |
+
+Già seguiti: @westwayarchitects (30/10), @balance_architettura (10/11, già commentato). Scartati: @fuksas_architects (121K), @giammettaarchitects (94K), @carlorattiassociati (125K), @giulianoandreadelluva (46K), @labics e @alvisikirimoto (strutture grandi), @gruppobuilding (impresa), @cherubinogambardella (profilo personale di docente), @interplan2architects e @gnosisprogetti (quasi nessun post).
+Da leggere: gli altri ~300 profili (resto di Torino, Palermo, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
+
 ## Messaggio · fascia A
 
 Ciao [nome]! Siamo Clepsi: stiamo costruendo un'app per gli studi di architettura e ingegneria che dice come chiuderà ogni commessa, senza timesheet (ogni sera due tap, mattina e pomeriggio). Seguiamo i tuoi contenuti su [tema]: parli proprio delle cose che ci hanno fatto partire.
