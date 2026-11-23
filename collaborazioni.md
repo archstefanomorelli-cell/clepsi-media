@@ -257,9 +257,25 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 | Napoli | @carlo_oriente | 19K | B | Carlo Oriente |
 | Torino | @benedettocameranastudio | 545 | A | Benedetto Camerana Studio |
 | Torino | @_isolarchitetti_ | 1,8K | A | Isolarchitetti |
+| Torino | @piccoarchitetti | 5,7K | A | PICCO architetti (letto il 23/11) |
+| Torino | @acc_naturale_architettura | 934 | A | ACC Naturale Architettura, profilo piccolo |
+| Torino | @negozio.blu.architetti | 1,1K | A | Negozio Blu Architetti |
+| Torino | @brh.studio | 6,7K | A | Barbara Brondi & Marco Rainò |
+| Torino | @studioata | 4,7K | A | Studioata |
+| Torino | @bodaarchitetti | 5,2K | A | Bodà architetti |
+| Torino | @pat.architettiassociati | 1,9K | A | PAT. architetti associati |
+| Torino | @2mix_architetti | 2,9K | A | 2MIX architetti |
+| Torino | @gaarchitetti | 5,4K | A | G*AA Architetti Associati |
+| Torino | @duelinee_architettura | 4,3K | A | Due Linee Architettura |
+| Torino | @archisbang_architettura | 11K | B | archisbang architettura |
+| Milano | @__aoumm__ | 4,2K | A | AOUMM (letto il 23/11) |
+| Milano | @barrecalavarra | 6,2K | A | Barreca & La Varra |
+| Milano | @berettaassociati | 1,5K | A | Beretta Associati, pochi post (52) |
 
 Già seguiti: @westwayarchitects (30/10), @balance_architettura (10/11, già commentato). Scartati: @fuksas_architects (121K), @giammettaarchitects (94K), @carlorattiassociati (125K), @giulianoandreadelluva (46K), @labics e @alvisikirimoto (strutture grandi), @gruppobuilding (impresa), @cherubinogambardella (profilo personale di docente), @interplan2architects e @gnosisprogetti (quasi nessun post).
-Da leggere: gli altri ~300 profili (resto di Torino, Palermo, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
+Lettura del 23/11 (30 profili: resto di Torino e prima metà di Milano, solo follower e numero di post; che pubblichino negli ultimi 2 mesi si controlla al momento del follow): 14 studi nuovi. Scartati: @studiodeferrariarchitetti (0 post), @marcantetesta (53K), @pininfarina_arch_design (96K), @acpv.architects (37K), @stefanoboeriarchitetti (93K), @cino_zucchi (35K), @piuarch (21K, struttura grande), @lombardini22 (26K, struttura grande), @_oneworks_ (18K, struttura grande), @progettocmr (13K, struttura grande), @micheledelucchi (88K), @amdlcircle (16K, struttura di De Lucchi), @matteothun (69K), @studiomarcopiva (23K, struttura grande), @vudafierisaverinopartners (8,7K, struttura con decine di persone), @scandurrastudio (15K, struttura grande). Torino interni non ancora trovato tra i salvati (la pagina dei salvati ne carica solo 12). Prossimo lotto: resto di Milano da @asti_architetti (slide 16-18: asti_architetti, locatellipartners, storagemilano), poi Bologna.
+Controllo del 23/11 per i follow: @scapearch scartato (ultimo post a ottobre 2024); @nemesiarchitects ultimo post il 26/9, @sifolasposato il 2/10 (ancora entro i 2 mesi).
+Da leggere: gli altri ~270 profili (resto di Torino, Palermo, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
 
 ## Messaggio · fascia A
 
