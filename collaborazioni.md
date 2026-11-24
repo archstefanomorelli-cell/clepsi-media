@@ -63,6 +63,8 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 | @pilar.architetti | Ha risposto il 7/11 sotto lo showroom Rossella Creazioni | lo showroom Rossella Creazioni | 13/11 (OK di Stefano; verificato, una volta sola) | |
 | @gb_progetti | Ci ha menzionato e ha risposto due volte (solai, fessure dopo la ristrutturazione) | i post sui solai e sulle fessure | 18/11 (OK di Stefano, al "tu"; verificato, una volta sola) | 18/11 sera: lavora da solo, "non posso esservi d'aiuto", forse più avanti potrà consigliarci · risposto (OK di Stefano) che Clepsi funziona anche per chi lavora da solo, link a /installa senza insistere; inviato una volta |
 | @emmepi_studio_di_architettura_ | Ha risposto "grazie ☺️" e like al nostro commento (anche il cofondatore @ale_mori_3) | il post sul minimalismo, «togliere e custodire» | 18/11 (OK di Stefano; verificato, una volta sola) | |
+| @archfrancescacutini | Ha risposto più volte (opere e fiere d'arte), like ai nostri commenti e ai reel | il post sulle opere per la residenza e le fiere d'arte | 24/11 (OK di Stefano; verificato, una volta sola) | |
+| @sofiaengineering | Ha risposto 3 volte (pompe di calore, consumi), like ai commenti | i post sulle pompe di calore e sulla riqualificazione dai consumi | 24/11 (OK di Stefano; verificato, una volta sola) | |
 | Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
 
 ## Obiettivi · studi della rubrica Archi&Interiors (22/11, proposta di Stefano)
@@ -79,8 +81,8 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 | Roma | @capoleicavalliarchitecture | 1,7K | A | 3C+t architecture · seguito il 23/11 |
 | Roma | @studio_transit | 4,1K | A | Studio Transit · seguito il 23/11 |
 | Roma | @insula_gram | 1,3K | A | INSULA · seguito il 23/11 |
-| Roma | @its__vision | 5,9K | A | It's |
-| Roma | @2apassociates | 5,5K | A | 2A+P/A Associates |
+| Roma | @its__vision | 5,9K | A | It's · seguito il 24/11 |
+| Roma | @2apassociates | 5,5K | A | 2A+P/A Associates · seguito il 24/11 |
 | Roma | @tstudio_salimei | 1,2K | A | Tstudio Guendalina Salimei; pubblica poco (22 post) |
 | Roma | @lazzarinipickering | 8,1K | B | Lazzarini Pickering Architetti |
 | Roma | @studiotamat | 20K | B | Studio Tamat |
@@ -88,11 +90,11 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 | Roma | @setarchitects | 24K | B | Set Architects, pochi post |
 | Napoli | @4rcharchitettura | 1,2K | A | 4rch Architettura & Interior Design · seguito il 23/11 |
 | Napoli | @sifolasposato | 3,7K | A | Sifola Sposato Architetti |
-| Napoli | @odaofficinadarchitettura | 2,5K | A | od'a officina d'architettura |
-| Napoli | @kellerarchitettura | 6,1K | A | Antonio G. Martiniello |
+| Napoli | @odaofficinadarchitettura | 2,5K | A | od'a officina d'architettura · seguito il 24/11 |
+| Napoli | @kellerarchitettura | 6,1K | A | Antonio G. Martiniello · seguito il 24/11 |
 | Napoli | @studioarchitectonica | 233 | A | Studio Architectonica, profilo piccolo |
 | Napoli | @studio_maan_srl | 341 | A | Studio MAAN, architettura e paesaggio |
-| Napoli | @in_novastudio | 7,3K | A | IN-NOVA Studio |
+| Napoli | @in_novastudio | 7,3K | A | IN-NOVA Studio · seguito il 24/11 |
 | Napoli | @corvinoemultari | 3,1K | A | Corvino+Multari |
 | Napoli | @vulcanicaarchitettura | 1,4K | A | Vulcanica |
 | Napoli | @rebuilt_studio | 1,4K | A | ReBuilt Studio |

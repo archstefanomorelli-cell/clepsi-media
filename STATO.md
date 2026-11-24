@@ -1,6 +1,6 @@
 # Clepsi · stato e regole (file corto da leggere per primo)
 
-Aggiornato il 23/11/2026. È il file che i controlli leggono sempre. Il resto si apre solo quando serve: `PIANO.md` (strategia, regole dei reel, sito, metodi; si cerca la sezione con grep), `collaborazioni.md` (contatti attivi, prova dell'app, obiettivi Archi&Interiors, messaggi tipo), `registro/AAAA-MM.md` (registro di follow, commenti, messaggi, commenti LinkedIn e gruppi Facebook: leggerne solo la coda), `archivio/` (settimane passate). Chi cambia una regola o lo stato aggiorna anche questo file.
+Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si apre solo quando serve: `PIANO.md` (strategia, regole dei reel, sito, metodi; si cerca la sezione con grep), `collaborazioni.md` (contatti attivi, prova dell'app, obiettivi Archi&Interiors, messaggi tipo), `registro/AAAA-MM.md` (registro di follow, commenti, messaggi, commenti LinkedIn e gruppi Facebook: leggerne solo la coda), `archivio/` (settimane passate). Chi cambia una regola o lo stato aggiorna anche questo file.
 
 ## Account
 - Instagram @clepsi.official (professionale), Metricool brand 7549918 (fuso Europe/Rome), Meta Business Suite business_id 1475279821143198 (casella: asset_id 1439871045879673 funziona meglio di 1444473242074912).
@@ -42,11 +42,12 @@ Aggiornato il 23/11/2026. È il file che i controlli leggono sempre. Il resto si
 - @arch_danilo_carella: autopsia uscita su Instagram (14/11, oltre 780 visualizzazioni) e su LinkedIn (23/11); chiedergli di ricondividere il post LinkedIn.
 - @robertaplumari_architetto: dati dell'autopsia attesi (entro il 25/11 per uscire il 1/12).
 - @ylenialeonardingegnere: proposta l'autopsia il 19/11, in attesa.
+- 24/11: prova dell'app proposta a @archfrancescacutini e @sofiaengineering (in attesa).
 - Prova dell'app proposta a molti studi "caldi" senza risposta: non insistere.
 - Obiettivi Archi&Interiors (dal 22/11): studi delle città della rubrica, fascia A prima; 3-5 follow al giorno, poi commenti, poi il messaggio di prova dell'app quando rispondono. Una città nuova al giorno, massimo 30 profili. Tetto: 150 seguiti finché non si superano 100 follower.
 
 ## Come lavorare spendendo poco (deciso con Stefano il 23/11)
 - Leggere questo file, non tutto PIANO.md: delle altre sezioni si apre solo quella che serve (`grep -n "^## " PIANO.md`, poi `sed -n`). Del registro solo la coda (`tail -n 150 registro/2026-11.md`).
 - Nel browser: leggere le pagine con javascript_tool che restituisce solo il testo che serve (poche righe), non get_page_text su Facebook o LinkedIn interi. Screenshot solo quando la posizione di un pulsante non si trova con find, e con scale 0.5.
-- Instagram: per profili e post usare fetch dalla pagina (meta og:description del profilo; /api/v1/media/<id>/info/ con X-IG-App-ID 936619743392459), una chiamata ogni 5 secondi, risultati compatti.
+- Instagram: per profili e post usare fetch dalla pagina (meta og:description del profilo; /api/v1/media/<id>/info/ con X-IG-App-ID 936619743392459), una chiamata ogni 5 secondi, risultati compatti. Dal 24/11 web_profile_info e feed/user danno 404 e users/<id>/info 429: per i post di un profilo leggere i link dalla pagina del profilo; notifiche da /api/v1/news/inbox/ (GET). Obiettivi: letti Roma, Napoli, Torino, Milano, Bologna; prossima Palermo.
 - Messaggi a Stefano brevi: un pacchetto per controllo.
