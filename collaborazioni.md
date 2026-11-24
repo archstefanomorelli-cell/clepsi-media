@@ -123,6 +123,30 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 Già seguiti: @westwayarchitects (30/10), @balance_architettura (10/11, già commentato). Scartati: @fuksas_architects (121K), @giammettaarchitects (94K), @carlorattiassociati (125K), @giulianoandreadelluva (46K), @labics e @alvisikirimoto (strutture grandi), @gruppobuilding (impresa), @cherubinogambardella (profilo personale di docente), @interplan2architects e @gnosisprogetti (quasi nessun post).
 Lettura del 23/11 (30 profili: resto di Torino e prima metà di Milano, solo follower e numero di post; che pubblichino negli ultimi 2 mesi si controlla al momento del follow): 14 studi nuovi. Scartati: @studiodeferrariarchitetti (0 post), @marcantetesta (53K), @pininfarina_arch_design (96K), @acpv.architects (37K), @stefanoboeriarchitetti (93K), @cino_zucchi (35K), @piuarch (21K, struttura grande), @lombardini22 (26K, struttura grande), @_oneworks_ (18K, struttura grande), @progettocmr (13K, struttura grande), @micheledelucchi (88K), @amdlcircle (16K, struttura di De Lucchi), @matteothun (69K), @studiomarcopiva (23K, struttura grande), @vudafierisaverinopartners (8,7K, struttura con decine di persone), @scandurrastudio (15K, struttura grande). Torino interni non ancora trovato tra i salvati (la pagina dei salvati ne carica solo 12). Prossimo lotto: resto di Milano da @asti_architetti (slide 16-18: asti_architetti, locatellipartners, storagemilano), poi Bologna.
 Controllo del 23/11 per i follow: @scapearch scartato (ultimo post a ottobre 2024); @nemesiarchitects ultimo post il 26/9, @sifolasposato il 2/10 (ancora entro i 2 mesi).
+Lettura del 24/11 (21 profili: fine di Milano e Bologna, follower e post; l'attività negli ultimi 2 mesi si controlla al momento del follow):
+
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Milano | @asti_architetti | 5,9K | A | Asti Architetti |
+| Milano | @locatellipartners | 19K | B | Locatelli Partners |
+| Milano | @storagemilano | 21K | B | storagemilano |
+| Bologna | @diverserighestudio | 499 | A | diverserighestudio, profilo piccolo |
+| Bologna | @ciclostilearchitettura | 4,7K | A | Ciclostile Architettura |
+| Bologna | @rizomarchitetture | 4,4K | A | Rizoma Architetture |
+| Bologna | @archstudio_bo | 110 | A | ARCHSTUDIO, pochi post (11) |
+| Bologna | @ci.ma_studio | 3,9K | A | CI MA studio |
+| Bologna | @ladoarchitetti | 3,7K | A | ladoarchitetti |
+| Bologna | @studiolenzieassociati | 704 | A | Studio Lenzi & Associati, ingegneria |
+| Bologna | @dplusd_group | 277 | A | d+d group, design development |
+| Bologna | @lamberpiulamber | 2,6K | A | LAMBER+LAMBER |
+| Bologna | @metr0area | 3,7K | A | Metroarea Architetti Associati |
+| Bologna | @grriz_studio | 3,9K | A | GRRIZ studio, pochi post (40) |
+| Bologna | @teco_partners | 2,3K | A | TECO+partners |
+| Bologna | @rpstudioarchitetti | 818 | A | Rpstudio |
+| Bologna | @elisa_manelli_architetto | 2,1K | A | Elisa Manelli Architetto |
+| Bologna | @atelier_avanzi | 15K | B | atelier AVANZI |
+
+Scartati il 24/11: @mario_cucinella_architects (60K), @iosaghiniassociati e @openproject_it (strutture grandi). Codici dei caroselli (salvati): Roma DWBjSwTjN7K, Napoli DWQ9Lf4jHPL, Torino DWijYl6jFjv, Palermo DW5uLgRDFXe, Firenze DXGycrxjFA3, Bari DXwqHb4jN7Y, Bologna DYZkFU6jLWn, Milano DY6ai9sjHp0 (19 tag, finito). Prossimo lotto: Palermo.
 Da leggere: gli altri ~270 profili (resto di Torino, Palermo, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
 
 ## Messaggio · fascia A
