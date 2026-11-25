@@ -36,6 +36,7 @@ Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si
 ## Profilo Instagram
 - Fissati: "4 cose", "Collaboratore", "Parcella" (da verificare che "Cos'è Clepsi" sia stato tolto). Raccolte in evidenza: "Come funziona" (da rinominare più corto, proposta "L'app"), "Margini", "Parcella", "La sera" quando esce il reel del 2/12. Copertine in `evidenza/`.
 - Dal web Instagram non si fissa, non si archivia e non si mette in evidenza: lo fa Stefano dal telefono (dal web solo "Rimuovi dalla griglia").
+- 25/11 20:51: controllo del reel "La commessa chiusa" non fatto dal browser (due Chrome collegati, nessuno scelto: chiesto a Stefano quale); Metricool non vedeva ancora reel del giorno (forse ritardo). Ricordato a Stefano: storia nella raccolta "Margini" dal telefono se il reel è uscito.
 
 ## Contatti in corso (dettagli in collaborazioni.md)
 - @officinaabitare usa Clepsi dal 18/11; dal 19/11 c'è la «Divisione avanzata» (quarti) e «Assente» insieme alle commesse: gliel'abbiamo scritto per primi il 20/11. Seguire come va.
