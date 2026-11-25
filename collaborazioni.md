@@ -148,8 +148,30 @@ Lettura del 24/11 (21 profili: fine di Milano e Bologna, follower e post; l'atti
 | Bologna | @elisa_manelli_architetto | 2,1K | A | Elisa Manelli Architetto |
 | Bologna | @atelier_avanzi | 15K | B | atelier AVANZI |
 
-Scartati il 24/11: @mario_cucinella_architects (60K), @iosaghiniassociati e @openproject_it (strutture grandi). Codici dei caroselli (salvati): Roma DWBjSwTjN7K, Napoli DWQ9Lf4jHPL, Torino DWijYl6jFjv, Palermo DW5uLgRDFXe, Firenze DXGycrxjFA3, Bari DXwqHb4jN7Y, Bologna DYZkFU6jLWn, Milano DY6ai9sjHp0 (19 tag, finito). Prossimo lotto: Palermo.
-Da leggere: gli altri ~270 profili (resto di Torino, Palermo, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
+Scartati il 24/11: @mario_cucinella_architects (60K), @iosaghiniassociati e @openproject_it (strutture grandi). Codici dei caroselli (salvati): Roma DWBjSwTjN7K, Napoli DWQ9Lf4jHPL, Torino DWijYl6jFjv, Palermo DW5uLgRDFXe, Firenze DXGycrxjFA3, Bari DXwqHb4jN7Y, Bologna DYZkFU6jLWn, Milano DY6ai9sjHp0 (19 tag, finito). Prossimo lotto: Firenze (DXGycrxjFA3).
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Palermo | @inopiazza_studio | 1,4K | A |  |
+| Palermo | @piazzarchitettura | 839 | A |  |
+| Palermo | @provenzano_architetti | 4,7K | A |  |
+| Palermo | @luigi_smecca_architetti | 9,8K | B |  |
+| Palermo | @am3architetti | 5,2K | A |  |
+| Palermo | @studio_forward | 2,9K | A |  |
+| Palermo | @laleta_architettura | 5,1K | A |  |
+| Palermo | @ss_studio_arch_design | 1,3K | A |  |
+| Palermo | @gdarchitetture | 1,5K | A |  |
+| Palermo | @sb_architetti | 1,5K | A |  |
+| Palermo | @de_francisci_architetti | 1,9K | A |  |
+| Palermo | @studiomame | 2,8K | A |  |
+| Palermo | @architetti_fazioli_associati | 611 | A | 22 post |
+| Palermo | @slc_architects | 3K | A |  |
+| Palermo | @ruffinoassociati | 2,4K | A |  |
+| Palermo | @lygastudio | 11K | B |  |
+| Palermo | @bellomontepensabene_architects | 11K | B |  |
+
+Lettura del 25/11 (Palermo, 19 profili). Scartati 25/11: @studio_didea (37K), @pucciocollodoro (23K).
+
+Da leggere: gli altri ~270 profili (resto di Torino, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
 
 ## Messaggio · fascia A
 
