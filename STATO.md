@@ -27,7 +27,7 @@ Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si
 
 ## Calendario vicino
 - Lun 23/11: autopsia con Danilo uscita su LinkedIn (PDF, tag a Danilo), primo commento fatto.
-- Mer 25/11 19:00: reel "La commessa chiusa" in bozza su Metricool (limite): lo pubblica Stefano a mano con "Aura" e lo condivide in storia.
+- Mer 25/11: reel "La commessa chiusa" uscito alle 14:50 (il programmato Metricool risulta in errore per il limite del piano gratuito); Stefano lo condivide in storia.
 - Gio 26/11 9:00: LinkedIn video "La commessa chiusa", programmato; il primo commento lo aggiunge il controllo del mattino dopo le 9.
 - Gio 26/11: piano della settimana successiva (scheduled task del giovedì).
 - Mar 1/12 13:00 carosello "Quanto vale una piccola modifica" (o la collaborazione con Roberta se arrivano i dati entro il 25/11 e dà l'OK entro il 30/11); mer 2/12 "Ti sei dimenticato ieri?"; ven 4/12 "Tre passi" da 17 s (prova del formato).
