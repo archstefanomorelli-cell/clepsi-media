@@ -195,6 +195,20 @@ Scartati il 26/11: @simonemicheliarchitect (31K), @archea_associati (40K, strutt
 
 Lettura del 25/11 (Palermo, 19 profili). Scartati 25/11: @studio_didea (37K), @pucciocollodoro (23K).
 
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Como | @superlunastudio | 2,3K | A | Superluna Studio |
+| Como | @ceresagrandisarchitetti | 4,3K | A | ceresa grandis architetti |
+| Como | @ab2architettura | 4,2K | A | A+B2 architettura |
+| Como | @marcocappellettistudio | 2,5K | A | Marco Cappelletti Studio |
+| Como | @studioforma.eu | 3,8K | A | studioforma |
+| Como | @cc.ark.design | 2,4K | A | Architettura&Interior |
+| Como | @brambillaorsoni | 2,4K | A | Brambilla Orsoni |
+| Como | @angelopozzoliarchitetto | 1,7K | A | Angelo Pozzoli Architetto |
+| Como | @bettinamusatti | 1,2K | A | Bettina Musatti: controllare al follow che sia una progettista |
+
+Aggiunti il 26/11 su richiesta di Stefano dal carosello di @archieinteriors_ su Como (DgNiIriEf5l, 8 studi, 12 profili taggati). Scartati come fotografi: @andrea.ceriani (Andrea Ceriani Photography), @pinomusi (Pino Musi); @francescaiovene (21K) probabilmente fotografa, da controllare prima di seguirla.
+
 Da leggere: gli altri ~270 profili (resto di Torino, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
 
 ## Messaggio · fascia A
