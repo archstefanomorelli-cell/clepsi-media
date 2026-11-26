@@ -1,6 +1,6 @@
 # Clepsi · stato e regole (file corto da leggere per primo)
 
-Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si apre solo quando serve: `PIANO.md` (strategia, regole dei reel, sito, metodi; si cerca la sezione con grep), `collaborazioni.md` (contatti attivi, prova dell'app, obiettivi Archi&Interiors, messaggi tipo), `registro/AAAA-MM.md` (registro di follow, commenti, messaggi, commenti LinkedIn e gruppi Facebook: leggerne solo la coda), `archivio/` (settimane passate). Chi cambia una regola o lo stato aggiorna anche questo file.
+Aggiornato il 26/11/2026. È il file che i controlli leggono sempre. Il resto si apre solo quando serve: `PIANO.md` (strategia, regole dei reel, sito, metodi; si cerca la sezione con grep), `collaborazioni.md` (contatti attivi, prova dell'app, obiettivi Archi&Interiors, messaggi tipo), `registro/AAAA-MM.md` (registro di follow, commenti, messaggi, commenti LinkedIn e gruppi Facebook: leggerne solo la coda), `archivio/` (settimane passate). Chi cambia una regola o lo stato aggiorna anche questo file.
 
 ## Account
 - Instagram @clepsi.official (professionale), Metricool brand 7549918 (fuso Europe/Rome), Meta Business Suite business_id 1475279821143198 (casella: asset_id 1439871045879673 funziona meglio di 1444473242074912).
@@ -28,7 +28,7 @@ Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si
 ## Calendario vicino
 - Lun 23/11: autopsia con Danilo uscita su LinkedIn (PDF, tag a Danilo), primo commento fatto.
 - Mer 25/11: reel "La commessa chiusa" uscito alle 14:50 (il programmato Metricool risulta in errore per il limite del piano gratuito); Stefano lo condivide in storia.
-- Gio 26/11 9:00: LinkedIn video "La commessa chiusa", programmato; il primo commento lo aggiunge il controllo del mattino dopo le 9.
+- Gio 26/11 9:00: LinkedIn video "La commessa chiusa" uscito; primo commento come Clepsi fatto e verificato.
 - Gio 26/11: piano della settimana successiva (scheduled task del giovedì).
 - Mar 1/12 13:00 carosello "Quanto vale una piccola modifica" (o la collaborazione con Roberta se arrivano i dati entro il 25/11 e dà l'OK entro il 30/11); mer 2/12 "Ti sei dimenticato ieri?"; ven 4/12 "Tre passi" da 17 s (prova del formato).
 - 27/11 20:50: promemoria in sessione per il profilo ("Tre passi" e raccolta). Verifiche della strategia: 6/12 e 3/1.
@@ -45,6 +45,7 @@ Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si
 - @robertaplumari_architetto: dati dell'autopsia attesi (entro il 25/11 per uscire il 1/12).
 - @ylenialeonardingegnere: proposta l'autopsia il 19/11, in attesa.
 - 24/11: prova dell'app proposta a @archfrancescacutini e @sofiaengineering (in attesa).
+- 26/11: prova dell'app proposta a @spaziomel_associati e @mame_designstudio (in attesa).
 - Prova dell'app proposta a molti studi "caldi" senza risposta: non insistere.
 - Obiettivi Archi&Interiors (dal 22/11): studi delle città della rubrica, fascia A prima; 3-5 follow al giorno, poi commenti, poi il messaggio di prova dell'app quando rispondono. Una città nuova al giorno, massimo 30 profili. Tetto: 150 seguiti finché non si superano 100 follower.
 
@@ -52,5 +53,6 @@ Aggiornato il 24/11/2026. È il file che i controlli leggono sempre. Il resto si
 - Leggere questo file, non tutto PIANO.md: delle altre sezioni si apre solo quella che serve (`grep -n "^## " PIANO.md`, poi `sed -n`). Del registro solo la coda (`tail -n 150 registro/2026-11.md`).
 - Browser (deciso da Stefano il 26/11, vale per tutti i controlli e le attività programmate, anche dove il prompt dice "Claude in Chrome"): usare sempre il browser integrato (strumenti mcp__remote-devices__Claude_Browser__ o mcp__Claude_Browser__), mai Claude in Chrome, e non chiedere a Stefano quale Chrome usare. Unica eccezione: caricare un file (PDF o video dei post LinkedIn programmati), che il browser integrato non fa: lì Claude in Chrome. Se il browser integrato non risponde (app del computer chiusa), dirlo a Stefano e saltare la parte nel browser.
 - Nel browser: leggere le pagine con javascript_tool che restituisce solo il testo che serve (poche righe), non get_page_text su Facebook o LinkedIn interi. Screenshot solo quando la posizione di un pulsante non si trova con find, e con scale 0.5.
-- Instagram: per profili e post usare fetch dalla pagina (meta og:description del profilo; /api/v1/media/<id>/info/ con X-IG-App-ID 936619743392459), una chiamata ogni 5 secondi, risultati compatti. Dal 24/11 web_profile_info e feed/user danno 404 e users/<id>/info 429: per i post di un profilo leggere i link dalla pagina del profilo; notifiche da /api/v1/news/inbox/ (GET). Obiettivi: letti Roma, Napoli, Torino, Milano, Bologna, Palermo; prossima Firenze. Per la data dell'ultimo post di un profilo si può convertire il codice del post (id >> 23 + 1314220021721 ms), senza chiamate in più.
+- Instagram: per profili e post usare fetch dalla pagina (meta og:description del profilo; /api/v1/media/<id>/info/ con X-IG-App-ID 936619743392459), una chiamata ogni 5 secondi, risultati compatti. Dal 24/11 web_profile_info e feed/user danno 404 e users/<id>/info 429: per i post di un profilo leggere i link dalla pagina del profilo; notifiche da /api/v1/news/inbox/ (GET). Obiettivi: letti Roma, Napoli, Torino, Milano, Bologna, Palermo, Firenze; prossima Bari. Metodi (26/11): /api/v1/direct_v2/inbox/ dà 404, la casella si legge da instagram.com/direct/inbox/ con innerText ("Richieste" a parte); le pagine profilo via fetch non hanno i link dei post: navigare al profilo e leggerli dal DOM (i fissati in cima sono vecchi); javascript_tool va in timeout oltre 45 s (lavori lunghi in background con window.*); il pulsante "Segui" va cercato dentro header (se no si clicca sui suggeriti). LinkedIn: con ?actorCompanyId=145340493 si commenta già come Clepsi; like della pagina dal pulsante "Stato pulsante reazione". Per la data dell'ultimo post di un profilo si può convertire il codice del post (id >> 23 + 1314220021721 ms), senza chiamate in più.
+- Browser: i due Chrome collegati si scambiano i nomi ("Browser 1"/"Browser 2") a ogni riconnessione: scegliere sempre per deviceId. Il 26/11 Stefano ha scelto 374776b8-d9e0-425b-bf4f-7cb21cc692c0 (l'altro è e76afe42-c9c2-4f57-b6cf-0a919ff87224).
 - Messaggi a Stefano brevi: un pacchetto per controllo.

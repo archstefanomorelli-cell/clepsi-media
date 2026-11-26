@@ -65,6 +65,8 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 | @emmepi_studio_di_architettura_ | Ha risposto "grazie ☺️" e like al nostro commento (anche il cofondatore @ale_mori_3) | il post sul minimalismo, «togliere e custodire» | 18/11 (OK di Stefano; verificato, una volta sola) | |
 | @archfrancescacutini | Ha risposto più volte (opere e fiere d'arte), like ai nostri commenti e ai reel | il post sulle opere per la residenza e le fiere d'arte | 24/11 (OK di Stefano; verificato, una volta sola) | |
 | @sofiaengineering | Ha risposto 3 volte (pompe di calore, consumi), like ai commenti | i post sulle pompe di calore e sulla riqualificazione dai consumi | 24/11 (OK di Stefano; verificato, una volta sola) | |
+| @spaziomel_associati | Seguito dal 31/10, ha risposto ai nostri commenti (headquarter) | il post sull'Headquarter e sulla sala formazione nata dalla richiesta della committenza | 26/11 (OK di Stefano; verificato, una volta sola) | |
+| @mame_designstudio | Ha risposto sotto il post sul primo contatto, like ai nostri commenti | il post su cosa succede quando vi contattano per la prima volta e lo stato dell'immobile | 26/11 (OK di Stefano; verificato, una volta sola) | |
 | Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
 
 ## Obiettivi · studi della rubrica Archi&Interiors (22/11, proposta di Stefano)
@@ -89,7 +91,7 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 | Roma | @orizzontale_architecture | 17K | B | collettivo, più spazio pubblico che commesse private |
 | Roma | @setarchitects | 24K | B | Set Architects, pochi post |
 | Napoli | @4rcharchitettura | 1,2K | A | 4rch Architettura & Interior Design · seguito il 23/11 |
-| Napoli | @sifolasposato | 3,7K | A | Sifola Sposato Architetti |
+| Napoli | @sifolasposato | 3,7K | A | Sifola Sposato Architetti · seguito il 26/11 |
 | Napoli | @odaofficinadarchitettura | 2,5K | A | od'a officina d'architettura · seguito il 24/11 |
 | Napoli | @kellerarchitettura | 6,1K | A | Antonio G. Martiniello · seguito il 24/11 |
 | Napoli | @studioarchitectonica | 233 | A | Studio Architectonica, profilo piccolo |
@@ -111,7 +113,7 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 | Torino | @acc_naturale_architettura | 934 | A | ACC Naturale Architettura, profilo piccolo |
 | Torino | @negozio.blu.architetti | 1,1K | A | Negozio Blu Architetti |
 | Torino | @brh.studio | 6,7K | A | Barbara Brondi & Marco Rainò |
-| Torino | @studioata | 4,7K | A | Studioata |
+| Torino | @studioata | 4,7K | A | Studioata · seguito il 26/11 |
 | Torino | @bodaarchitetti | 5,2K | A | Bodà architetti |
 | Torino | @pat.architettiassociati | 1,9K | A | PAT. architetti associati |
 | Torino | @2mix_architetti | 2,9K | A | 2MIX architetti |
@@ -133,8 +135,8 @@ Lettura del 24/11 (21 profili: fine di Milano e Bologna, follower e post; l'atti
 | Milano | @locatellipartners | 19K | B | Locatelli Partners |
 | Milano | @storagemilano | 21K | B | storagemilano |
 | Bologna | @diverserighestudio | 499 | A | diverserighestudio, profilo piccolo |
-| Bologna | @ciclostilearchitettura | 4,7K | A | Ciclostile Architettura |
-| Bologna | @rizomarchitetture | 4,4K | A | Rizoma Architetture |
+| Bologna | @ciclostilearchitettura | 4,7K | A | Ciclostile Architettura · seguito il 26/11 |
+| Bologna | @rizomarchitetture | 4,4K | A | Rizoma Architetture · seguito il 26/11 |
 | Bologna | @archstudio_bo | 110 | A | ARCHSTUDIO, pochi post (11) |
 | Bologna | @ci.ma_studio | 3,9K | A | CI MA studio |
 | Bologna | @ladoarchitetti | 3,7K | A | ladoarchitetti |
@@ -149,6 +151,28 @@ Lettura del 24/11 (21 profili: fine di Milano e Bologna, follower e post; l'atti
 | Bologna | @atelier_avanzi | 15K | B | atelier AVANZI |
 
 Scartati il 24/11: @mario_cucinella_architects (60K), @iosaghiniassociati e @openproject_it (strutture grandi). Codici dei caroselli (salvati): Roma DWBjSwTjN7K, Napoli DWQ9Lf4jHPL, Torino DWijYl6jFjv, Palermo DW5uLgRDFXe, Firenze DXGycrxjFA3, Bari DXwqHb4jN7Y, Bologna DYZkFU6jLWn, Milano DY6ai9sjHp0 (19 tag, finito). Prossimo lotto: Firenze (DXGycrxjFA3).
+
+Lettura del 26/11 (Firenze, carosello DXGycrxjFA3, 20 tag; follower al 26/11; data dell'ultimo post non ancora controllata, da fare prima del follow):
+
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Firenze | @studiotricot | 1,4K | A | |
+| Firenze | @giraldiassociati | 1,5K | A | 89 post |
+| Firenze | @oppsarchitettura | 3,8K | A | |
+| Firenze | @rosso19_architects | 619 | A | profilo piccolo |
+| Firenze | @abparchitetti | 3,5K | A | |
+| Firenze | @guicciardiniemagni | 4,8K | A | |
+| Firenze | @fontego_architettura | 4,5K | A | 83 post |
+| Firenze | @studiobenaim | 3,9K | A | |
+| Firenze | @ipostudio_architetti | 4,0K | A | |
+| Firenze | @fabbricanove | 624 | A | 64 post |
+| Firenze | @eutropia_architettura | 7,5K | A | |
+| Firenze | @eleonora_sassoli | 11K | B | |
+| Firenze | @studio_qbic | 12K | B | |
+| Firenze | @oks.architetti | 13K | B | |
+| Firenze | @pierattelli_architetture | 24K | B | |
+
+Scartati il 26/11: @simonemicheliarchitect (31K), @archea_associati (40K, struttura nota), @carmassi.architecture (17 post), @quattroterzi_lab (6 post); @officinaabitare già collaboratore; al momento del follow @nemesiarchitects (struttura internazionale, ultimo post 26/9), @scapearch (fermo dal 2024), @bodaarchitetti (fermo dal 7/2024). Letta Firenze (26/11). Prossimo lotto: Bari (DXwqHb4jN7Y).
 | Città | Profilo | Follower | Fascia | Note |
 |---|---|---|---|---|
 | Palermo | @inopiazza_studio | 1,4K | A |  |
