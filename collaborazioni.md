@@ -256,6 +256,46 @@ Ti proponiamo un post in collaborazione: prendiamo un tuo progetto chiuso e most
 Un esempio del formato: https://www.instagram.com/p/De-CJiqiL6r/
 Ti va di provarci?
 
+
+## Obiettivi LinkedIn · società di ingegneria (dal 27/11)
+
+Decise con Stefano il 27/11: società di ingegneria e studi strutturati (su LinkedIn 11-50 dipendenti; l'obiettivo è 5-25 persone, da verificare prima del contatto), fuori dalla provincia di Ancona, trovate dal Chrome di Stefano con la ricerca aziende di LinkedIn (Italia, Servizi ingegneristici e Ingegneria civile, parola "progettazione"). Foglio condiviso con stato e ultima interazione: https://claude.ai/artifact/4jLzRidtXmiT9drejLAodA (lo aggiorna una chat su richiesta; i controlli scrivono nel registro).
+Come si interagisce, sempre come pagina Clepsi: nei controlli del mattino e della sera, tra i 2-3 commenti LinkedIn, al massimo uno al giorno va sotto un post recente (ultime 2 settimane) di una di queste società "attive", con like della pagina al post; non la stessa società due volte in una settimana; commento tecnico e concreto sul loro lavoro (giornate, fasi, varianti, direzione lavori), mai pubblicità, Clepsi non si nomina. Nel registro, sezione LinkedIn, scrivere "(obiettivo)" accanto alla società. Quando una società risponde o mette like al nostro commento, segnalarlo a Stefano: il contatto diretto (cartolina, email o messaggio) lo decide lui.
+
+| Società | Città | Pagina LinkedIn | Pagina |
+|---|---|---|---|
+| CED Ingegneria | Gorle (BG) | linkedin.com/company/ced-ingegneria-s-r-l- | attiva |
+| Architecna Engineering | Firenze | linkedin.com/company/architecna-engineering | attiva |
+| EngUp Engineering | Cesano Maderno (MB) | linkedin.com/company/engup | attiva |
+| SINPRO · Rete di ingegneria | Vigonovo (VE) | linkedin.com/company/sinproretedingegneria | attiva |
+| MTS Engineering | Lecco | linkedin.com/company/mts-engineering-srl | attiva |
+| IGS | Trieste | linkedin.com/company/igs-srl | attiva |
+| eos | Milano | linkedin.com/company/eos-progettazione-civile-ambiente-sicurezza | attiva |
+| Perillo Ingegneria | Palo del Colle (BA) | linkedin.com/company/perillo-ingegneria | attiva |
+| Urti Group | Salerno | linkedin.com/company/urtigroup | attiva |
+| Abacus | Perugia | linkedin.com/company/abacus-s-r-l | attiva |
+| Astra Engineering | Galatina (LE) | linkedin.com/company/astra-engineering-srl | attiva |
+| Steel Project Engineering | Livorno | linkedin.com/company/steel-project-engineering | attiva |
+| Faces Engineering | Milano | linkedin.com/company/faces-engineering | attiva |
+| Cooprogetti | Pordenone | linkedin.com/company/cooprogetti-scrl | attiva |
+| Studio Martini Ingegneria | Mogliano Veneto (TV) | linkedin.com/company/studio-martini-ingegneria-s.r.l | attiva |
+| Studio Calvi Beam | Pavia | linkedin.com/company/studio-calvi | attiva |
+| Studio API | Feltre (BL) | linkedin.com/company/associazione-professionale-ingegneri | attiva |
+| KITE Engineering | Padova | linkedin.com/company/kiteengineering | attiva |
+| B.Cube Società di ingegneria | Milano | linkedin.com/company/b-cube-srl-societ-di-ingegneria | poco attiva |
+| A2F Ingegneria | Roma | linkedin.com/company/a2f-ingegneria | poco attiva |
+| Milano Engineering | Milano | linkedin.com/company/milano-engineering-srl | poco attiva |
+| Geotecna Progetti | Milano | linkedin.com/company/geotecna-progetti-srl | poco attiva |
+| Seteco Ingegneria | Genova | linkedin.com/company/setecoingegneria | ferma |
+| MSC Associati | Milano | linkedin.com/company/msc-associati | ferma |
+| Studio Geotecnico Strutturale (SGS) | Roma | linkedin.com/company/studio-geotecnico-strutturale | ferma |
+| Studio Capè Ingegneria | Milano | linkedin.com/company/studio-capè-ingegneria | ferma |
+| Trilite Studio di Progettazione | Empoli (FI) | linkedin.com/company/studio-trilite | ferma |
+| SCHEMA 17 · Progettazione integrata | Pescara | linkedin.com/company/schema-17-progettazione-integrata | ferma |
+| CO.RE. Ingegneria | Roma | linkedin.com/company/co.re.-ingegneria-srl | ferma |
+| BONO Ingegneria | Avellino | linkedin.com/company/bonoingegneria | ferma |
+| Breng · Bridge Engineering | Roma | linkedin.com/company/brengsrl | ferma |
+
 ## Registri (dal 23/11 in `registro/`)
 
 Il registro di follow, commenti e messaggi, i commenti LinkedIn della pagina e i commenti nei gruppi Facebook stanno in `registro/AAAA-MM.md` (un file al mese; ottobre e novembre fino al 23/11 in `registro/2026-11.md`). I controlli ne leggono solo la coda (`tail -n 150 registro/2026-11.md`) e scrivono lì le righe nuove, in fondo alla sezione giusta.
