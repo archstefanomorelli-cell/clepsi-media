@@ -47,6 +47,7 @@ Aggiornato il 27/11/2026. È il file che i controlli leggono sempre. Il resto si
 - 24/11: prova dell'app proposta a @archfrancescacutini e @sofiaengineering (in attesa).
 - 26/11: prova dell'app proposta a @spaziomel_associati e @mame_designstudio (in attesa).
 - 27/11: prova dell'app proposta a @studio_napoli_ingegneria e @midearchitetti (in attesa).
+- 27/11: @vulcanicaarchitettura (Napoli, A) ha risposto al nostro commento su Harbin; nostra risposta la sera. Prova dell'app non ancora proposta.
 - Prova dell'app proposta a molti studi "caldi" senza risposta: non insistere.
 - Obiettivi Archi&Interiors (dal 22/11): studi delle città della rubrica, fascia A prima; 3-5 follow al giorno, poi commenti, poi il messaggio di prova dell'app quando rispondono. Una città nuova al giorno, massimo 30 profili. Tetto: 150 seguiti finché non si superano 100 follower.
 

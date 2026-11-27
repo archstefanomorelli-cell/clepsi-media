@@ -100,7 +100,7 @@ Primo lotto letto il 22/11 (43 profili: Roma, Napoli, inizio di Torino). Followe
 | Napoli | @studio_maan_srl | 341 | A | Studio MAAN, architettura e paesaggio |
 | Napoli | @in_novastudio | 7,3K | A | IN-NOVA Studio · seguito il 24/11 |
 | Napoli | @corvinoemultari | 3,1K | A | Corvino+Multari |
-| Napoli | @vulcanicaarchitettura | 1,4K | A | Vulcanica |
+| Napoli | @vulcanicaarchitettura | 1,4K | A | Vulcanica · seguito il 25/11; commentato il 27/11 mattina (scala di Harbin, DfsjLEZCPp1), ha risposto, nostra risposta il 27/11 sera; prova dell'app non ancora proposta |
 | Napoli | @rebuilt_studio | 1,4K | A | ReBuilt Studio |
 | Napoli | @marioferrara | 6,1K | A | Mario Ferrara |
 | Napoli | @archielleinteriors | 10K | B | Studio Archielle, architettura e interni |
