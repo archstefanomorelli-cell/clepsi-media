@@ -67,6 +67,8 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 | @sofiaengineering | Ha risposto 3 volte (pompe di calore, consumi), like ai commenti | i post sulle pompe di calore e sulla riqualificazione dai consumi | 24/11 (OK di Stefano; verificato, una volta sola) | |
 | @spaziomel_associati | Seguito dal 31/10, ha risposto ai nostri commenti (headquarter) | il post sull'Headquarter e sulla sala formazione nata dalla richiesta della committenza | 26/11 (OK di Stefano; verificato, una volta sola) | |
 | @mame_designstudio | Ha risposto sotto il post sul primo contatto, like ai nostri commenti | il post su cosa succede quando vi contattano per la prima volta e lo stato dell'immobile | 26/11 (OK di Stefano; verificato, una volta sola) | |
+| @studio_napoli_ingegneria | Seguito dal 30/10, ha risposto il 24/11 al nostro commento (Autorizzazione Unica con la ZES), noi il 25/11 | il post sull'opificio di Atena Lucana e l'Autorizzazione Unica ottenuta con la ZES | 27/11 (OK di Stefano; verificato, una volta sola) | |
+| @midearchitetti | Ha risposto «Assolutamente si!» al nostro commento sul portico (19/11), nostra risposta 26/11 sera, like il 27/11; 38K follower, proposta voluta da Stefano | il reel della 245_House lungo il Graticolato romano, a proposito del portico | 27/11 (OK di Stefano; verificato, una volta sola) | |
 | Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
 
 ## Obiettivi · studi della rubrica Archi&Interiors (22/11, proposta di Stefano)
