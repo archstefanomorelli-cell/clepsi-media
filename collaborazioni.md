@@ -209,6 +209,31 @@ Lettura del 25/11 (Palermo, 19 profili). Scartati 25/11: @studio_didea (37K), @p
 
 Aggiunti il 26/11 su richiesta di Stefano dal carosello di @archieinteriors_ su Como (DgNiIriEf5l, 8 studi, 12 profili taggati). Scartati come fotografi: @andrea.ceriani (Andrea Ceriani Photography), @pinomusi (Pino Musi); @francescaiovene (21K) probabilmente fotografa, da controllare prima di seguirla.
 
+Lettura del 27/11 (Bari, carosello DXwqHb4jN7Y, 20 tag; follower al 27/11; data dell'ultimo post da controllare al follow):
+
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Bari | @denapoliarchitetti | 862 | A | De Napoli Architetti, 28 post |
+| Bari | @nettiarchitetti | 3,2K | A | 2.983 seguiti (follow reciproco) |
+| Bari | @mirizziarchitettiassociati | 828 | A | |
+| Bari | @studiomossa | 357 | A | 65 post |
+| Bari | @small_research | 3,8K | A | SMALL |
+| Bari | @barberio.colella.arc | 2,8K | A | |
+| Bari | @ferimastudio | 1,5K | A | FèRiMa, 3.099 seguiti |
+| Bari | @esseelle_associati | 2,1K | A | |
+| Bari | @biro_studio | 7,3K | A | biro+ |
+| Bari | @bdfarchitectes | 894 | A | BDF, 81 post |
+| Bari | @ifarchitetti | 4,2K | A | |
+| Bari | @dioramatelier | 1,9K | A | Diorama architettura & design |
+| Bari | @clubdesign_architecture | 21K | B | CLUBDESIGN |
+| Bari | @nueva.architects | 1,1K | A | |
+| Bari | @domenico__pastore | 2,7K | A | |
+| Bari | @mgarchitectsbari | 851 | A | MG Architects |
+| Bari | @studioconceptarchitettura | 602 | A | |
+| Bari | @area87architects | 859 | A | 23 post |
+
+Scartati il 27/11: @smnarchitetti (164 follower, 0 post), @trecipiuemme_studio (272 follower, 4 post). Letta Bari (27/11). Prossimo lotto: Genova (poi Venezia, Catania, Lecce e Salento, Bergamo, Padova). Nota 27/11: @midearchitetti ha 38K follower (oltre la soglia, già seguito).
+
 Da leggere: gli altri ~270 profili (resto di Torino, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
 
 ## Messaggio · fascia A
