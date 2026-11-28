@@ -1,6 +1,6 @@
 # Clepsi · stato e regole (file corto da leggere per primo)
 
-Aggiornato il 27/11/2026. È il file che i controlli leggono sempre. Il resto si apre solo quando serve: `PIANO.md` (strategia, regole dei reel, sito, metodi; si cerca la sezione con grep), `collaborazioni.md` (contatti attivi, prova dell'app, obiettivi Archi&Interiors, messaggi tipo), `registro/AAAA-MM.md` (registro di follow, commenti, messaggi, commenti LinkedIn e gruppi Facebook: leggerne solo la coda), `archivio/` (settimane passate). Chi cambia una regola o lo stato aggiorna anche questo file.
+Aggiornato il 28/11/2026. È il file che i controlli leggono sempre. Il resto si apre solo quando serve: `PIANO.md` (strategia, regole dei reel, sito, metodi; si cerca la sezione con grep), `collaborazioni.md` (contatti attivi, prova dell'app, obiettivi Archi&Interiors, messaggi tipo), `registro/AAAA-MM.md` (registro di follow, commenti, messaggi, commenti LinkedIn e gruppi Facebook: leggerne solo la coda), `archivio/` (settimane passate). Chi cambia una regola o lo stato aggiorna anche questo file.
 
 ## Account
 - Instagram @clepsi.official (professionale), Metricool brand 7549918 (fuso Europe/Rome), Meta Business Suite business_id 1475279821143198 (casella: asset_id 1439871045879673 funziona meglio di 1444473242074912).
@@ -47,6 +47,7 @@ Aggiornato il 27/11/2026. È il file che i controlli leggono sempre. Il resto si
 - 24/11: prova dell'app proposta a @archfrancescacutini e @sofiaengineering (in attesa).
 - 26/11: prova dell'app proposta a @spaziomel_associati e @mame_designstudio (in attesa).
 - 27/11: prova dell'app proposta a @studio_napoli_ingegneria e @midearchitetti (in attesa).
+- 28/11: prova dell'app proposta a @vulcanicaarchitettura (in attesa). Un DM a @officinaabitare («tre domande» dopo due settimane d'uso) risulta inviato il 28/11 verso le 13 da clepsi.official, non dai controlli: chiesto a Stefano.
 - 27/11: @vulcanicaarchitettura (Napoli, A) ha risposto al nostro commento su Harbin; nostra risposta la sera. Prova dell'app non ancora proposta.
 - Prova dell'app proposta a molti studi "caldi" senza risposta: non insistere.
 - Obiettivi LinkedIn (dal 27/11, studi di architettura dal 28/11): 31 società di ingegneria e 43 studi di architettura da 5-15 persone in collaborazioni.md, sezione "Obiettivi LinkedIn"; dei 6 commenti LinkedIn al giorno (3 al mattino, 3 alla sera) almeno uno per controllo e fino a 3 al giorno vanno sotto loro post recenti, con like (regole lì, deciso il 28/11).

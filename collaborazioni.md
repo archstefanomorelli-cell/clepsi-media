@@ -69,6 +69,7 @@ Messaggio tipo (personalizzare la prima riga; rivisto con Stefano il 6/11):
 | @mame_designstudio | Ha risposto sotto il post sul primo contatto, like ai nostri commenti | il post su cosa succede quando vi contattano per la prima volta e lo stato dell'immobile | 26/11 (OK di Stefano; verificato, una volta sola) | |
 | @studio_napoli_ingegneria | Seguito dal 30/10, ha risposto il 24/11 al nostro commento (Autorizzazione Unica con la ZES), noi il 25/11 | il post sull'opificio di Atena Lucana e l'Autorizzazione Unica ottenuta con la ZES | 27/11 (OK di Stefano; verificato, una volta sola) | |
 | @midearchitetti | Ha risposto «Assolutamente si!» al nostro commento sul portico (19/11), nostra risposta 26/11 sera, like il 27/11; 38K follower, proposta voluta da Stefano | il reel della 245_House lungo il Graticolato romano, a proposito del portico | 27/11 (OK di Stefano; verificato, una volta sola) | |
+| @vulcanicaarchitettura | Seguito dal 25/11, ha risposto al nostro commento sul concorso di Harbin («i tempi lunghi italiani sono insuperabili»), like alla nostra risposta | il post sulla scala per il concorso di Harbin e i tempi lunghi tra enti e committenza | 28/11 (OK di Stefano; verificato, una volta sola) | |
 | Dopo l'autopsia: @arch_danilo_carella, @robertaplumari_architetto | Collaborazione in corso | i numeri della loro commessa | | |
 
 ## Obiettivi · studi della rubrica Archi&Interiors (22/11, proposta di Stefano)
