@@ -321,6 +321,57 @@ Come si interagisce, sempre come pagina Clepsi: nei controlli del mattino e dell
 | BONO Ingegneria | Avellino | linkedin.com/company/bonoingegneria | ferma |
 | Breng · Bridge Engineering | Roma | linkedin.com/company/brengsrl | ferma |
 
+
+### Studi di architettura (dal 28/11)
+
+Aggiunti il 28/11 su richiesta di Stefano: studi di architettura con 5-15 persone (stimate dalle persone collegate alla pagina su LinkedIn, tra 4 e 18), fuori dalla provincia di Ancona, dalla ricerca aziende di LinkedIn (Italia, Architettura e pianificazione, 2-10 e 11-50 dipendenti, parola "architetti"). Stesse regole di interazione delle società qui sopra; foglio "Studi di architettura" nello stesso file. "non trovato" vuol dire che dalla pagina non si leggeva nessun post: da ricontrollare prima di commentare.
+
+| Studio | Città | Pagina LinkedIn | Persone | Pagina |
+|---|---|---|---|---|
+| Giuseppe Tortato Architetti | Milano | linkedin.com/company/giuseppe-tortato-architetti | 10 | attiva |
+| MIDE architetti | Fiesso d'Artico (VE) | linkedin.com/company/mide_architetti | 9 | attiva |
+| Forte Architetti | Catania | linkedin.com/company/forte-architetti | 9 | attiva |
+| OKS Architetti | Firenze | linkedin.com/company/oks-architetti | 10 | attiva |
+| Abad Architetti | Milano | linkedin.com/company/abad-architetti-srl | 11 | attiva |
+| RS2 Architetti | Carpi (MO) | linkedin.com/company/rs2-architetti | 18 | attiva |
+| AMA · Albera Monti Architetti | Milano | linkedin.com/company/albera-monti-architetti | 15 | attiva |
+| Studio MDW Architetti Associati | Milano | linkedin.com/company/studio-mdw-architetti-associati | 16 | attiva |
+| LDA.iMdA architetti associati | San Miniato (PI) | linkedin.com/company/lda-imda | 14 | attiva |
+| Consalez Rossi Architetti Associati | Milano | linkedin.com/company/consalez-rossi-architetti-associati | 8 | attiva |
+| Studio Bettini Architetti Associati | Bologna | linkedin.com/company/studio-bettini-architetti-associati | 6 | attiva |
+| idaa architetti | Torino | linkedin.com/company/idaa-architetti | 6 | attiva |
+| studio wok | Milano | linkedin.com/company/studiowok | 8 | poco attiva |
+| De Amicis Architetti | Milano | linkedin.com/company/deamicisarchitetti | 16 | poco attiva |
+| Leida Architetti Associati | Milano | linkedin.com/company/giuseppeleidaassociati | 8 | poco attiva |
+| Stradivarie Architetti Associati | Trieste | linkedin.com/company/stradivarie | 11 | poco attiva |
+| NO.T Architetti Associati | Torino | linkedin.com/company/no-t-architetti-associati | 6 | poco attiva |
+| BSA · Bottega Studio Architetti | Torino | linkedin.com/company/bsa-bottegastudioarchitetti | 18 | poco attiva |
+| BBA Architetti & Partners | Firenze | linkedin.com/company/bba-architetti-&-partners-s-r-l- | 6 | ferma |
+| LPzR architetti associati | Milano | linkedin.com/company/lpzr-architetti-associati | 5 | ferma |
+| Studio.AP Architetti | Milano | linkedin.com/company/studio-ap-architetti | 7 | ferma |
+| MAM Architetti | Vicenza | linkedin.com/company/mam-architetti | 6 | ferma |
+| nEmoGruppo Architetti | Firenze | linkedin.com/company/nemogruppo | 8 | ferma |
+| Marazzi Architetti | Parma | linkedin.com/company/marazzi-architetti---architecture-&-design | 11 | ferma |
+| DRM architetti | Milano | linkedin.com/company/studio-di-architettura-dubini-risari-e-melzi-d%27eril-associati | 8 | ferma |
+| Andrea Borri Architetti | Milano | linkedin.com/company/andrea-borri-architetti | 11 | ferma |
+| VenelliKramer Architetti | Italia | linkedin.com/company/venellikramer-architetti | 7 | ferma |
+| Degli Esposti Architetti | Milano | linkedin.com/company/degli-esposti-architetti | 5 | ferma |
+| ZAA Zanon Architetti Associati | Carbonera (TV) | linkedin.com/company/zanonarchitettiassociati | 18 | ferma |
+| G*AA Giaquinto Architetti Associati | Torino | linkedin.com/company/giaquintoarchitettiassociati | 9 | ferma |
+| m+m Architetti Associati | Molfetta (BA) | linkedin.com/company/m-m-architetti | 10 | ferma |
+| CN10 Architetti | Sotto il Monte (BG) | linkedin.com/company/cn10-gianluca-gelmini-architetto | 6 | ferma |
+| Pentastudio Architetti Associati | Roma | linkedin.com/company/pentastudio-architetti-associati | 9 | ferma |
+| WAU Architetti | Torino | linkedin.com/company/wau-architetti | 12 | ferma |
+| corde architetti | Sacile (PN) | linkedin.com/company/corde-architetti | 9 | ferma |
+| Cristofori Santi Architetti | Milano | linkedin.com/company/cristofori-santi-architetti | 8 | ferma |
+| Gandolfi e Mura Architetti Associati | Bergamo | linkedin.com/company/gandolfi-mura-architetti-associati | 7 | ferma |
+| Calzoni architetti | Milano | linkedin.com/company/calzoni-architetti | 11 | ferma |
+| Iotti + Pavarani Architetti | Reggio Emilia | linkedin.com/company/iotti-pavarani-architetti | 4 | ferma |
+| Studio Architetti Borchia Associati | Padova | linkedin.com/company/studio-architetti-borchia-associati | 8 | ferma |
+| Marchetti Demaria Architetti | Milano | linkedin.com/company/marchettidemariaarchitetti | 5 | ferma |
+| CIVICO13 architetti associati | Torino | linkedin.com/company/civico13 | 5 | ferma |
+| MDU architetti | Prato | linkedin.com/company/mdu-architetti | 8 | ferma |
+
 ## Registri (dal 23/11 in `registro/`)
 
 Il registro di follow, commenti e messaggi, i commenti LinkedIn della pagina e i commenti nei gruppi Facebook stanno in `registro/AAAA-MM.md` (un file al mese; ottobre e novembre fino al 23/11 in `registro/2026-11.md`). I controlli ne leggono solo la coda (`tail -n 150 registro/2026-11.md`) e scrivono lì le righe nuove, in fondo alla sezione giusta.
