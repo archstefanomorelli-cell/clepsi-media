@@ -26,6 +26,7 @@ Aggiornato il 28/11/2026. È il file che i controlli leggono sempre. Il resto si
 - Gruppi Facebook: la pagina Clepsi è iscritta a 16 gruppi (elenco in PIANO.md, sezione Facebook). Si commenta solo come Clepsi, prima si controlla che non ci sia già un nostro commento; niente commenti in "Ingegneria e dintorni" finché Stefano non dice diversamente.
 
 ## Calendario vicino
+- Lun 30/11 9:00: LinkedIn PDF «Uffici Lambrate: ci abbiamo guadagnato?» programmato il 28/11; primo commento con il link dopo le 9 (controllo del mattino).
 - Lun 23/11: autopsia con Danilo uscita su LinkedIn (PDF, tag a Danilo), primo commento fatto.
 - Mer 25/11: reel "La commessa chiusa" uscito alle 14:50 (il programmato Metricool risulta in errore per il limite del piano gratuito); Stefano lo condivide in storia.
 - Gio 26/11 9:00: LinkedIn video "La commessa chiusa" uscito; primo commento come Clepsi fatto e verificato.
@@ -47,7 +48,7 @@ Aggiornato il 28/11/2026. È il file che i controlli leggono sempre. Il resto si
 - 24/11: prova dell'app proposta a @archfrancescacutini e @sofiaengineering (in attesa).
 - 26/11: prova dell'app proposta a @spaziomel_associati e @mame_designstudio (in attesa).
 - 27/11: prova dell'app proposta a @studio_napoli_ingegneria e @midearchitetti (in attesa).
-- 28/11: prova dell'app proposta a @vulcanicaarchitettura (in attesa). Un DM a @officinaabitare («tre domande» dopo due settimane d'uso) risulta inviato il 28/11 verso le 13 da clepsi.official, non dai controlli: chiesto a Stefano.
+- 28/11: prova dell'app proposta a @vulcanicaarchitettura (in attesa). Il DM a @officinaabitare del 28/11 verso le 13 («tre domande» dopo due settimane d'uso) l'ha mandato Stefano: seguire la risposta.
 - 27/11: @vulcanicaarchitettura (Napoli, A) ha risposto al nostro commento su Harbin; nostra risposta la sera. Prova dell'app non ancora proposta.
 - Prova dell'app proposta a molti studi "caldi" senza risposta: non insistere.
 - Obiettivi LinkedIn (dal 27/11, studi di architettura dal 28/11): 31 società di ingegneria e 43 studi di architettura da 5-15 persone in collaborazioni.md, sezione "Obiettivi LinkedIn"; dei 6 commenti LinkedIn al giorno (3 al mattino, 3 alla sera) almeno uno per controllo e fino a 3 al giorno vanno sotto loro post recenti, con like (regole lì, deciso il 28/11).

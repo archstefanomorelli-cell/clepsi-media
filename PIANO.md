@@ -141,7 +141,7 @@ Settimana 30/11–6/12 (testi approvati da Stefano il 27/11):
 
 | Quando | Post | File | Titolo documento | Pagine da taggare | Stato |
 |---|---|---|---|---|---|
-| Lun 30/11, 9:00 | Bilancio di una commessa chiusa: Uffici Lambrate (PDF, dati di esempio del sito) | linkedin/clepsi-bilancio-uffici-lambrate.pdf | Uffici Lambrate: ci abbiamo guadagnato? | — | **Da programmare** (il piano del 27/11 girava nel cloud senza browser: basta scrivere "programma i post LinkedIn" nella chat principale; upload del file con Claude in Chrome) |
+| Lun 30/11, 9:00 | Bilancio di una commessa chiusa: Uffici Lambrate (PDF, dati di esempio del sito) | linkedin/clepsi-bilancio-uffici-lambrate.pdf | Uffici Lambrate: ci abbiamo guadagnato? | — | **Programmato il 28/11** da Claude (Claude in Chrome, l'unico collegato, OK di Stefano «il pdf programmalo»; pagina Clepsi): PDF allegato, titolo «Uffici Lambrate: ci abbiamo guadagnato?», testo approvato a paragrafi con i 3 hashtag; «Pubblicazione: lun, 30 nov - 09:00» e «Post programmato» confermati. Primo commento con il link: lo aggiunge il controllo del mattino del 30/11 dopo le 9. |
 | Gio 3/12, 9:00 | Sondaggio nativo di fine anno, 7 giorni | — | — | — | **Da programmare** (nessun file: browser integrato) |
 | Mer 2/12 (la carica Stefano) | Newsletter della pagina "Il conto" n. 1 | — | Quante giornate ci sono dentro 8.000 € di parcella | Arch. Mario Danilo Carella (dopo il suo OK) | Testo pronto qui sotto; prima chiedere l'OK di Danilo |
 
