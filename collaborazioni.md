@@ -236,6 +236,31 @@ Lettura del 27/11 (Bari, carosello DXwqHb4jN7Y, 20 tag; follower al 27/11; data 
 
 Scartati il 27/11: @smnarchitetti (164 follower, 0 post), @trecipiuemme_studio (272 follower, 4 post). Letta Bari (27/11). Prossimo lotto: Genova (poi Venezia, Catania, Lecce e Salento, Bergamo, Padova). Nota 27/11: @midearchitetti ha 38K follower (oltre la soglia, già seguito).
 
+Lettura del 28/11 (Genova, carosello DZsLjv9jPMm, 19 tag su 25 studi: altri 6 solo in didascalia; follower al 28/11; data dell'ultimo post da controllare al follow):
+
+| Città | Profilo | Follower | Fascia | Note |
+|---|---|---|---|---|
+| Genova | @dodi.moss | 3,5K | A | Dodi Moss Architecture, 202 post |
+| Genova | @caarpa_ | 5,9K | A | 173 post |
+| Genova | @gosplanarchitects | 5,3K | A | 208 post |
+| Genova | @circolo_a | 5,5K | A | 359 post |
+| Genova | @bumpstudio.it | 2,6K | A | 78 post |
+| Genova | @pia_perottaibertoarchitetti | 3,0K | A | 69 post |
+| Genova | @studio.d_architettura | 2,6K | A | 137 post |
+| Genova | @ministudio_architetti | 1,9K | A | 367 post |
+| Genova | @miria_uras_architetto | 1,6K | A | 359 post |
+| Genova | @doori_architettura | 670 | A | 58 post |
+| Genova | @aglarchitects | 576 | A | 78 post |
+| Genova | @archifax_architects | 525 | A | 155 post |
+| Genova | @silvia_madesign | 430 | A | profilo di una singola architetta |
+| Genova | @caligo.arch | 317 | A | 22 post |
+| Genova | @studiomodus_progettazione | 265 | A | 56 post |
+| Genova | @llabb_architects | 13K | B | |
+| Genova | @torzofrancesca | 20K | B | nome noto, valutare |
+| Genova | @ateliers_alfonso_femia | 8,8K | B | struttura grande (Genova, Milano, Parigi): probabile scarto |
+
+Scartati il 28/11: @rpbw_architects (317K). Letta Genova (28/11). Prossimo lotto: Venezia. Scartati al follow il 28/11: @oppsarchitettura (ultimo post 9/2025), @ceresagrandisarchitetti (ultimo post 1/2026).
+
 Da leggere: gli altri ~270 profili (resto di Torino, Firenze, Bari, Bologna, Milano, Genova, Venezia, Catania, Lecce e Salento, Bergamo, Padova, interni, nuova generazione), a lotti.
 
 ## Messaggio · fascia A
